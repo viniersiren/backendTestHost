@@ -1,0 +1,222 @@
+{
+  "meta": { "version": 2, "maxCategories": 5 },
+  "categories": [
+    {
+      "key": "residential",
+      "label": "Residential",
+      "icon": "Home",
+      "iconPack": "lucide",
+      "order": 0,
+      "services": [
+        {
+          "id": "1",
+          "title": "Shingling",
+          "route": "/services/residential/shingling",
+          "icon": "ShieldCheck",
+          "iconPack": "lucide"
+        },
+        {
+          "id": "2",
+          "title": "Gutters",
+          "route": "/services/residential/gutters",
+          "icon": "Droplets",
+          "iconPack": "lucide"
+        },
+        {
+          "id": "3",
+          "title": "Roof Repair",
+          "route": "/services/residential/roof-repair",
+          "icon": "Wrench",
+          "iconPack": "lucide"
+        },
+        {
+          "id": "4",
+          "title": "Ventilation",
+          "route": "/services/residential/ventilation",
+          "icon": "Fan",
+          "iconPack": "lucide"
+        }
+      ]
+    },
+    {
+      "key": "commercial",
+      "label": "Commercial",
+      "icon": "Building2",
+      "iconPack": "lucide",
+      "order": 1,
+      "services": [
+        {
+          "id": "1",
+          "title": "Metal Roofing",
+          "route": "/services/commercial/metal-roofing",
+          "icon": "Building2",
+          "iconPack": "lucide"
+        },
+        {
+          "id": "2",
+          "title": "Built-Up Roofing",
+          "route": "/services/commercial/built-up-roofing",
+          "icon": "Building",
+          "iconPack": "lucide"
+        },
+        {
+          "id": "3",
+          "title": "Roof Coating",
+          "route": "/services/commercial/roof-coating",
+          "icon": "Layers",
+          "iconPack": "lucide"
+        },
+        {
+          "id": "4",
+          "title": "Single-Ply",
+          "route": "/services/commercial/single-ply",
+          "icon": "FileText",
+          "iconPack": "lucide"
+        }
+      ]
+    },
+    {
+      "key": "multifamily",
+      "label": "Multifamily",
+      "icon": "Building",
+      "iconPack": "lucide",
+      "order": 2,
+      "services": []
+    }
+  ],
+  "residential": {
+    "label": "Residential",
+    "icon": "Home",
+    "iconPack": "lucide",
+    "services": [
+      {
+        "id": "1",
+        "title": "Shingling",
+        "route": "/services/residential/shingling",
+        "icon": "ShieldCheck",
+        "iconPack": "lucide"
+      },
+      {
+        "id": "2",
+        "title": "Gutters",
+        "route": "/services/residential/gutters",
+        "icon": "Droplets",
+        "iconPack": "lucide"
+      },
+      {
+        "id": "3",
+        "title": "Roof Repair",
+        "route": "/services/residential/roof-repair",
+        "icon": "Wrench",
+        "iconPack": "lucide"
+      },
+      {
+        "id": "4",
+        "title": "Ventilation",
+        "route": "/services/residential/ventilation",
+        "icon": "Fan",
+        "iconPack": "lucide"
+      }
+    ]
+  },
+  "commercial": {
+    "label": "Commercial",
+    "icon": "Building2",
+    "iconPack": "lucide",
+    "services": [
+      {
+        "id": "1",
+        "title": "Metal Roofing",
+        "route": "/services/commercial/metal-roofing",
+        "icon": "Building2",
+        "iconPack": "lucide"
+      },
+      {
+        "id": "2",
+        "title": "Built-Up Roofing",
+        "route": "/services/commercial/built-up-roofing",
+        "icon": "Building",
+        "iconPack": "lucide"
+      },
+      {
+        "id": "3",
+        "title": "Roof Coating",
+        "route": "/services/commercial/roof-coating",
+        "icon": "Layers",
+        "iconPack": "lucide"
+      },
+      {
+        "id": "4",
+        "title": "Single-Ply",
+        "route": "/services/commercial/single-ply",
+        "icon": "FileText",
+        "iconPack": "lucide"
+      }
+    ]
+  },
+  "servicePage": {
+    "residential": [
+      {
+        "id": "1",
+        "title": "Shingling",
+        "name": "Shingling",
+        "heroTitle": "Professional Shingle Installation",
+        "route": "/services/residential/shingling"
+      },
+      {
+        "id": "2",
+        "title": "Gutters",
+        "name": "Gutters",
+        "heroTitle": "Expert Gutter Installation & Repair",
+        "route": "/services/residential/gutters"
+      },
+      {
+        "id": "3",
+        "title": "Roof Repair",
+        "name": "Roof Repair",
+        "heroTitle": "Professional Roof Repair Services",
+        "route": "/services/residential/roof-repair"
+      },
+      {
+        "id": "4",
+        "title": "Ventilation",
+        "name": "Ventilation",
+        "heroTitle": "Roof Ventilation Solutions",
+        "route": "/services/residential/ventilation"
+      }
+    ],
+    "commercial": [
+      {
+        "id": "1",
+        "title": "Metal Roofing",
+        "name": "Metal Roofing",
+        "heroTitle": "Commercial Metal Roofing Solutions",
+        "route": "/services/commercial/metal-roofing"
+      },
+      {
+        "id": "2",
+        "title": "Built-Up Roofing",
+        "name": "Built-Up Roofing",
+        "heroTitle": "Built-Up Roofing Systems",
+        "route": "/services/commercial/built-up-roofing"
+      },
+      {
+        "id": "3",
+        "title": "Roof Coating",
+        "name": "Roof Coating",
+        "heroTitle": "Professional Roof Coating Services",
+        "route": "/services/commercial/roof-coating"
+      },
+      {
+        "id": "4",
+        "title": "Single-Ply",
+        "name": "Single-Ply",
+        "heroTitle": "Single-Ply Roofing Systems",
+        "route": "/services/commercial/single-ply"
+      }
+    ],
+    "multifamily": []
+  }
+}
+
+

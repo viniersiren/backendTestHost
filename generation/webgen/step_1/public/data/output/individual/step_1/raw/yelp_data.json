@@ -1,0 +1,18 @@
+{
+    "yelp_business_name": "Not on Yelp Page",
+    "yelp_rating": "N/A",
+    "yelp_review_count": "N/A",
+    "yelp_address": "N/A",
+    "yelp_phone": "N/A",
+    "yelp_website": "N/A",
+    "yelp_hours": "N/A",
+    "yelp_categories": "N/A",
+    "yelp_url": "https://m.yelp.com/biz/cowboys-vaqueros-construction-sharpsburg-7",
+    "scraping_status": "WRONG_PAGE",
+    "note": "User did not navigate to Yelp. Currently on: about:blank",
+    "attempted_url": "https://m.yelp.com/biz/cowboys-vaqueros-construction-sharpsburg-7",
+    "business_name_from_bbb": "Cowboys-Vaqueros Construction",
+    "address_from_bbb": "40 Tipperary Trl Sharpsburg, GA 30277-3502",
+    "current_page": "about:blank",
+    "suggestion": "Navigate to the Yelp business page manually and try again"
+}

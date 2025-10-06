@@ -1,0 +1,272 @@
+{
+  "heroBlock": {
+    "residential": {
+      "label": "Residential",
+      "icon": "Home",
+      "iconPack": "lucide",
+      "subServices": [
+        {
+          "id": "shingling",
+          "name": "Shingling",
+          "title": "Shingle Installation"
+        },
+        {
+          "id": "guttering",
+          "name": "Guttering",
+          "title": "Gutter Installation"
+        },
+        {
+          "id": "chimney",
+          "name": "Chimney",
+          "title": "Chimney Services"
+        },
+        {
+          "id": "skylights",
+          "name": "Skylights",
+          "title": "Skylight Installation"
+        }
+      ]
+    },
+    "commercial": {
+      "label": "Commercial",
+      "icon": "Building2",
+      "iconPack": "lucide",
+      "subServices": [
+        {
+          "id": "coatings",
+          "name": "Coatings",
+          "title": "Roof Coatings"
+        },
+        {
+          "id": "built-up",
+          "name": "Built-Up",
+          "title": "Built-Up Roofing"
+        },
+        {
+          "id": "metal-roof",
+          "name": "Metal Roof",
+          "title": "Metal Roofing"
+        },
+        {
+          "id": "drainage",
+          "name": "Drainage",
+          "title": "Drainage Systems"
+        }
+      ]
+    }
+  },
+  "serviceSliderBlock": {
+    "residential": {
+      "label": "Residential",
+      "icon": "Home",
+      "iconPack": "lucide",
+      "services": [
+        {
+          "id": "shingling",
+          "name": "Shingling",
+          "title": "Shingle Installation"
+        },
+        {
+          "id": "guttering",
+          "name": "Guttering",
+          "title": "Gutter Installation"
+        },
+        {
+          "id": "chimney",
+          "name": "Chimney",
+          "title": "Chimney Services"
+        },
+        {
+          "id": "skylights",
+          "name": "Skylights",
+          "title": "Skylight Installation"
+        }
+      ]
+    },
+    "commercial": {
+      "label": "Commercial",
+      "icon": "Building2",
+      "iconPack": "lucide",
+      "services": [
+        {
+          "id": "coatings",
+          "name": "Coatings",
+          "title": "Roof Coatings"
+        },
+        {
+          "id": "built-up",
+          "name": "Built-Up",
+          "title": "Built-Up Roofing"
+        },
+        {
+          "id": "metal-roof",
+          "name": "Metal Roof",
+          "title": "Metal Roofing"
+        },
+        {
+          "id": "drainage",
+          "name": "Drainage",
+          "title": "Drainage Systems"
+        }
+      ]
+    }
+  },
+  "bookingBlock": {
+    "residential": {
+      "label": "Residential",
+      "icon": "Home",
+      "iconPack": "lucide",
+      "services": [
+        {
+          "id": "shingling",
+          "name": "Shingling",
+          "title": "Shingle Installation"
+        },
+        {
+          "id": "guttering",
+          "name": "Guttering",
+          "title": "Gutter Installation"
+        },
+        {
+          "id": "chimney",
+          "name": "Chimney",
+          "title": "Chimney Services"
+        },
+        {
+          "id": "skylights",
+          "name": "Skylights",
+          "title": "Skylight Installation"
+        }
+      ]
+    },
+    "commercial": {
+      "label": "Commercial",
+      "icon": "Building2",
+      "iconPack": "lucide",
+      "services": [
+        {
+          "id": "coatings",
+          "name": "Coatings",
+          "title": "Roof Coatings"
+        },
+        {
+          "id": "built-up",
+          "name": "Built-Up",
+          "title": "Built-Up Roofing"
+        },
+        {
+          "id": "metal-roof",
+          "name": "Metal Roof",
+          "title": "Metal Roofing"
+        },
+        {
+          "id": "drainage",
+          "name": "Drainage",
+          "title": "Drainage Systems"
+        }
+      ]
+    }
+  },
+  "servicePage": {
+    "residential": {
+      "label": "Residential",
+      "icon": "Home",
+      "iconPack": "lucide",
+      "services": [
+        {
+          "id": "shingling",
+          "name": "Shingling",
+          "title": "Shingle Installation"
+        },
+        {
+          "id": "guttering",
+          "name": "Guttering",
+          "title": "Gutter Installation"
+        },
+        {
+          "id": "chimney",
+          "name": "Chimney",
+          "title": "Chimney Services"
+        },
+        {
+          "id": "skylights",
+          "name": "Skylights",
+          "title": "Skylight Installation"
+        }
+      ]
+    },
+    "commercial": {
+      "label": "Commercial",
+      "icon": "Building2",
+      "iconPack": "lucide",
+      "services": [
+        {
+          "id": "coatings",
+          "name": "Coatings",
+          "title": "Roof Coatings"
+        },
+        {
+          "id": "built-up",
+          "name": "Built-Up",
+          "title": "Built-Up Roofing"
+        },
+        {
+          "id": "metal-roof",
+          "name": "Metal Roof",
+          "title": "Metal Roofing"
+        },
+        {
+          "id": "drainage",
+          "name": "Drainage",
+          "title": "Drainage Systems"
+        }
+      ]
+    }
+  },
+  "universal": {
+    "residential": [
+      {
+        "id": "shingling",
+        "name": "Shingling",
+        "title": "Shingle Installation"
+      },
+      {
+        "id": "guttering",
+        "name": "Guttering",
+        "title": "Gutter Installation"
+      },
+      {
+        "id": "chimney",
+        "name": "Chimney",
+        "title": "Chimney Services"
+      },
+      {
+        "id": "skylights",
+        "name": "Skylights",
+        "title": "Skylight Installation"
+      }
+    ],
+    "commercial": [
+      {
+        "id": "coatings",
+        "name": "Coatings",
+        "title": "Roof Coatings"
+      },
+      {
+        "id": "built-up",
+        "name": "Built-Up",
+        "title": "Built-Up Roofing"
+      },
+      {
+        "id": "metal-roof",
+        "name": "Metal Roof",
+        "title": "Metal Roofing"
+      },
+      {
+        "id": "drainage",
+        "name": "Drainage",
+        "title": "Drainage Systems"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_signs": [
+    {
+      "type": "house_with_sign",
+      "prompt": "Photorealistic afternoon (about 3 PM) curbside scene in Forest Trce Stone Mountain, GA: a well‑kept single‑family home with a high‑quality roof (clean asphalt shingles), soft directional sunlight, realistic shadows, and tidy landscaping. In the front yard near the sidewalk, a cardboard/corrugated yard sign clearly shows the business name ‘McKay Construction, Inc.’ and phone (404) 399-6900, and a simple roofline logo icon. The sign looks like a real printed yard sign mounted on a H‑frame stake. No extraneous text or garbled letters; prioritize clarity of the brand name. Camera at eye level, 35mm lens, f/5.6, ISO 200, natural color grading, no over‑saturation, no vignette, no watermark, no extra graphic overlays. 16:9 composition with copy‑safe space.",
+      "output": "public/data/generation/webgen/img/output/house_with_sign.png",
+      "size": "1536x1024",
+      "generated_at": "2025-09-04T19:53:40.753900",
+      "model": "gpt-image-1",
+      "quality": "medium"
+    },
+    {
+      "type": "house_with_sign",
+      "prompt": "Photorealistic afternoon (about 3 PM) curbside scene in Forest Trce Stone Mountain, GA: a well‑kept single‑family home with a high‑quality roof (clean asphalt shingles), soft directional sunlight, realistic shadows, and tidy landscaping. In the front yard near the sidewalk, a cardboard/corrugated yard sign is mounted on a metal H‑frame stake. YARD SIGN REQUIREMENTS: include ONLY a simple roofline LOGO ICON (no letters) and the exact phone and address provided; do NOT include any other words or placeholders; do NOT fabricate information. Exact text to render on the sign (beside/below the logo): Phone: (404) 399-6900 Address: 966 Forest Trce Stone Mountain, GA 30088-2613 Typography must be clean, legible, professionally typeset; realistic print look (no AI artifacts). Camera at eye level, 35mm lens, f/5.6, ISO 200, natural color grading, no over‑saturation, no vignette, no watermark, no extra graphic overlays. 16:9 composition with copy‑safe space.",
+      "output": "public/data/generation/webgen/img/output/house_with_sign.png",
+      "size": "1536x1024",
+      "generated_at": "2025-09-04T19:56:46.116200",
+      "model": "gpt-image-1",
+      "quality": "medium"
+    },
+    {
+      "type": "house_with_sign",
+      "prompt": "Photorealistic afternoon (about 3 PM) curbside scene in Forest Trce Stone Mountain, GA: a well‑kept single‑family home with a high‑quality roof (clean asphalt shingles), soft directional sunlight, realistic shadows, and tidy landscaping. In the front yard near the sidewalk, a cardboard/corrugated yard sign is mounted on a metal H‑frame stake. YARD SIGN REQUIREMENTS: include ONLY a simple roofline LOGO ICON (no letters) and the exact phone and address provided; do NOT include any other words or placeholders; do NOT fabricate information. Exact text to render on the sign (beside/below the logo): Phone: (404) 399-6900 Address: 966 Forest Trce Stone Mountain, GA 30088-2613 Typography must be clean, legible, professionally typeset; realistic print look (no AI artifacts). Camera at eye level, 35mm lens, f/5.6, ISO 200, natural color grading, no over‑saturation, no vignette, no watermark, no extra graphic overlays. 16:9 composition with copy‑safe space.",
+      "output": "public/data/generation/webgen/img/output/house_with_sign.png",
+      "size": "1536x1024",
+      "generated_at": "2025-09-04T19:59:23.769994",
+      "model": "gpt-image-1",
+      "quality": "medium"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-09-04T19:59:23.770201"
+  }
+}

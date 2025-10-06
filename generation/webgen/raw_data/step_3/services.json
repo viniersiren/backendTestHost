@@ -1,0 +1,5402 @@
+{
+  "residential": [
+    {
+      "id": 1,
+      "name": "You Can Now Request a Consultation From This Business Directly From Yelp",
+      "blocks": [
+        {
+          "blockName": "HeroBlock",
+          "config": {
+            "Content": {
+              "mainTitle": "Request a Consultation Directly from Yelp",
+              "subTitle": "Easy, convenient consultations at your fingertips.",
+              "images": [
+                "/personal/generation/img/services/residential/1/HeroBlock/primary.png"
+              ]
+            },
+            "Design": {
+              "Text-mainTitle": {
+                "Font": "Inter",
+                "Color": "#FFFFFF",
+                "Desktop": {
+                  "Size": 42,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-subTitle": {
+                "Font": "Inter",
+                "Color": "#E5E7EB",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "path": "/personal/generation/img/services/commercial/1/HeroBlock/primary.png",
+                "background": [
+                  "#2D3748",
+                  "#2D3748"
+                ],
+                "direction": "to right",
+                "opacity": 100
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 75,
+                "Desktop": 50
+              },
+              "ExpandedHeight": {
+                "Mobile": 90,
+                "Desktop": 70
+              }
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/residential/1/HeroBlock/primary.jpg": "You Can Now Request a Consultation From This Business Directly From Yelp — HeroBlock (config.Content.images.0) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/HeroBlock/primary.jpg": "You Can Now Request a Consultation From This Business Directly From Yelp — HeroBlock (config.Design.Bg.path) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OverviewAndAdvantagesBlock",
+          "config": {
+            "width_height": {
+              "width": 32,
+              "height": 32
+            },
+            "heading": "Why Choose Metal Roofing for Your Commercial Property",
+            "description": "Metal roofing represents the pinnacle of durability, energy efficiency, and aesthetic appeal for commercial buildings. Our premium metal roofing systems provide unmatched longevity, weather resistance, and cost-effectiveness over the building's lifetime.",
+            "backgroundOpacity": 100,
+            "headingTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 36,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 28,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bulletTitleTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "bulletDescriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bullets": [
+              {
+                "id": 1,
+                "title": "Exceptional Durability",
+                "description": "Metal roofing systems last 40-70 years with minimal maintenance, providing superior resistance to fire, wind, hail, and extreme weather conditions.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Shield"
+                }
+              },
+              {
+                "id": 2,
+                "title": "Energy Efficiency",
+                "description": "Reflective metal surfaces reduce cooling costs by up to 25%, with cool roof coatings available to maximize energy savings and LEED certification points.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Zap"
+                }
+              },
+              {
+                "id": 3,
+                "title": "Low Maintenance",
+                "description": "Unlike other roofing materials, metal roofs require minimal upkeep and retain their appearance and performance for decades with simple periodic inspections.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Settings"
+                }
+              },
+              {
+                "id": 4,
+                "title": "Design Versatility",
+                "description": "Available in numerous profiles, colors, and finishes to complement any architectural style, from modern industrial to traditional commercial designs.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Palette"
+                }
+              },
+              {
+                "id": 5,
+                "title": "Environmental Sustainability",
+                "description": "100% recyclable materials with high recycled content, contributing to LEED points and reducing environmental impact throughout the building lifecycle.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Leaf"
+                }
+              },
+              {
+                "id": 6,
+                "title": "Weather Performance",
+                "description": "Superior resistance to wind uplift (up to 140 mph), impact damage, thermal cycling, and UV degradation ensures long-term structural integrity.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Cloud"
+                }
+              }
+            ],
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#f3f4f6",
+                "endColor": "#f3f4f6"
+              },
+              "cardBackgroundColor": "#F9FAFB",
+              "desktopGridLayout": "three-column",
+              "mobileGridLayout": "one-column",
+              "desktopCardSpacing": "normal",
+              "mobileCardSpacing": "normal"
+            },
+            "Content": {
+              "title": "Why Request a Consultation?",
+              "description": "Our service allows you to connect with us through Yelp for a seamless consultation experience. Here are the key advantages:",
+              "items": [
+                "Direct communication with our team.",
+                "Quick response times.",
+                "Convenient scheduling options.",
+                "Access to exclusive Yelp reviews and ratings."
+              ]
+            }
+          }
+        },
+        {
+          "blockName": "GeneralListVariant2",
+          "config": {
+            "Content": {
+              "title": "Repair Notes",
+              "items": [
+                "If issues arise, contact us directly through Yelp.",
+                "We offer follow-up consultations for any concerns post-installation.",
+                "Our team is dedicated to resolving any problems promptly."
+              ]
+            },
+            "Design": {
+              "Text-title": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-description": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 18,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Text-itemTitle": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 18,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-itemDescription": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 14,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "direction": "to bottom right",
+                "opacity": 100,
+                "isGradient": false
+              },
+              "Colors": {
+                "buttonColor": "#3B82F6"
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 80
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OptionSelectorBlock",
+          "config": {
+            "Content": {
+              "title": "Service Options",
+              "items": [
+                {
+                  "label": "Initial Consultation",
+                  "description": "An in-depth discussion of your needs and project scope."
+                },
+                {
+                  "label": "Follow-up Consultation",
+                  "description": "Address any questions or concerns after the initial meeting."
+                }
+              ]
+            },
+            "Design": {
+              "Text-sectionTitle": {
+                "Font": "Playfair Display",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36
+                },
+                "Mobile": {
+                  "Size": 28
+                }
+              },
+              "Text-optionName": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 18
+                },
+                "Mobile": {
+                  "Size": 16
+                }
+              },
+              "Text-optionDesc": {
+                "Font": "Lora",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Text-colorName": {
+                "Font": "Inter",
+                "Color": "#374151",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#F9FAFB",
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "isGradient": false,
+                "direction": "to bottom right",
+                "opacity": 100
+              },
+              "Colors": {
+                "cardBackgroundColor": "#FFFFFF",
+                "selectedTypeBorderColor": "#3B82F6",
+                "selectedColorBorderColor": "#3B82F6",
+                "titleColor": "#1F2937",
+                "descriptionColor": "#4B5563"
+              }
+            },
+            "Formatting": {
+              "layout": "horizontal-split",
+              "imageBorderRadius": "8px"
+            },
+            "optionTypes": [
+              {
+                "id": "industrial",
+                "name": "Industrial & Manufacturing",
+                "description": "Heavy-duty solutions for demanding industrial environments with superior durability and performance specifications.",
+                "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png",
+                "colors": [
+                  {
+                    "id": "galvalume",
+                    "name": "Galvalume",
+                    "colorHex": "#8C8C8C",
+                    "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png"
+                  }
+                ]
+              }
+            ],
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg": "You Can Now Request a Consultation From This Business Directly From Yelp — OptionSelectorBlock (config.optionTypes.0.imageUrl) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "VideoCTA",
+          "config": {
+            "videoSrc": "/assets/videos/metal-roofing-process.mp4",
+            "title": "Ready to Invest in Metal Roofing?",
+            "description": "Get in touch for a free consultation and discover how metal roofing can transform your commercial property with enhanced durability, energy efficiency, and aesthetic appeal.",
+            "buttonText": "Schedule Metal Roofing Consultation",
+            "buttonLink": "/#contact",
+            "textColor": "#FFFFFF",
+            "textAlignment": "center",
+            "styling": {
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.65,
+              "roundnessRem": 2.5,
+              "gradientConfig": {
+                "direction": "to bottom",
+                "startColor": "#000000",
+                "endColor": "#333333"
+              }
+            },
+            "buttonStyling": {
+              "backgroundColor": "#fbbf24",
+              "textColor": "#222222"
+            },
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 32,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 24,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#E5E7EB",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.6,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "Content": {
+              "title": "See How It Works",
+              "description": "Watch our video to understand the consultation process.",
+              "videoUrl": "https://www.example.com/consultation-video"
+            }
+          }
+        },
+        {
+          "blockName": "PricingGrid",
+          "config": {
+            "variant": "grid",
+            "title": "Metal Roofing Options",
+            "showPrice": true,
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 28,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 22,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "itemTitleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 20,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 18,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "itemDescriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#374151",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "rateTextSettings": {
+              "Font": "Inter",
+              "Color": "#059669",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "featuresTextSettings": {
+              "Font": "Inter",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 13,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#F9FAFB",
+                "endColor": "#F9FAFB"
+              },
+              "backgroundColor": "#F9FAFB",
+              "cardBackgroundColor": "#FFFFFF",
+              "buttonBackgroundColor": "#3B82F6",
+              "buttonTextColor": "#FFFFFF",
+              "backgroundOpacity": 100
+            },
+            "items": [
+              {
+                "id": "metal_standing_seam",
+                "title": "Standing Seam Metal",
+                "image": "/personal/generation/img/services/commercial/1/PricingGrid/primary.png",
+                "alt": "Standing Seam Metal Roofing",
+                "description": "Premium concealed fastener system with superior weather protection.",
+                "rate": "$12 - $18 / sq ft",
+                "features": [
+                  "Concealed fasteners",
+                  "Superior weather protection",
+                  "40-70 year lifespan"
+                ],
+                "buttonText": "Get Quote",
+                "buttonLink": "/#contact"
+              }
+            ],
+            "Content": {
+              "title": "Consultation Pricing",
+              "items": [
+                {
+                  "service": "Initial Consultation",
+                  "rate": "$100",
+                  "description": "Comprehensive assessment of your requirements."
+                },
+                {
+                  "service": "Follow-up Consultation",
+                  "rate": "$50",
+                  "description": "Addressing additional needs after the initial meeting."
+                }
+              ]
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg": "You Can Now Request a Consultation From This Business Directly From Yelp — PricingGrid (config.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Yelp Users Havent Asked Any Questions Yet About Mckay Construction",
+      "blocks": [
+        {
+          "blockName": "HeroBlock",
+          "config": {
+            "Content": {
+              "mainTitle": "Yelp Users Haven't Asked Any Questions Yet About McKay Construction",
+              "subTitle": "Your trusted partner for residential construction services.",
+              "images": [
+                "/personal/generation/img/services/residential/2/HeroBlock/primary.png"
+              ]
+            },
+            "Design": {
+              "Text-mainTitle": {
+                "Font": "Inter",
+                "Color": "#FFFFFF",
+                "Desktop": {
+                  "Size": 42,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-subTitle": {
+                "Font": "Inter",
+                "Color": "#E5E7EB",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "path": "/personal/generation/img/services/commercial/1/HeroBlock/primary.png",
+                "background": [
+                  "#2D3748",
+                  "#2D3748"
+                ],
+                "direction": "to right",
+                "opacity": 100
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 75,
+                "Desktop": 50
+              },
+              "ExpandedHeight": {
+                "Mobile": 90,
+                "Desktop": 70
+              }
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/residential/2/HeroBlock/primary.jpg": "Yelp Users Havent Asked Any Questions Yet About Mckay Construction — HeroBlock (config.Content.images.0) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/HeroBlock/primary.jpg": "Yelp Users Havent Asked Any Questions Yet About Mckay Construction — HeroBlock (config.Design.Bg.path) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OverviewAndAdvantagesBlock",
+          "config": {
+            "width_height": {
+              "width": 32,
+              "height": 32
+            },
+            "heading": "Why Choose Metal Roofing for Your Commercial Property",
+            "description": "Metal roofing represents the pinnacle of durability, energy efficiency, and aesthetic appeal for commercial buildings. Our premium metal roofing systems provide unmatched longevity, weather resistance, and cost-effectiveness over the building's lifetime.",
+            "backgroundOpacity": 100,
+            "headingTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 36,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 28,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bulletTitleTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "bulletDescriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bullets": [
+              {
+                "id": 1,
+                "title": "Exceptional Durability",
+                "description": "Metal roofing systems last 40-70 years with minimal maintenance, providing superior resistance to fire, wind, hail, and extreme weather conditions.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Shield"
+                }
+              },
+              {
+                "id": 2,
+                "title": "Energy Efficiency",
+                "description": "Reflective metal surfaces reduce cooling costs by up to 25%, with cool roof coatings available to maximize energy savings and LEED certification points.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Zap"
+                }
+              },
+              {
+                "id": 3,
+                "title": "Low Maintenance",
+                "description": "Unlike other roofing materials, metal roofs require minimal upkeep and retain their appearance and performance for decades with simple periodic inspections.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Settings"
+                }
+              },
+              {
+                "id": 4,
+                "title": "Design Versatility",
+                "description": "Available in numerous profiles, colors, and finishes to complement any architectural style, from modern industrial to traditional commercial designs.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Palette"
+                }
+              },
+              {
+                "id": 5,
+                "title": "Environmental Sustainability",
+                "description": "100% recyclable materials with high recycled content, contributing to LEED points and reducing environmental impact throughout the building lifecycle.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Leaf"
+                }
+              },
+              {
+                "id": 6,
+                "title": "Weather Performance",
+                "description": "Superior resistance to wind uplift (up to 140 mph), impact damage, thermal cycling, and UV degradation ensures long-term structural integrity.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Cloud"
+                }
+              }
+            ],
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#f3f4f6",
+                "endColor": "#f3f4f6"
+              },
+              "cardBackgroundColor": "#F9FAFB",
+              "desktopGridLayout": "three-column",
+              "mobileGridLayout": "one-column",
+              "desktopCardSpacing": "normal",
+              "mobileCardSpacing": "normal"
+            },
+            "Content": {
+              "title": "Why Choose McKay Construction?",
+              "description": "We offer a comprehensive range of residential construction services with a focus on quality, reliability, and customer satisfaction.",
+              "advantages": [
+                "Expert installation processes ensuring high-quality finishes.",
+                "Ongoing maintenance and warranty options for peace of mind.",
+                "Flexible repair services tailored to your needs.",
+                "Diverse options and variants to suit your residential project."
+              ]
+            }
+          }
+        },
+        {
+          "blockName": "GeneralListVariant2",
+          "config": {
+            "Content": {
+              "title": "Our Services Include:",
+              "items": [
+                "New Home Construction",
+                "Home Renovations and Additions",
+                "Custom Deck and Patio Building",
+                "Roofing and Siding Services",
+                "Interior and Exterior Remodeling"
+              ]
+            },
+            "Design": {
+              "Text-title": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-description": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 18,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Text-itemTitle": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 18,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-itemDescription": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 14,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "direction": "to bottom right",
+                "opacity": 100,
+                "isGradient": false
+              },
+              "Colors": {
+                "buttonColor": "#3B82F6"
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 80
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OptionSelectorBlock",
+          "config": {
+            "Content": {
+              "title": "Choose Your Service Package",
+              "options": [
+                {
+                  "name": "Basic Package",
+                  "description": "Includes essential construction services for smaller projects."
+                },
+                {
+                  "name": "Standard Package",
+                  "description": "A comprehensive package for medium-sized residential projects."
+                },
+                {
+                  "name": "Premium Package",
+                  "description": "All-inclusive services for extensive renovations and custom builds."
+                }
+              ]
+            },
+            "Design": {
+              "Text-sectionTitle": {
+                "Font": "Playfair Display",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36
+                },
+                "Mobile": {
+                  "Size": 28
+                }
+              },
+              "Text-optionName": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 18
+                },
+                "Mobile": {
+                  "Size": 16
+                }
+              },
+              "Text-optionDesc": {
+                "Font": "Lora",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Text-colorName": {
+                "Font": "Inter",
+                "Color": "#374151",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#F9FAFB",
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "isGradient": false,
+                "direction": "to bottom right",
+                "opacity": 100
+              },
+              "Colors": {
+                "cardBackgroundColor": "#FFFFFF",
+                "selectedTypeBorderColor": "#3B82F6",
+                "selectedColorBorderColor": "#3B82F6",
+                "titleColor": "#1F2937",
+                "descriptionColor": "#4B5563"
+              }
+            },
+            "Formatting": {
+              "layout": "horizontal-split",
+              "imageBorderRadius": "8px"
+            },
+            "optionTypes": [
+              {
+                "id": "industrial",
+                "name": "Industrial & Manufacturing",
+                "description": "Heavy-duty solutions for demanding industrial environments with superior durability and performance specifications.",
+                "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png",
+                "colors": [
+                  {
+                    "id": "galvalume",
+                    "name": "Galvalume",
+                    "colorHex": "#8C8C8C",
+                    "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png"
+                  }
+                ]
+              }
+            ],
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg": "Yelp Users Havent Asked Any Questions Yet About Mckay Construction — OptionSelectorBlock (config.optionTypes.0.imageUrl) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "VideoCTA",
+          "config": {
+            "videoSrc": "/assets/videos/metal-roofing-process.mp4",
+            "title": "Ready to Invest in Metal Roofing?",
+            "description": "Get in touch for a free consultation and discover how metal roofing can transform your commercial property with enhanced durability, energy efficiency, and aesthetic appeal.",
+            "buttonText": "Schedule Metal Roofing Consultation",
+            "buttonLink": "/#contact",
+            "textColor": "#FFFFFF",
+            "textAlignment": "center",
+            "styling": {
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.65,
+              "roundnessRem": 2.5,
+              "gradientConfig": {
+                "direction": "to bottom",
+                "startColor": "#000000",
+                "endColor": "#333333"
+              }
+            },
+            "buttonStyling": {
+              "backgroundColor": "#fbbf24",
+              "textColor": "#222222"
+            },
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 32,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 24,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#E5E7EB",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.6,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "Content": {
+              "title": "Watch Our Process",
+              "description": "See how McKay Construction transforms residential spaces.",
+              "videoUrl": "https://www.example.com/video"
+            }
+          }
+        },
+        {
+          "blockName": "PricingGrid",
+          "config": {
+            "variant": "grid",
+            "title": "Metal Roofing Options",
+            "showPrice": true,
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 28,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 22,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "itemTitleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 20,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 18,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "itemDescriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#374151",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "rateTextSettings": {
+              "Font": "Inter",
+              "Color": "#059669",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "featuresTextSettings": {
+              "Font": "Inter",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 13,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#F9FAFB",
+                "endColor": "#F9FAFB"
+              },
+              "backgroundColor": "#F9FAFB",
+              "cardBackgroundColor": "#FFFFFF",
+              "buttonBackgroundColor": "#3B82F6",
+              "buttonTextColor": "#FFFFFF",
+              "backgroundOpacity": 100
+            },
+            "items": [
+              {
+                "id": "metal_standing_seam",
+                "title": "Standing Seam Metal",
+                "image": "/personal/generation/img/services/commercial/1/PricingGrid/primary.png",
+                "alt": "Standing Seam Metal Roofing",
+                "description": "Premium concealed fastener system with superior weather protection.",
+                "rate": "$12 - $18 / sq ft",
+                "features": [
+                  "Concealed fasteners",
+                  "Superior weather protection",
+                  "40-70 year lifespan"
+                ],
+                "buttonText": "Get Quote",
+                "buttonLink": "/#contact"
+              }
+            ],
+            "Content": {
+              "title": "Transparent Pricing",
+              "rates": [
+                {
+                  "service": "New Home Construction",
+                  "rate": "$150 per sq ft"
+                },
+                {
+                  "service": "Home Renovations",
+                  "rate": "$120 per sq ft"
+                },
+                {
+                  "service": "Deck Building",
+                  "rate": "$100 per sq ft"
+                },
+                {
+                  "service": "Roofing Services",
+                  "rate": "$80 per sq ft"
+                }
+              ]
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg": "Yelp Users Havent Asked Any Questions Yet About Mckay Construction — PricingGrid (config.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gutters",
+      "blocks": [
+        {
+          "blockName": "HeroBlock",
+          "config": {
+            "Content": {
+              "mainTitle": "Expert Gutter Services for Your Home",
+              "subTitle": "Efficient, Reliable, and Affordable Solutions",
+              "images": [
+                "/personal/generation/img/services/residential/3/HeroBlock/primary.png"
+              ]
+            },
+            "Design": {
+              "Text-mainTitle": {
+                "Font": "Inter",
+                "Color": "#FFFFFF",
+                "Desktop": {
+                  "Size": 42,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-subTitle": {
+                "Font": "Inter",
+                "Color": "#E5E7EB",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "path": "/personal/generation/img/services/commercial/1/HeroBlock/primary.png",
+                "background": [
+                  "#2D3748",
+                  "#2D3748"
+                ],
+                "direction": "to right",
+                "opacity": 100
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 75,
+                "Desktop": 50
+              },
+              "ExpandedHeight": {
+                "Mobile": 90,
+                "Desktop": 70
+              }
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/residential/3/HeroBlock/primary.jpg": "Gutters — HeroBlock (config.Content.images.0) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/HeroBlock/primary.jpg": "Gutters — HeroBlock (config.Design.Bg.path) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OverviewAndAdvantagesBlock",
+          "config": {
+            "width_height": {
+              "width": 32,
+              "height": 32
+            },
+            "heading": "Why Choose Metal Roofing for Your Commercial Property",
+            "description": "Metal roofing represents the pinnacle of durability, energy efficiency, and aesthetic appeal for commercial buildings. Our premium metal roofing systems provide unmatched longevity, weather resistance, and cost-effectiveness over the building's lifetime.",
+            "backgroundOpacity": 100,
+            "headingTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 36,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 28,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bulletTitleTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "bulletDescriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bullets": [
+              {
+                "id": 1,
+                "title": "Exceptional Durability",
+                "description": "Metal roofing systems last 40-70 years with minimal maintenance, providing superior resistance to fire, wind, hail, and extreme weather conditions.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Shield"
+                }
+              },
+              {
+                "id": 2,
+                "title": "Energy Efficiency",
+                "description": "Reflective metal surfaces reduce cooling costs by up to 25%, with cool roof coatings available to maximize energy savings and LEED certification points.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Zap"
+                }
+              },
+              {
+                "id": 3,
+                "title": "Low Maintenance",
+                "description": "Unlike other roofing materials, metal roofs require minimal upkeep and retain their appearance and performance for decades with simple periodic inspections.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Settings"
+                }
+              },
+              {
+                "id": 4,
+                "title": "Design Versatility",
+                "description": "Available in numerous profiles, colors, and finishes to complement any architectural style, from modern industrial to traditional commercial designs.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Palette"
+                }
+              },
+              {
+                "id": 5,
+                "title": "Environmental Sustainability",
+                "description": "100% recyclable materials with high recycled content, contributing to LEED points and reducing environmental impact throughout the building lifecycle.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Leaf"
+                }
+              },
+              {
+                "id": 6,
+                "title": "Weather Performance",
+                "description": "Superior resistance to wind uplift (up to 140 mph), impact damage, thermal cycling, and UV degradation ensures long-term structural integrity.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Cloud"
+                }
+              }
+            ],
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#f3f4f6",
+                "endColor": "#f3f4f6"
+              },
+              "cardBackgroundColor": "#F9FAFB",
+              "desktopGridLayout": "three-column",
+              "mobileGridLayout": "one-column",
+              "desktopCardSpacing": "normal",
+              "mobileCardSpacing": "normal"
+            },
+            "Content": {
+              "title": "Why Choose Our Gutter Services?",
+              "description": "Our gutter services ensure proper drainage and protect your home from water damage.",
+              "advantages": [
+                "Professional installation with high-quality materials",
+                "Comprehensive maintenance plans to extend gutter life",
+                "Fast and reliable repair services for any damage",
+                "Various styles and colors to match your home's aesthetic"
+              ]
+            }
+          }
+        },
+        {
+          "blockName": "GeneralListVariant2",
+          "config": {
+            "Content": {
+              "title": "Gutter Installation Process",
+              "items": [
+                "Initial consultation to assess needs",
+                "Selection of gutter type and style",
+                "Professional measurement and layout planning",
+                "Expert installation by our trained technicians",
+                "Final inspection and customer walkthrough"
+              ]
+            },
+            "Design": {
+              "Text-title": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-description": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 18,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Text-itemTitle": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 18,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-itemDescription": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 14,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "direction": "to bottom right",
+                "opacity": 100,
+                "isGradient": false
+              },
+              "Colors": {
+                "buttonColor": "#3B82F6"
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 80
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OptionSelectorBlock",
+          "config": {
+            "Content": {
+              "title": "Gutter Types and Options",
+              "options": [
+                {
+                  "label": "Aluminum Gutters",
+                  "description": "Durable and lightweight, available in various colors.",
+                  "image": "/personal/generation/img/services/residential/3/OptionSelectorBlock/primary.png"
+                },
+                {
+                  "label": "Vinyl Gutters",
+                  "description": "Cost-effective, easy to install, and rust-resistant.",
+                  "image": "/personal/generation/img/services/residential/3/OptionSelectorBlock/primary.png"
+                },
+                {
+                  "label": "Copper Gutters",
+                  "description": "Elegant and long-lasting, develops a beautiful patina over time.",
+                  "image": "/personal/generation/img/services/residential/3/OptionSelectorBlock/primary.png"
+                }
+              ]
+            },
+            "Design": {
+              "Text-sectionTitle": {
+                "Font": "Playfair Display",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36
+                },
+                "Mobile": {
+                  "Size": 28
+                }
+              },
+              "Text-optionName": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 18
+                },
+                "Mobile": {
+                  "Size": 16
+                }
+              },
+              "Text-optionDesc": {
+                "Font": "Lora",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Text-colorName": {
+                "Font": "Inter",
+                "Color": "#374151",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#F9FAFB",
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "isGradient": false,
+                "direction": "to bottom right",
+                "opacity": 100
+              },
+              "Colors": {
+                "cardBackgroundColor": "#FFFFFF",
+                "selectedTypeBorderColor": "#3B82F6",
+                "selectedColorBorderColor": "#3B82F6",
+                "titleColor": "#1F2937",
+                "descriptionColor": "#4B5563"
+              }
+            },
+            "Formatting": {
+              "layout": "horizontal-split",
+              "imageBorderRadius": "8px"
+            },
+            "optionTypes": [
+              {
+                "id": "industrial",
+                "name": "Industrial & Manufacturing",
+                "description": "Heavy-duty solutions for demanding industrial environments with superior durability and performance specifications.",
+                "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png",
+                "colors": [
+                  {
+                    "id": "galvalume",
+                    "name": "Galvalume",
+                    "colorHex": "#8C8C8C",
+                    "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png"
+                  }
+                ]
+              }
+            ],
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/residential/3/OptionSelectorBlock/primary.jpg": "Gutters — OptionSelectorBlock (config.Content.options.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg": "Gutters — OptionSelectorBlock (config.optionTypes.0.imageUrl) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "VideoCTA",
+          "config": {
+            "videoSrc": "/assets/videos/metal-roofing-process.mp4",
+            "title": "Ready to Invest in Metal Roofing?",
+            "description": "Get in touch for a free consultation and discover how metal roofing can transform your commercial property with enhanced durability, energy efficiency, and aesthetic appeal.",
+            "buttonText": "Schedule Metal Roofing Consultation",
+            "buttonLink": "/#contact",
+            "textColor": "#FFFFFF",
+            "textAlignment": "center",
+            "styling": {
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.65,
+              "roundnessRem": 2.5,
+              "gradientConfig": {
+                "direction": "to bottom",
+                "startColor": "#000000",
+                "endColor": "#333333"
+              }
+            },
+            "buttonStyling": {
+              "backgroundColor": "#fbbf24",
+              "textColor": "#222222"
+            },
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 32,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 24,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#E5E7EB",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.6,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "Content": {
+              "title": "Watch Our Gutter Installation in Action",
+              "videoUrl": "https://www.example.com/gutter-installation-video",
+              "description": "See how our expert team installs gutters efficiently."
+            }
+          }
+        },
+        {
+          "blockName": "PricingGrid",
+          "config": {
+            "variant": "grid",
+            "title": "Metal Roofing Options",
+            "showPrice": true,
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 28,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 22,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "itemTitleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 20,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 18,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "itemDescriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#374151",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "rateTextSettings": {
+              "Font": "Inter",
+              "Color": "#059669",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "featuresTextSettings": {
+              "Font": "Inter",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 13,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#F9FAFB",
+                "endColor": "#F9FAFB"
+              },
+              "backgroundColor": "#F9FAFB",
+              "cardBackgroundColor": "#FFFFFF",
+              "buttonBackgroundColor": "#3B82F6",
+              "buttonTextColor": "#FFFFFF",
+              "backgroundOpacity": 100
+            },
+            "items": [
+              {
+                "id": "metal_standing_seam",
+                "title": "Standing Seam Metal",
+                "image": "/personal/generation/img/services/commercial/1/PricingGrid/primary.png",
+                "alt": "Standing Seam Metal Roofing",
+                "description": "Premium concealed fastener system with superior weather protection.",
+                "rate": "$12 - $18 / sq ft",
+                "features": [
+                  "Concealed fasteners",
+                  "Superior weather protection",
+                  "40-70 year lifespan"
+                ],
+                "buttonText": "Get Quote",
+                "buttonLink": "/#contact"
+              }
+            ],
+            "Content": {
+              "title": "Affordable Gutter Service Pricing",
+              "rates": [
+                {
+                  "service": "Gutter Installation",
+                  "price": "$999",
+                  "description": "Complete installation including materials and labor."
+                },
+                {
+                  "service": "Gutter Maintenance",
+                  "price": "$199/year",
+                  "description": "Annual maintenance plan to keep your gutters in top shape."
+                },
+                {
+                  "service": "Gutter Repair",
+                  "price": "$150/hour",
+                  "description": "Expert repairs for damaged or clogged gutters."
+                }
+              ]
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg": "Gutters — PricingGrid (config.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Painting",
+      "blocks": [
+        {
+          "blockName": "HeroBlock",
+          "config": {
+            "Content": {
+              "mainTitle": "Transform Your Home with Expert Painting Services",
+              "subTitle": "Enhance your living space with our professional residential painting solutions.",
+              "images": [
+                "/personal/generation/img/services/residential/4/HeroBlock/primary.png"
+              ]
+            },
+            "Design": {
+              "Text-mainTitle": {
+                "Font": "Inter",
+                "Color": "#FFFFFF",
+                "Desktop": {
+                  "Size": 42,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-subTitle": {
+                "Font": "Inter",
+                "Color": "#E5E7EB",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "path": "/personal/generation/img/services/commercial/1/HeroBlock/primary.png",
+                "background": [
+                  "#2D3748",
+                  "#2D3748"
+                ],
+                "direction": "to right",
+                "opacity": 100
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 75,
+                "Desktop": 50
+              },
+              "ExpandedHeight": {
+                "Mobile": 90,
+                "Desktop": 70
+              }
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/residential/4/HeroBlock/primary.jpg": "Painting — HeroBlock (config.Content.images.0) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/HeroBlock/primary.jpg": "Painting — HeroBlock (config.Design.Bg.path) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OverviewAndAdvantagesBlock",
+          "config": {
+            "width_height": {
+              "width": 32,
+              "height": 32
+            },
+            "heading": "Why Choose Metal Roofing for Your Commercial Property",
+            "description": "Metal roofing represents the pinnacle of durability, energy efficiency, and aesthetic appeal for commercial buildings. Our premium metal roofing systems provide unmatched longevity, weather resistance, and cost-effectiveness over the building's lifetime.",
+            "backgroundOpacity": 100,
+            "headingTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 36,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 28,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bulletTitleTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "bulletDescriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bullets": [
+              {
+                "id": 1,
+                "title": "Exceptional Durability",
+                "description": "Metal roofing systems last 40-70 years with minimal maintenance, providing superior resistance to fire, wind, hail, and extreme weather conditions.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Shield"
+                }
+              },
+              {
+                "id": 2,
+                "title": "Energy Efficiency",
+                "description": "Reflective metal surfaces reduce cooling costs by up to 25%, with cool roof coatings available to maximize energy savings and LEED certification points.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Zap"
+                }
+              },
+              {
+                "id": 3,
+                "title": "Low Maintenance",
+                "description": "Unlike other roofing materials, metal roofs require minimal upkeep and retain their appearance and performance for decades with simple periodic inspections.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Settings"
+                }
+              },
+              {
+                "id": 4,
+                "title": "Design Versatility",
+                "description": "Available in numerous profiles, colors, and finishes to complement any architectural style, from modern industrial to traditional commercial designs.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Palette"
+                }
+              },
+              {
+                "id": 5,
+                "title": "Environmental Sustainability",
+                "description": "100% recyclable materials with high recycled content, contributing to LEED points and reducing environmental impact throughout the building lifecycle.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Leaf"
+                }
+              },
+              {
+                "id": 6,
+                "title": "Weather Performance",
+                "description": "Superior resistance to wind uplift (up to 140 mph), impact damage, thermal cycling, and UV degradation ensures long-term structural integrity.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Cloud"
+                }
+              }
+            ],
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#f3f4f6",
+                "endColor": "#f3f4f6"
+              },
+              "cardBackgroundColor": "#F9FAFB",
+              "desktopGridLayout": "three-column",
+              "mobileGridLayout": "one-column",
+              "desktopCardSpacing": "normal",
+              "mobileCardSpacing": "normal"
+            },
+            "Content": {
+              "title": "Why Choose Our Painting Services?",
+              "description": "Our residential painting services are designed to provide quality, durability, and aesthetic appeal. Here are the advantages of choosing us:",
+              "items": [
+                "Expert craftsmanship with attention to detail.",
+                "High-quality paints that ensure longevity.",
+                "Flexible scheduling to minimize disruption.",
+                "Comprehensive preparation and clean-up.",
+                "Eco-friendly options available."
+              ]
+            }
+          }
+        },
+        {
+          "blockName": "GeneralListVariant2",
+          "config": {
+            "Content": {
+              "title": "Our Painting Process",
+              "items": [
+                "Initial consultation and color selection.",
+                "Surface preparation and repairs.",
+                "Application of primer and paint.",
+                "Final inspection and touch-ups.",
+                "Project completion and clean-up."
+              ]
+            },
+            "Design": {
+              "Text-title": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-description": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 18,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Text-itemTitle": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 18,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-itemDescription": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 14,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "direction": "to bottom right",
+                "opacity": 100,
+                "isGradient": false
+              },
+              "Colors": {
+                "buttonColor": "#3B82F6"
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 80
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OptionSelectorBlock",
+          "config": {
+            "Content": {
+              "title": "Choose Your Painting Options",
+              "options": [
+                {
+                  "label": "Interior Painting",
+                  "description": "Revitalize your indoor spaces with our expert interior painting services."
+                },
+                {
+                  "label": "Exterior Painting",
+                  "description": "Protect and enhance your home's exterior with our durable outdoor paints."
+                },
+                {
+                  "label": "Eco-Friendly Paints",
+                  "description": "Choose sustainable options that are safe for your family and the environment."
+                }
+              ]
+            },
+            "Design": {
+              "Text-sectionTitle": {
+                "Font": "Playfair Display",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36
+                },
+                "Mobile": {
+                  "Size": 28
+                }
+              },
+              "Text-optionName": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 18
+                },
+                "Mobile": {
+                  "Size": 16
+                }
+              },
+              "Text-optionDesc": {
+                "Font": "Lora",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Text-colorName": {
+                "Font": "Inter",
+                "Color": "#374151",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#F9FAFB",
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "isGradient": false,
+                "direction": "to bottom right",
+                "opacity": 100
+              },
+              "Colors": {
+                "cardBackgroundColor": "#FFFFFF",
+                "selectedTypeBorderColor": "#3B82F6",
+                "selectedColorBorderColor": "#3B82F6",
+                "titleColor": "#1F2937",
+                "descriptionColor": "#4B5563"
+              }
+            },
+            "Formatting": {
+              "layout": "horizontal-split",
+              "imageBorderRadius": "8px"
+            },
+            "optionTypes": [
+              {
+                "id": "industrial",
+                "name": "Industrial & Manufacturing",
+                "description": "Heavy-duty solutions for demanding industrial environments with superior durability and performance specifications.",
+                "imageUrl": "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg",
+                "colors": [
+                  {
+                    "id": "galvalume",
+                    "name": "Galvalume",
+                    "colorHex": "#8C8C8C",
+                    "imageUrl": "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg"
+                  }
+                ]
+              }
+            ],
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg": "Painting — OptionSelectorBlock (config.optionTypes.0.imageUrl) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "VideoCTA",
+          "config": {
+            "videoSrc": "/assets/videos/metal-roofing-process.mp4",
+            "title": "Ready to Invest in Metal Roofing?",
+            "description": "Get in touch for a free consultation and discover how metal roofing can transform your commercial property with enhanced durability, energy efficiency, and aesthetic appeal.",
+            "buttonText": "Schedule Metal Roofing Consultation",
+            "buttonLink": "/#contact",
+            "textColor": "#FFFFFF",
+            "textAlignment": "center",
+            "styling": {
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.65,
+              "roundnessRem": 2.5,
+              "gradientConfig": {
+                "direction": "to bottom",
+                "startColor": "#000000",
+                "endColor": "#333333"
+              }
+            },
+            "buttonStyling": {
+              "backgroundColor": "#fbbf24",
+              "textColor": "#222222"
+            },
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 32,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 24,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#E5E7EB",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.6,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "Content": {
+              "title": "See Our Work in Action",
+              "videoUrl": "https://www.example.com/painting-video",
+              "description": "Watch our team transform homes with our exceptional painting services."
+            }
+          }
+        },
+        {
+          "blockName": "PricingGrid",
+          "config": {
+            "variant": "grid",
+            "title": "Metal Roofing Options",
+            "showPrice": true,
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 28,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 22,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "itemTitleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 20,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 18,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "itemDescriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#374151",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "rateTextSettings": {
+              "Font": "Inter",
+              "Color": "#059669",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "featuresTextSettings": {
+              "Font": "Inter",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 13,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#F9FAFB",
+                "endColor": "#F9FAFB"
+              },
+              "backgroundColor": "#F9FAFB",
+              "cardBackgroundColor": "#FFFFFF",
+              "buttonBackgroundColor": "#3B82F6",
+              "buttonTextColor": "#FFFFFF",
+              "backgroundOpacity": 100
+            },
+            "items": [
+              {
+                "id": "metal_standing_seam",
+                "title": "Standing Seam Metal",
+                "image": "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg",
+                "alt": "Standing Seam Metal Roofing",
+                "description": "Premium concealed fastener system with superior weather protection.",
+                "rate": "$12 - $18 / sq ft",
+                "features": [
+                  "Concealed fasteners",
+                  "Superior weather protection",
+                  "40-70 year lifespan"
+                ],
+                "buttonText": "Get Quote",
+                "buttonLink": "/#contact"
+              }
+            ],
+            "Content": {
+              "title": "Transparent Pricing",
+              "rates": [
+                {
+                  "service": "Interior Painting",
+                  "price": "$2.50/sq ft"
+                },
+                {
+                  "service": "Exterior Painting",
+                  "price": "$3.00/sq ft"
+                },
+                {
+                  "service": "Eco-Friendly Painting",
+                  "price": "$3.50/sq ft"
+                }
+              ]
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg": "Painting — PricingGrid (config.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "commercial": [
+    {
+      "id": 1,
+      "name": "Roof Installation",
+      "blocks": [
+        {
+          "blockName": "HeroBlock",
+          "config": {
+            "Content": {
+              "mainTitle": "Expert Roof Installation Services",
+              "subTitle": "Reliable and Efficient Roof Solutions for Your Commercial Needs",
+              "images": [
+                "/personal/generation/img/services/commercial/1/HeroBlock/primary.png"
+              ]
+            },
+            "Design": {
+              "Text-mainTitle": {
+                "Font": "Inter",
+                "Color": "#FFFFFF",
+                "Desktop": {
+                  "Size": 42,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-subTitle": {
+                "Font": "Inter",
+                "Color": "#E5E7EB",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "path": "/personal/generation/img/services/commercial/1/HeroBlock/primary.png",
+                "background": [
+                  "#2D3748",
+                  "#2D3748"
+                ],
+                "direction": "to right",
+                "opacity": 100
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 75,
+                "Desktop": 50
+              },
+              "ExpandedHeight": {
+                "Mobile": 90,
+                "Desktop": 70
+              }
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/HeroBlock/primary.jpg": "Roof Installation — HeroBlock (config.Content.images.0) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OverviewAndAdvantagesBlock",
+          "config": {
+            "width_height": {
+              "width": 32,
+              "height": 32
+            },
+            "heading": "Why Choose Metal Roofing for Your Commercial Property",
+            "description": "Metal roofing represents the pinnacle of durability, energy efficiency, and aesthetic appeal for commercial buildings. Our premium metal roofing systems provide unmatched longevity, weather resistance, and cost-effectiveness over the building's lifetime.",
+            "backgroundOpacity": 100,
+            "headingTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 36,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 28,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bulletTitleTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "bulletDescriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bullets": [
+              {
+                "id": 1,
+                "title": "Exceptional Durability",
+                "description": "Metal roofing systems last 40-70 years with minimal maintenance, providing superior resistance to fire, wind, hail, and extreme weather conditions.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Shield"
+                }
+              },
+              {
+                "id": 2,
+                "title": "Energy Efficiency",
+                "description": "Reflective metal surfaces reduce cooling costs by up to 25%, with cool roof coatings available to maximize energy savings and LEED certification points.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Zap"
+                }
+              },
+              {
+                "id": 3,
+                "title": "Low Maintenance",
+                "description": "Unlike other roofing materials, metal roofs require minimal upkeep and retain their appearance and performance for decades with simple periodic inspections.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Settings"
+                }
+              },
+              {
+                "id": 4,
+                "title": "Design Versatility",
+                "description": "Available in numerous profiles, colors, and finishes to complement any architectural style, from modern industrial to traditional commercial designs.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Palette"
+                }
+              },
+              {
+                "id": 5,
+                "title": "Environmental Sustainability",
+                "description": "100% recyclable materials with high recycled content, contributing to LEED points and reducing environmental impact throughout the building lifecycle.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Leaf"
+                }
+              },
+              {
+                "id": 6,
+                "title": "Weather Performance",
+                "description": "Superior resistance to wind uplift (up to 140 mph), impact damage, thermal cycling, and UV degradation ensures long-term structural integrity.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Cloud"
+                }
+              }
+            ],
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#f3f4f6",
+                "endColor": "#f3f4f6"
+              },
+              "cardBackgroundColor": "#F9FAFB",
+              "desktopGridLayout": "three-column",
+              "mobileGridLayout": "one-column",
+              "desktopCardSpacing": "normal",
+              "mobileCardSpacing": "normal"
+            },
+            "Content": {
+              "title": "Why Choose Our Roof Installation Services?",
+              "description": "Our professional team ensures high-quality roof installations tailored to your commercial requirements.",
+              "items": [
+                "Experienced professionals with a proven track record",
+                "Use of high-quality materials for durability",
+                "Comprehensive project management from start to finish",
+                "Competitive pricing with transparent quotes"
+              ]
+            }
+          }
+        },
+        {
+          "blockName": "GeneralListVariant2",
+          "config": {
+            "Content": {
+              "title": "Our Roof Installation Process",
+              "items": [
+                "Initial consultation to assess your needs",
+                "Detailed project proposal and timeline",
+                "Site preparation and old roof removal (if necessary)",
+                "Installation of new roofing system",
+                "Quality inspection and final walkthrough"
+              ]
+            },
+            "Design": {
+              "Text-title": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-description": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 18,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Text-itemTitle": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 18,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-itemDescription": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 14,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "direction": "to bottom right",
+                "opacity": 100,
+                "isGradient": false
+              },
+              "Colors": {
+                "buttonColor": "#3B82F6"
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 80
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OptionSelectorBlock",
+          "config": {
+            "Content": {
+              "title": "Roof Types Available",
+              "items": [
+                {
+                  "label": "Flat Roofing",
+                  "description": "Ideal for modern commercial buildings, offering easy maintenance."
+                },
+                {
+                  "label": "Pitched Roofing",
+                  "description": "Traditional style providing excellent water drainage and aesthetic appeal."
+                },
+                {
+                  "label": "Green Roofing",
+                  "description": "Environmentally friendly option that improves insulation and reduces runoff."
+                }
+              ]
+            },
+            "Design": {
+              "Text-sectionTitle": {
+                "Font": "Playfair Display",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36
+                },
+                "Mobile": {
+                  "Size": 28
+                }
+              },
+              "Text-optionName": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 18
+                },
+                "Mobile": {
+                  "Size": 16
+                }
+              },
+              "Text-optionDesc": {
+                "Font": "Lora",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Text-colorName": {
+                "Font": "Inter",
+                "Color": "#374151",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#F9FAFB",
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "isGradient": false,
+                "direction": "to bottom right",
+                "opacity": 100
+              },
+              "Colors": {
+                "cardBackgroundColor": "#FFFFFF",
+                "selectedTypeBorderColor": "#3B82F6",
+                "selectedColorBorderColor": "#3B82F6",
+                "titleColor": "#1F2937",
+                "descriptionColor": "#4B5563"
+              }
+            },
+            "Formatting": {
+              "layout": "horizontal-split",
+              "imageBorderRadius": "8px"
+            },
+            "optionTypes": [
+              {
+                "id": "industrial",
+                "name": "Industrial & Manufacturing",
+                "description": "Heavy-duty solutions for demanding industrial environments with superior durability and performance specifications.",
+                "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png",
+                "colors": [
+                  {
+                    "id": "galvalume",
+                    "name": "Galvalume",
+                    "colorHex": "#8C8C8C",
+                    "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png"
+                  }
+                ]
+              }
+            ],
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg": "Roof Installation — OptionSelectorBlock (config.optionTypes.0.imageUrl) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "VideoCTA",
+          "config": {
+            "videoSrc": "/assets/videos/metal-roofing-process.mp4",
+            "title": "Ready to Invest in Metal Roofing?",
+            "description": "Get in touch for a free consultation and discover how metal roofing can transform your commercial property with enhanced durability, energy efficiency, and aesthetic appeal.",
+            "buttonText": "Schedule Metal Roofing Consultation",
+            "buttonLink": "/#contact",
+            "textColor": "#FFFFFF",
+            "textAlignment": "center",
+            "styling": {
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.65,
+              "roundnessRem": 2.5,
+              "gradientConfig": {
+                "direction": "to bottom",
+                "startColor": "#000000",
+                "endColor": "#333333"
+              }
+            },
+            "buttonStyling": {
+              "backgroundColor": "#fbbf24",
+              "textColor": "#222222"
+            },
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 32,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 24,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#E5E7EB",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.6,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "Content": {
+              "title": "Watch Our Installation Process",
+              "description": "See how we transform commercial spaces with our expert roof installation.",
+              "videoUrl": "https://www.example.com/video/roof-installation"
+            }
+          }
+        },
+        {
+          "blockName": "PricingGrid",
+          "config": {
+            "variant": "grid",
+            "title": "Metal Roofing Options",
+            "showPrice": true,
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 28,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 22,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "itemTitleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 20,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 18,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "itemDescriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#374151",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "rateTextSettings": {
+              "Font": "Inter",
+              "Color": "#059669",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "featuresTextSettings": {
+              "Font": "Inter",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 13,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#F9FAFB",
+                "endColor": "#F9FAFB"
+              },
+              "backgroundColor": "#F9FAFB",
+              "cardBackgroundColor": "#FFFFFF",
+              "buttonBackgroundColor": "#3B82F6",
+              "buttonTextColor": "#FFFFFF",
+              "backgroundOpacity": 100
+            },
+            "items": [
+              {
+                "id": "metal_standing_seam",
+                "title": "Standing Seam Metal",
+                "image": "/personal/generation/img/services/commercial/1/PricingGrid/primary.png",
+                "alt": "Standing Seam Metal Roofing",
+                "description": "Premium concealed fastener system with superior weather protection.",
+                "rate": "$12 - $18 / sq ft",
+                "features": [
+                  "Concealed fasteners",
+                  "Superior weather protection",
+                  "40-70 year lifespan"
+                ],
+                "buttonText": "Get Quote",
+                "buttonLink": "/#contact"
+              }
+            ],
+            "Content": {
+              "title": "Transparent Pricing for Your Peace of Mind",
+              "description": "We offer competitive rates with no hidden fees.",
+              "rates": [
+                {
+                  "service": "Flat Roofing Installation",
+                  "price": "$5,000",
+                  "details": "Includes materials and labor for up to 2,000 sq ft."
+                },
+                {
+                  "service": "Pitched Roofing Installation",
+                  "price": "$7,500",
+                  "details": "Includes materials and labor for up to 2,000 sq ft."
+                },
+                {
+                  "service": "Green Roof Installation",
+                  "price": "$10,000",
+                  "details": "Includes materials and labor for up to 2,000 sq ft."
+                }
+              ]
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg": "Roof Installation — PricingGrid (config.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Siding Installation",
+      "blocks": [
+        {
+          "blockName": "HeroBlock",
+          "config": {
+            "Content": {
+              "mainTitle": "Professional Siding Installation for Your Commercial Property",
+              "subTitle": "Enhance your building's aesthetic and energy efficiency with our expert siding services.",
+              "images": [
+                "/personal/generation/img/services/commercial/2/HeroBlock/primary.png"
+              ]
+            },
+            "Design": {
+              "Text-mainTitle": {
+                "Font": "Inter",
+                "Color": "#FFFFFF",
+                "Desktop": {
+                  "Size": 42,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-subTitle": {
+                "Font": "Inter",
+                "Color": "#E5E7EB",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "path": "/personal/generation/img/services/commercial/1/HeroBlock/primary.png",
+                "background": [
+                  "#2D3748",
+                  "#2D3748"
+                ],
+                "direction": "to right",
+                "opacity": 100
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 75,
+                "Desktop": 50
+              },
+              "ExpandedHeight": {
+                "Mobile": 90,
+                "Desktop": 70
+              }
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/2/HeroBlock/primary.jpg": "Siding Installation — HeroBlock (config.Content.images.0) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/HeroBlock/primary.jpg": "Siding Installation — HeroBlock (config.Design.Bg.path) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OverviewAndAdvantagesBlock",
+          "config": {
+            "width_height": {
+              "width": 32,
+              "height": 32
+            },
+            "heading": "Why Choose Metal Roofing for Your Commercial Property",
+            "description": "Metal roofing represents the pinnacle of durability, energy efficiency, and aesthetic appeal for commercial buildings. Our premium metal roofing systems provide unmatched longevity, weather resistance, and cost-effectiveness over the building's lifetime.",
+            "backgroundOpacity": 100,
+            "headingTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 36,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 28,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bulletTitleTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "bulletDescriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bullets": [
+              {
+                "id": 1,
+                "title": "Exceptional Durability",
+                "description": "Metal roofing systems last 40-70 years with minimal maintenance, providing superior resistance to fire, wind, hail, and extreme weather conditions.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Shield"
+                }
+              },
+              {
+                "id": 2,
+                "title": "Energy Efficiency",
+                "description": "Reflective metal surfaces reduce cooling costs by up to 25%, with cool roof coatings available to maximize energy savings and LEED certification points.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Zap"
+                }
+              },
+              {
+                "id": 3,
+                "title": "Low Maintenance",
+                "description": "Unlike other roofing materials, metal roofs require minimal upkeep and retain their appearance and performance for decades with simple periodic inspections.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Settings"
+                }
+              },
+              {
+                "id": 4,
+                "title": "Design Versatility",
+                "description": "Available in numerous profiles, colors, and finishes to complement any architectural style, from modern industrial to traditional commercial designs.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Palette"
+                }
+              },
+              {
+                "id": 5,
+                "title": "Environmental Sustainability",
+                "description": "100% recyclable materials with high recycled content, contributing to LEED points and reducing environmental impact throughout the building lifecycle.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Leaf"
+                }
+              },
+              {
+                "id": 6,
+                "title": "Weather Performance",
+                "description": "Superior resistance to wind uplift (up to 140 mph), impact damage, thermal cycling, and UV degradation ensures long-term structural integrity.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Cloud"
+                }
+              }
+            ],
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#f3f4f6",
+                "endColor": "#f3f4f6"
+              },
+              "cardBackgroundColor": "#F9FAFB",
+              "desktopGridLayout": "three-column",
+              "mobileGridLayout": "one-column",
+              "desktopCardSpacing": "normal",
+              "mobileCardSpacing": "normal"
+            },
+            "Content": {
+              "title": "Why Choose Our Siding Installation Services?",
+              "description": "Our siding installation offers durability, aesthetic appeal, and energy efficiency, ensuring your commercial property stands out.",
+              "features": [
+                "Expert installation by certified professionals",
+                "Wide range of materials and styles to choose from",
+                "Enhanced energy efficiency and insulation",
+                "Low maintenance options with long warranties"
+              ]
+            }
+          }
+        },
+        {
+          "blockName": "GeneralListVariant2",
+          "config": {
+            "Content": {
+              "title": "Siding Maintenance & Care",
+              "items": [
+                "Regular cleaning with mild soap and water",
+                "Inspection for damage or wear annually",
+                "Prompt repairs for any chips or cracks",
+                "Warranty options available for peace of mind"
+              ]
+            },
+            "Design": {
+              "Text-title": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-description": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 18,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Text-itemTitle": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 18,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-itemDescription": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 14,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "direction": "to bottom right",
+                "opacity": 100,
+                "isGradient": false
+              },
+              "Colors": {
+                "buttonColor": "#3B82F6"
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 80
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OptionSelectorBlock",
+          "config": {
+            "Content": {
+              "title": "Siding Options Available",
+              "items": [
+                {
+                  "name": "Vinyl Siding",
+                  "description": "Durable and low-maintenance with a variety of colors.",
+                  "image": "/personal/generation/img/services/commercial/2/OptionSelectorBlock/Vinyl.png"
+                },
+                {
+                  "name": "Wood Siding",
+                  "description": "Classic look with natural beauty, requires more maintenance.",
+                  "image": "/personal/generation/img/services/commercial/2/OptionSelectorBlock/Wood.png"
+                },
+                {
+                  "name": "Fiber Cement Siding",
+                  "description": "Highly durable and resistant to pests, fire, and rot.",
+                  "image": "/personal/generation/img/services/commercial/2/OptionSelectorBlock/FiberCement.png"
+                }
+              ]
+            },
+            "Design": {
+              "Text-sectionTitle": {
+                "Font": "Playfair Display",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36
+                },
+                "Mobile": {
+                  "Size": 28
+                }
+              },
+              "Text-optionName": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 18
+                },
+                "Mobile": {
+                  "Size": 16
+                }
+              },
+              "Text-optionDesc": {
+                "Font": "Lora",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Text-colorName": {
+                "Font": "Inter",
+                "Color": "#374151",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#F9FAFB",
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "isGradient": false,
+                "direction": "to bottom right",
+                "opacity": 100
+              },
+              "Colors": {
+                "cardBackgroundColor": "#FFFFFF",
+                "selectedTypeBorderColor": "#3B82F6",
+                "selectedColorBorderColor": "#3B82F6",
+                "titleColor": "#1F2937",
+                "descriptionColor": "#4B5563"
+              }
+            },
+            "Formatting": {
+              "layout": "horizontal-split",
+              "imageBorderRadius": "8px"
+            },
+            "optionTypes": [
+              {
+                "id": "industrial",
+                "name": "Industrial & Manufacturing",
+                "description": "Heavy-duty solutions for demanding industrial environments with superior durability and performance specifications.",
+                "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png",
+                "colors": [
+                  {
+                    "id": "galvalume",
+                    "name": "Galvalume",
+                    "colorHex": "#8C8C8C",
+                    "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png"
+                  }
+                ]
+              }
+            ],
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/2/OptionSelectorBlock/Vinyl.jpg": "Siding Installation — OptionSelectorBlock (config.Content.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/2/OptionSelectorBlock/Wood.jpg": "Siding Installation — OptionSelectorBlock (config.Content.items.1.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/2/OptionSelectorBlock/FiberCement.jpg": "Siding Installation — OptionSelectorBlock (config.Content.items.2.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg": "Siding Installation — OptionSelectorBlock (config.optionTypes.0.imageUrl) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "VideoCTA",
+          "config": {
+            "videoSrc": "/assets/videos/metal-roofing-process.mp4",
+            "title": "Ready to Invest in Metal Roofing?",
+            "description": "Get in touch for a free consultation and discover how metal roofing can transform your commercial property with enhanced durability, energy efficiency, and aesthetic appeal.",
+            "buttonText": "Schedule Metal Roofing Consultation",
+            "buttonLink": "/#contact",
+            "textColor": "#FFFFFF",
+            "textAlignment": "center",
+            "styling": {
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.65,
+              "roundnessRem": 2.5,
+              "gradientConfig": {
+                "direction": "to bottom",
+                "startColor": "#000000",
+                "endColor": "#333333"
+              }
+            },
+            "buttonStyling": {
+              "backgroundColor": "#fbbf24",
+              "textColor": "#222222"
+            },
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 32,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 24,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#E5E7EB",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.6,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "Content": {
+              "title": "Watch Our Siding Installation Process",
+              "description": "See how our professionals handle every step of the siding installation.",
+              "videoUrl": "https://www.example.com/siding-installation-video"
+            }
+          }
+        },
+        {
+          "blockName": "PricingGrid",
+          "config": {
+            "variant": "grid",
+            "title": "Metal Roofing Options",
+            "showPrice": true,
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 28,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 22,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "itemTitleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 20,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 18,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "itemDescriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#374151",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "rateTextSettings": {
+              "Font": "Inter",
+              "Color": "#059669",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "featuresTextSettings": {
+              "Font": "Inter",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 13,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#F9FAFB",
+                "endColor": "#F9FAFB"
+              },
+              "backgroundColor": "#F9FAFB",
+              "cardBackgroundColor": "#FFFFFF",
+              "buttonBackgroundColor": "#3B82F6",
+              "buttonTextColor": "#FFFFFF",
+              "backgroundOpacity": 100
+            },
+            "items": [
+              {
+                "id": "metal_standing_seam",
+                "title": "Standing Seam Metal",
+                "image": "/personal/generation/img/services/commercial/1/PricingGrid/primary.png",
+                "alt": "Standing Seam Metal Roofing",
+                "description": "Premium concealed fastener system with superior weather protection.",
+                "rate": "$12 - $18 / sq ft",
+                "features": [
+                  "Concealed fasteners",
+                  "Superior weather protection",
+                  "40-70 year lifespan"
+                ],
+                "buttonText": "Get Quote",
+                "buttonLink": "/#contact"
+              }
+            ],
+            "Content": {
+              "title": "Siding Installation Pricing",
+              "rates": [
+                {
+                  "type": "Vinyl Siding",
+                  "price": "$3.50 per sq ft",
+                  "description": "Cost-effective and durable option."
+                },
+                {
+                  "type": "Wood Siding",
+                  "price": "$5.00 per sq ft",
+                  "description": "Elegant and customizable, but requires upkeep."
+                },
+                {
+                  "type": "Fiber Cement Siding",
+                  "price": "$6.50 per sq ft",
+                  "description": "Long-lasting and low maintenance."
+                }
+              ]
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg": "Siding Installation — PricingGrid (config.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Deck Construction",
+      "blocks": [
+        {
+          "blockName": "HeroBlock",
+          "config": {
+            "Content": {
+              "mainTitle": "Expert Deck Construction Services",
+              "subTitle": "Transform your commercial space with durable and stylish decks.",
+              "images": [
+                "/personal/generation/img/services/commercial/3/HeroBlock/primary.png"
+              ]
+            },
+            "Design": {
+              "Text-mainTitle": {
+                "Font": "Inter",
+                "Color": "#FFFFFF",
+                "Desktop": {
+                  "Size": 42,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-subTitle": {
+                "Font": "Inter",
+                "Color": "#E5E7EB",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "path": "/personal/generation/img/services/commercial/1/HeroBlock/primary.png",
+                "background": [
+                  "#2D3748",
+                  "#2D3748"
+                ],
+                "direction": "to right",
+                "opacity": 100
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 75,
+                "Desktop": 50
+              },
+              "ExpandedHeight": {
+                "Mobile": 90,
+                "Desktop": 70
+              }
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/3/HeroBlock/primary.jpg": "Deck Construction — HeroBlock (config.Content.images.0) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/HeroBlock/primary.jpg": "Deck Construction — HeroBlock (config.Design.Bg.path) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OverviewAndAdvantagesBlock",
+          "config": {
+            "width_height": {
+              "width": 32,
+              "height": 32
+            },
+            "heading": "Why Choose Metal Roofing for Your Commercial Property",
+            "description": "Metal roofing represents the pinnacle of durability, energy efficiency, and aesthetic appeal for commercial buildings. Our premium metal roofing systems provide unmatched longevity, weather resistance, and cost-effectiveness over the building's lifetime.",
+            "backgroundOpacity": 100,
+            "headingTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 36,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 28,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bulletTitleTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "bulletDescriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bullets": [
+              {
+                "id": 1,
+                "title": "Exceptional Durability",
+                "description": "Metal roofing systems last 40-70 years with minimal maintenance, providing superior resistance to fire, wind, hail, and extreme weather conditions.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Shield"
+                }
+              },
+              {
+                "id": 2,
+                "title": "Energy Efficiency",
+                "description": "Reflective metal surfaces reduce cooling costs by up to 25%, with cool roof coatings available to maximize energy savings and LEED certification points.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Zap"
+                }
+              },
+              {
+                "id": 3,
+                "title": "Low Maintenance",
+                "description": "Unlike other roofing materials, metal roofs require minimal upkeep and retain their appearance and performance for decades with simple periodic inspections.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Settings"
+                }
+              },
+              {
+                "id": 4,
+                "title": "Design Versatility",
+                "description": "Available in numerous profiles, colors, and finishes to complement any architectural style, from modern industrial to traditional commercial designs.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Palette"
+                }
+              },
+              {
+                "id": 5,
+                "title": "Environmental Sustainability",
+                "description": "100% recyclable materials with high recycled content, contributing to LEED points and reducing environmental impact throughout the building lifecycle.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Leaf"
+                }
+              },
+              {
+                "id": 6,
+                "title": "Weather Performance",
+                "description": "Superior resistance to wind uplift (up to 140 mph), impact damage, thermal cycling, and UV degradation ensures long-term structural integrity.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Cloud"
+                }
+              }
+            ],
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#f3f4f6",
+                "endColor": "#f3f4f6"
+              },
+              "cardBackgroundColor": "#F9FAFB",
+              "desktopGridLayout": "three-column",
+              "mobileGridLayout": "one-column",
+              "desktopCardSpacing": "normal",
+              "mobileCardSpacing": "normal"
+            },
+            "Content": {
+              "title": "Why Choose Our Deck Construction Services?",
+              "description": "Our team specializes in creating high-quality decks tailored to your commercial needs.",
+              "advantages": [
+                "Durable materials that withstand heavy foot traffic.",
+                "Custom designs to match your brand aesthetics.",
+                "Quick installation with minimal disruption to your operations."
+              ]
+            }
+          }
+        },
+        {
+          "blockName": "GeneralListVariant2",
+          "config": {
+            "Content": {
+              "title": "Repair Services",
+              "items": [
+                "Prompt repairs for wear and damage.",
+                "Replacement of damaged boards or fasteners.",
+                "Restoration services to renew the deck's appearance."
+              ]
+            },
+            "Design": {
+              "Text-title": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-description": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 18,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Text-itemTitle": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 18,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-itemDescription": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 14,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "direction": "to bottom right",
+                "opacity": 100,
+                "isGradient": false
+              },
+              "Colors": {
+                "buttonColor": "#3B82F6"
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 80
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OptionSelectorBlock",
+          "config": {
+            "Content": {
+              "title": "Deck Type Options",
+              "options": [
+                {
+                  "label": "Composite Decking",
+                  "description": "Low maintenance and eco-friendly.",
+                  "image": "/personal/generation/img/services/commercial/3/OptionSelectorBlock/composite.png"
+                },
+                {
+                  "label": "Wood Decking",
+                  "description": "Classic look with natural beauty.",
+                  "image": "/personal/generation/img/services/commercial/3/OptionSelectorBlock/wood.png"
+                },
+                {
+                  "label": "PVC Decking",
+                  "description": "Highly resistant to moisture and fading.",
+                  "image": "/personal/generation/img/services/commercial/3/OptionSelectorBlock/pvc.png"
+                }
+              ]
+            },
+            "Design": {
+              "Text-sectionTitle": {
+                "Font": "Playfair Display",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36
+                },
+                "Mobile": {
+                  "Size": 28
+                }
+              },
+              "Text-optionName": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 18
+                },
+                "Mobile": {
+                  "Size": 16
+                }
+              },
+              "Text-optionDesc": {
+                "Font": "Lora",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Text-colorName": {
+                "Font": "Inter",
+                "Color": "#374151",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#F9FAFB",
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "isGradient": false,
+                "direction": "to bottom right",
+                "opacity": 100
+              },
+              "Colors": {
+                "cardBackgroundColor": "#FFFFFF",
+                "selectedTypeBorderColor": "#3B82F6",
+                "selectedColorBorderColor": "#3B82F6",
+                "titleColor": "#1F2937",
+                "descriptionColor": "#4B5563"
+              }
+            },
+            "Formatting": {
+              "layout": "horizontal-split",
+              "imageBorderRadius": "8px"
+            },
+            "optionTypes": [
+              {
+                "id": "industrial",
+                "name": "Industrial & Manufacturing",
+                "description": "Heavy-duty solutions for demanding industrial environments with superior durability and performance specifications.",
+                "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png",
+                "colors": [
+                  {
+                    "id": "galvalume",
+                    "name": "Galvalume",
+                    "colorHex": "#8C8C8C",
+                    "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png"
+                  }
+                ]
+              }
+            ],
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/3/OptionSelectorBlock/composite.jpg": "Deck Construction — OptionSelectorBlock (config.Content.options.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/3/OptionSelectorBlock/wood.jpg": "Deck Construction — OptionSelectorBlock (config.Content.options.1.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/3/OptionSelectorBlock/pvc.jpg": "Deck Construction — OptionSelectorBlock (config.Content.options.2.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg": "Deck Construction — OptionSelectorBlock (config.optionTypes.0.imageUrl) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "VideoCTA",
+          "config": {
+            "videoSrc": "/assets/videos/metal-roofing-process.mp4",
+            "title": "Ready to Invest in Metal Roofing?",
+            "description": "Get in touch for a free consultation and discover how metal roofing can transform your commercial property with enhanced durability, energy efficiency, and aesthetic appeal.",
+            "buttonText": "Schedule Metal Roofing Consultation",
+            "buttonLink": "/#contact",
+            "textColor": "#FFFFFF",
+            "textAlignment": "center",
+            "styling": {
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.65,
+              "roundnessRem": 2.5,
+              "gradientConfig": {
+                "direction": "to bottom",
+                "startColor": "#000000",
+                "endColor": "#333333"
+              }
+            },
+            "buttonStyling": {
+              "backgroundColor": "#fbbf24",
+              "textColor": "#222222"
+            },
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 32,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 24,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#E5E7EB",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.6,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "Content": {
+              "title": "Watch Our Deck Construction Process",
+              "description": "See how we bring your deck vision to life.",
+              "videoUrl": "https://example.com/deck-construction-video"
+            }
+          }
+        },
+        {
+          "blockName": "PricingGrid",
+          "config": {
+            "variant": "grid",
+            "title": "Metal Roofing Options",
+            "showPrice": true,
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 28,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 22,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "itemTitleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 20,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 18,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "itemDescriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#374151",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "rateTextSettings": {
+              "Font": "Inter",
+              "Color": "#059669",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "featuresTextSettings": {
+              "Font": "Inter",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 13,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#F9FAFB",
+                "endColor": "#F9FAFB"
+              },
+              "backgroundColor": "#F9FAFB",
+              "cardBackgroundColor": "#FFFFFF",
+              "buttonBackgroundColor": "#3B82F6",
+              "buttonTextColor": "#FFFFFF",
+              "backgroundOpacity": 100
+            },
+            "items": [
+              {
+                "id": "metal_standing_seam",
+                "title": "Standing Seam Metal",
+                "image": "/personal/generation/img/services/commercial/1/PricingGrid/primary.png",
+                "alt": "Standing Seam Metal Roofing",
+                "description": "Premium concealed fastener system with superior weather protection.",
+                "rate": "$12 - $18 / sq ft",
+                "features": [
+                  "Concealed fasteners",
+                  "Superior weather protection",
+                  "40-70 year lifespan"
+                ],
+                "buttonText": "Get Quote",
+                "buttonLink": "/#contact"
+              }
+            ],
+            "Content": {
+              "title": "Affordable Pricing Plans",
+              "rates": [
+                {
+                  "plan": "Standard Deck",
+                  "price": "$50/sq ft",
+                  "features": [
+                    "Basic materials",
+                    "Standard design",
+                    "1-year warranty"
+                  ]
+                },
+                {
+                  "plan": "Premium Deck",
+                  "price": "$75/sq ft",
+                  "features": [
+                    "High-quality materials",
+                    "Custom design options",
+                    "3-year warranty"
+                  ]
+                },
+                {
+                  "plan": "Luxury Deck",
+                  "price": "$100/sq ft",
+                  "features": [
+                    "Top-tier materials",
+                    "Fully customized designs",
+                    "5-year warranty"
+                  ]
+                }
+              ]
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg": "Deck Construction — PricingGrid (config.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Commercial Roof Maintenance",
+      "blocks": [
+        {
+          "blockName": "HeroBlock",
+          "config": {
+            "Content": {
+              "mainTitle": "Expert Commercial Roof Maintenance",
+              "subTitle": "Protect your investment with our comprehensive maintenance services.",
+              "images": [
+                "/personal/generation/img/services/commercial/4/HeroBlock/primary.png"
+              ]
+            },
+            "Design": {
+              "Text-mainTitle": {
+                "Font": "Inter",
+                "Color": "#FFFFFF",
+                "Desktop": {
+                  "Size": 42,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-subTitle": {
+                "Font": "Inter",
+                "Color": "#E5E7EB",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "path": "/personal/generation/img/services/commercial/1/HeroBlock/primary.png",
+                "background": [
+                  "#2D3748",
+                  "#2D3748"
+                ],
+                "direction": "to right",
+                "opacity": 100
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 75,
+                "Desktop": 50
+              },
+              "ExpandedHeight": {
+                "Mobile": 90,
+                "Desktop": 70
+              }
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/4/HeroBlock/primary.jpg": "Commercial Roof Maintenance — HeroBlock (config.Content.images.0) — clean professional photo, correct perspective, realistic lighting, appropriate composition",
+                "/personal/old/img/services/commercial/1/HeroBlock/primary.jpg": "Commercial Roof Maintenance — HeroBlock (config.Design.Bg.path) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OverviewAndAdvantagesBlock",
+          "config": {
+            "width_height": {
+              "width": 32,
+              "height": 32
+            },
+            "heading": "Why Choose Metal Roofing for Your Commercial Property",
+            "description": "Metal roofing represents the pinnacle of durability, energy efficiency, and aesthetic appeal for commercial buildings. Our premium metal roofing systems provide unmatched longevity, weather resistance, and cost-effectiveness over the building's lifetime.",
+            "backgroundOpacity": 100,
+            "headingTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 36,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 28,
+                "Weight": 800,
+                "Height": 1.1,
+                "Spacing": 0
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bulletTitleTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#111827",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 500,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "bulletDescriptionTextSettings": {
+              "Font": "\"Inter\", sans-serif",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0
+              }
+            },
+            "bullets": [
+              {
+                "id": 1,
+                "title": "Exceptional Durability",
+                "description": "Metal roofing systems last 40-70 years with minimal maintenance, providing superior resistance to fire, wind, hail, and extreme weather conditions.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Shield"
+                }
+              },
+              {
+                "id": 2,
+                "title": "Energy Efficiency",
+                "description": "Reflective metal surfaces reduce cooling costs by up to 25%, with cool roof coatings available to maximize energy savings and LEED certification points.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Zap"
+                }
+              },
+              {
+                "id": 3,
+                "title": "Low Maintenance",
+                "description": "Unlike other roofing materials, metal roofs require minimal upkeep and retain their appearance and performance for decades with simple periodic inspections.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Settings"
+                }
+              },
+              {
+                "id": 4,
+                "title": "Design Versatility",
+                "description": "Available in numerous profiles, colors, and finishes to complement any architectural style, from modern industrial to traditional commercial designs.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Palette"
+                }
+              },
+              {
+                "id": 5,
+                "title": "Environmental Sustainability",
+                "description": "100% recyclable materials with high recycled content, contributing to LEED points and reducing environmental impact throughout the building lifecycle.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Leaf"
+                }
+              },
+              {
+                "id": 6,
+                "title": "Weather Performance",
+                "description": "Superior resistance to wind uplift (up to 140 mph), impact damage, thermal cycling, and UV degradation ensures long-term structural integrity.",
+                "icon": {
+                  "pack": "lucide",
+                  "name": "Cloud"
+                }
+              }
+            ],
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#f3f4f6",
+                "endColor": "#f3f4f6"
+              },
+              "cardBackgroundColor": "#F9FAFB",
+              "desktopGridLayout": "three-column",
+              "mobileGridLayout": "one-column",
+              "desktopCardSpacing": "normal",
+              "mobileCardSpacing": "normal"
+            },
+            "Content": {
+              "title": "Why Choose Our Roof Maintenance Services?",
+              "description": "Our commercial roof maintenance program is designed to extend the lifespan of your roof while saving you money on repairs and replacements.",
+              "advantages": [
+                "Prolongs roof lifespan",
+                "Reduces long-term repair costs",
+                "Enhances energy efficiency",
+                "Protects against leaks and water damage"
+              ]
+            }
+          }
+        },
+        {
+          "blockName": "GeneralListVariant2",
+          "config": {
+            "Content": {
+              "title": "Our Maintenance Process",
+              "items": [
+                "Initial roof inspection and assessment",
+                "Cleaning and debris removal",
+                "Repairs for minor damages",
+                "Protective coatings and treatments",
+                "Regular follow-up inspections"
+              ]
+            },
+            "Design": {
+              "Text-title": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.5
+                },
+                "Mobile": {
+                  "Size": 28,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 0.4
+                }
+              },
+              "Text-description": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 18,
+                  "Height": 1.5,
+                  "Weight": 400,
+                  "Spacing": 0.3
+                },
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.2
+                }
+              },
+              "Text-itemTitle": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 18,
+                  "Height": 1.3,
+                  "Weight": 700,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-itemDescription": {
+                "Font": "Inter",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 16,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                },
+                "Mobile": {
+                  "Size": 14,
+                  "Height": 1.4,
+                  "Weight": 400,
+                  "Spacing": 0.1
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "direction": "to bottom right",
+                "opacity": 100,
+                "isGradient": false
+              },
+              "Colors": {
+                "buttonColor": "#3B82F6"
+              }
+            },
+            "Formatting": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 80
+              }
+            }
+          }
+        },
+        {
+          "blockName": "OptionSelectorBlock",
+          "config": {
+            "Content": {
+              "title": "Maintenance Packages Available",
+              "options": [
+                {
+                  "name": "Basic Package",
+                  "description": "Annual inspections and maintenance.",
+                  "rate": "$500/year"
+                },
+                {
+                  "name": "Standard Package",
+                  "description": "Biannual inspections with minor repairs.",
+                  "rate": "$900/year"
+                },
+                {
+                  "name": "Premium Package",
+                  "description": "Quarterly inspections with comprehensive coverage.",
+                  "rate": "$1500/year"
+                }
+              ]
+            },
+            "Design": {
+              "Text-sectionTitle": {
+                "Font": "Playfair Display",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 36
+                },
+                "Mobile": {
+                  "Size": 28
+                }
+              },
+              "Text-optionName": {
+                "Font": "Inter",
+                "Color": "#1F2937",
+                "Desktop": {
+                  "Size": 18
+                },
+                "Mobile": {
+                  "Size": 16
+                }
+              },
+              "Text-optionDesc": {
+                "Font": "Lora",
+                "Color": "#4B5563",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Text-colorName": {
+                "Font": "Inter",
+                "Color": "#374151",
+                "Desktop": {
+                  "Size": 14
+                },
+                "Mobile": {
+                  "Size": 12
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#F9FAFB",
+                "background": [
+                  "#F9FAFB",
+                  "#F9FAFB"
+                ],
+                "isGradient": false,
+                "direction": "to bottom right",
+                "opacity": 100
+              },
+              "Colors": {
+                "cardBackgroundColor": "#FFFFFF",
+                "selectedTypeBorderColor": "#3B82F6",
+                "selectedColorBorderColor": "#3B82F6",
+                "titleColor": "#1F2937",
+                "descriptionColor": "#4B5563"
+              }
+            },
+            "Formatting": {
+              "layout": "horizontal-split",
+              "imageBorderRadius": "8px"
+            },
+            "optionTypes": [
+              {
+                "id": "industrial",
+                "name": "Industrial & Manufacturing",
+                "description": "Heavy-duty solutions for demanding industrial environments with superior durability and performance specifications.",
+                "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png",
+                "colors": [
+                  {
+                    "id": "galvalume",
+                    "name": "Galvalume",
+                    "colorHex": "#8C8C8C",
+                    "imageUrl": "/personal/generation/img/services/commercial/1/OptionSelectorBlock/primary.png"
+                  }
+                ]
+              }
+            ],
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/OptionSelectorBlock/primary.jpg": "Commercial Roof Maintenance — OptionSelectorBlock (config.optionTypes.0.imageUrl) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        },
+        {
+          "blockName": "VideoCTA",
+          "config": {
+            "videoSrc": "/assets/videos/metal-roofing-process.mp4",
+            "title": "Ready to Invest in Metal Roofing?",
+            "description": "Get in touch for a free consultation and discover how metal roofing can transform your commercial property with enhanced durability, energy efficiency, and aesthetic appeal.",
+            "buttonText": "Schedule Metal Roofing Consultation",
+            "buttonLink": "/#contact",
+            "textColor": "#FFFFFF",
+            "textAlignment": "center",
+            "styling": {
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.65,
+              "roundnessRem": 2.5,
+              "gradientConfig": {
+                "direction": "to bottom",
+                "startColor": "#000000",
+                "endColor": "#333333"
+              }
+            },
+            "buttonStyling": {
+              "backgroundColor": "#fbbf24",
+              "textColor": "#222222"
+            },
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 32,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 24,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "descriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#E5E7EB",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 400,
+                "Height": 1.6,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "Content": {
+              "title": "See Our Maintenance Process in Action",
+              "videoUrl": "https://example.com/maintenance-video",
+              "description": "Watch how our expert team ensures your roof remains in top condition."
+            }
+          }
+        },
+        {
+          "blockName": "PricingGrid",
+          "config": {
+            "variant": "grid",
+            "title": "Metal Roofing Options",
+            "showPrice": true,
+            "titleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 28,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.3
+              },
+              "Mobile": {
+                "Size": 22,
+                "Weight": 700,
+                "Height": 1.3,
+                "Spacing": 0.2
+              }
+            },
+            "itemTitleTextSettings": {
+              "Font": "Inter",
+              "Color": "#1F2937",
+              "Desktop": {
+                "Size": 20,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 18,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "itemDescriptionTextSettings": {
+              "Font": "Inter",
+              "Color": "#374151",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.4,
+                "Spacing": 0
+              }
+            },
+            "rateTextSettings": {
+              "Font": "Inter",
+              "Color": "#059669",
+              "Desktop": {
+                "Size": 18,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 16,
+                "Weight": 700,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "featuresTextSettings": {
+              "Font": "Inter",
+              "Color": "#6B7280",
+              "Desktop": {
+                "Size": 14,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 13,
+                "Weight": 400,
+                "Height": 1.5,
+                "Spacing": 0.1
+              }
+            },
+            "buttonTextSettings": {
+              "Font": "Inter",
+              "Color": "#FFFFFF",
+              "Desktop": {
+                "Size": 16,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              },
+              "Mobile": {
+                "Size": 14,
+                "Weight": 600,
+                "Height": 1.4,
+                "Spacing": 0.1
+              }
+            },
+            "styling": {
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "#F9FAFB",
+                "endColor": "#F9FAFB"
+              },
+              "backgroundColor": "#F9FAFB",
+              "cardBackgroundColor": "#FFFFFF",
+              "buttonBackgroundColor": "#3B82F6",
+              "buttonTextColor": "#FFFFFF",
+              "backgroundOpacity": 100
+            },
+            "items": [
+              {
+                "id": "metal_standing_seam",
+                "title": "Standing Seam Metal",
+                "image": "/personal/generation/img/services/commercial/1/PricingGrid/primary.png",
+                "alt": "Standing Seam Metal Roofing",
+                "description": "Premium concealed fastener system with superior weather protection.",
+                "rate": "$12 - $18 / sq ft",
+                "features": [
+                  "Concealed fasteners",
+                  "Superior weather protection",
+                  "40-70 year lifespan"
+                ],
+                "buttonText": "Get Quote",
+                "buttonLink": "/#contact"
+              }
+            ],
+            "Content": {
+              "title": "Transparent Pricing for Quality Service",
+              "rates": [
+                {
+                  "service": "Annual Inspection",
+                  "price": "$200"
+                },
+                {
+                  "service": "Minor Repairs",
+                  "price": "$150/hour"
+                },
+                {
+                  "service": "Major Repairs",
+                  "price": "Quote on Request"
+                }
+              ]
+            },
+            "ImageProps": {
+              "promptsByPath": {
+                "/personal/old/img/services/commercial/1/PricingGrid/primary.jpg": "Commercial Roof Maintenance — PricingGrid (config.items.0.image) — clean professional photo, correct perspective, realistic lighting, appropriate composition"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

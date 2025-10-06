@@ -1,0 +1,36 @@
+{
+  "generated_swatches": [
+    {
+      "type": "shingle_swatch",
+      "prompt": "A flat, square SAMPLE SWATCH image of asphalt roof shingles, viewed straight down from above (perfect orthographic top‑down). Show ONLY the shingle material pattern and texture — no house, no roof, no background, no surrounding elements. Uniform repeating layout, detailed gritty mineral granules, with a mix of dark gray tones and subtle lighter/brown accents. No perspective tilt, no shadowed edges that imply a roof pitch, no logos or text. Photorealistic product sample, evenly lit, high detail.",
+      "output": "public/data/generation/webgen/img/output/shingle_swatch.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T20:43:03.864467",
+      "model": "gpt-image-1",
+      "quality": "medium"
+    },
+    {
+      "type": "shingle_swatch",
+      "name": "Weathered Wood",
+      "prompt": "A flat, square SAMPLE SWATCH image of asphalt roof shingles, viewed straight down from above (perfect orthographic top‑down). Show ONLY the shingle material pattern and texture — no house, no roof, no background, no surrounding elements. Uniform repeating layout, detailed gritty mineral granules, with a mix of dark gray tones and subtle lighter/brown accents. No perspective tilt, no shadowed edges that imply a roof pitch, no logos or text. Photorealistic product sample, evenly lit, high detail. Style/Name: 'Weathered Wood'.",
+      "output": "public/data/generation/webgen/img/output/shingle_swatch.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-05T11:38:06.996046",
+      "model": "gpt-image-1",
+      "quality": "medium"
+    },
+    {
+      "type": "shingle_swatch",
+      "name": "K-style Aluminum",
+      "prompt": "A clean, isolated PRODUCT SAMPLE image of an aluminum K‑style rain gutter segment on a neutral backdrop. Orthographic front elevation view to clearly show the K‑style profile curve and edges. Brushed aluminum texture with subtle reflections; no house, roof, or installation context. No perspective distortion; even studio lighting; high detail; no logos or extra text. Style/Name: 'K-style Aluminum'.",
+      "output": "public/data/generation/webgen/img/output/shingle_swatch.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-05T14:51:56.355711",
+      "model": "gpt-image-1",
+      "quality": "medium"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-09-05T14:51:56.356075"
+  }
+}

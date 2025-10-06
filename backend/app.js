@@ -48,6 +48,55 @@ const app = express();
 // Allow all CORS origins
 app.use(cors());
 
+// Setup Python environment on startup
+const setupPythonEnvironment = () => {
+  const { exec } = require('child_process');
+  const path = require('path');
+  
+  console.log('Setting up Python environment...');
+  const setupScript = path.join(__dirname, '..', 'setup.sh');
+  
+  exec(`chmod +x ${setupScript} && ${setupScript}`, (error, stdout, stderr) => {
+    if (error) {
+      console.warn('Python environment setup failed:', error.message);
+      console.warn('Python-dependent features may not work properly');
+    } else {
+      console.log('Python environment setup completed');
+      console.log(stdout);
+    }
+  });
+};
+
+// Run Python setup (non-blocking)
+setupPythonEnvironment();
+
+// API Key Authentication Middleware
+const authenticateApiKey = (req, res, next) => {
+  const apiKey = req.headers['x-api-key'] || req.headers['authorization']?.replace('Bearer ', '');
+  const validApiKey = process.env.API_SECRET_KEY;
+  
+  if (!validApiKey) {
+    console.warn('API_SECRET_KEY not set - authentication disabled');
+    return next();
+  }
+  
+  if (!apiKey) {
+    return res.status(401).json({
+      success: false,
+      error: 'API key required. Include x-api-key header or Authorization: Bearer <key>'
+    });
+  }
+  
+  if (apiKey !== validApiKey) {
+    return res.status(403).json({
+      success: false,
+      error: 'Invalid API key'
+    });
+  }
+  
+  next();
+};
+
 // Parse JSON and URL-encoded bodies (increase limits for in-memory research payloads)
 app.use(bodyParser.json({ limit: '12mb' }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '12mb' }));
@@ -78,7 +127,7 @@ let activeColorLogoDataUrl = null;
  * 4. Sends the email using SendGrid
  * 5. Returns a success or error response
  */
-app.post("/submit-booking", async (req, res) => {
+app.post("/submit-booking", authenticateApiKey, async (req, res) => {
   try {
     // Extract form data from request body
     const { firstName, lastName, email, phone, service, message, contactEmail } = req.body;
@@ -481,22 +530,22 @@ app.post('/api/run-bbb-scraping', (req, res) => {
 });
 
 // Add reviews scrape route FIRST to ensure memory-only handler takes precedence
-app.use('/backend', reviewsScrapeRouter);
+app.use('/backend', authenticateApiKey, reviewsScrapeRouter);
 // Add scraping route (BBB + legacy review variants)
-app.use('/backend', scrapeBbbRouter);
+app.use('/backend', authenticateApiKey, scrapeBbbRouter);
 // Add enhance logo route
-app.use('/backend', enhanceLogoRouter);
+app.use('/backend', authenticateApiKey, enhanceLogoRouter);
 // Add generate logo route
-app.use('/backend', generateLogoRouter);
+app.use('/backend', authenticateApiKey, generateLogoRouter);
 // Add business search route
-app.use('/backend', businessSearchRouter);
+app.use('/backend', authenticateApiKey, businessSearchRouter);
 // Add extract colors route
-app.use('/backend', extractColorsRouter);
+app.use('/backend', authenticateApiKey, extractColorsRouter);
 // Add yelp scrape route
-app.use('/backend', yelpScrapeRouter);
+app.use('/backend', authenticateApiKey, yelpScrapeRouter);
 
 // Generate services JSON (memory-only) via Python
-app.post('/backend/generate-services-json', (req, res) => {
+app.post('/backend/generate-services-json', authenticateApiKey, (req, res) => {
   try {
     const openaiKey = process.env.OPENAI_API_KEY;
     console.log('[Services JSON] Starting generation');
@@ -1936,13 +1985,13 @@ app.post('/backend/analyze-reviews', (req, res) => {
   }
 });
 
-// Health check endpoint
+// Health check endpoint (no auth required)
 app.get("/health", (req, res) => {
   res.status(200).json({ status: "ok" });
 });
 
 // Test endpoint for lead generation
-app.get("/api/test-lead-pipeline", (req, res) => {
+app.get("/api/test-lead-pipeline", authenticateApiKey, (req, res) => {
   res.status(200).json({ 
     success: true, 
     message: 'Lead generation test endpoint is working.',

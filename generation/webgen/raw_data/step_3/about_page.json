@@ -1,0 +1,79 @@
+{
+  "title": "Roofing Company",
+  "subtitle": "Your Trusted Roofing Experts in Atlanta",
+  "history": "Founded in 2015, Roofing Company has been providing top-quality roofing services in Atlanta for over a decade. Our commitment to excellence has established us as a leader in the industry.",
+  "mission": "To deliver exceptional roofing solutions that enhance the safety and aesthetics of our clients' homes while maintaining the highest standards of quality and service.",
+  "values": [
+    {
+      "title": "Integrity",
+      "description": "We uphold the highest standards of honesty and transparency in all our dealings."
+    },
+    {
+      "title": "Quality",
+      "description": "We are dedicated to using the best materials and techniques to ensure long-lasting results."
+    }
+  ],
+  "team": [
+    {
+      "name": "John Doe",
+      "position": "CEO",
+      "photo": "/personal/old/img/about_page/team/1.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "position": "Project Manager",
+      "photo": "/personal/old/img/about_page/team/2.jpg"
+    }
+  ],
+  "stats": [
+    {
+      "title": "Years in Business",
+      "value": "10",
+      "icon": ""
+    },
+    {
+      "title": "Projects Completed",
+      "value": "500+",
+      "icon": ""
+    }
+  ],
+  "heroImage": "/personal/old/img/about_page/Hero/1.jpg",
+  "ImageProps": {
+    "hero": {
+      "v1": "Photorealistic wide hero image of a trusted Atlanta roofing company crew with branded truck in background, clean curb appeal house, warm natural light, copy-safe right third, 16:9"
+    },
+    "team": {
+      "v1": "Professional headshot on neutral backdrop, friendly confident expression, soft key light, shallow depth of field",
+      "v2": "Team portrait outdoors in front of a home, branded shirts, natural light, balanced composition",
+      "v3": "On-site candid: technician with tools on roof edge, safe and professional, shallow depth",
+      "v4": "Crew lineup with ladder and tool belts, smiling, brand-neutral background",
+      "v5": "Workshop scene with materials neatly arranged, technician at work, warm tone"
+    }
+  },
+  "steps": [
+    {
+      "title": "Book",
+      "videoSrc": "/assets/videos/our_process_videos/booking.mp4",
+      "href": "/#booking",
+      "scale": 0.8
+    },
+    {
+      "title": "Inspection",
+      "videoSrc": "/assets/videos/our_process_videos/magnify.mp4",
+      "href": "/inspection",
+      "scale": 1.25
+    },
+    {
+      "title": "Service",
+      "videoSrc": "/assets/videos/our_process_videos/repair.mp4",
+      "href": "/#packages",
+      "scale": 1.1
+    },
+    {
+      "title": "Review",
+      "videoSrc": "/assets/videos/our_process_videos/approval.mp4",
+      "href": "/#testimonials",
+      "scale": 0.9
+    }
+  ]
+}

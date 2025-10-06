@@ -1,0 +1,38 @@
+{
+  "residential": [
+    {
+      "id": 1,
+      "name": "Shingling"
+    },
+    {
+      "id": 2,
+      "name": "Guttering"
+    },
+    {
+      "id": 3,
+      "name": "Chimney"
+    },
+    {
+      "id": 4,
+      "name": "Skylights"
+    }
+  ],
+  "commercial": [
+    {
+      "id": 1,
+      "name": "Coatings"
+    },
+    {
+      "id": 2,
+      "name": "Built-Up"
+    },
+    {
+      "id": 3,
+      "name": "Metal Roof"
+    },
+    {
+      "id": 4,
+      "name": "Drainage"
+    }
+  ]
+}

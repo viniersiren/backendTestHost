@@ -1,0 +1,2266 @@
+{
+  "mainPageBlocks": [
+    {
+      "blockName": "HeroBlock",
+      "config": {
+        "Content": {
+          "images": [
+            "/personal/old/img/main_page_images/HeroBlock/hero_bg.png"
+          ],
+          "variant": "hammer",
+          "businessName": "McKay Construction, Inc.",
+          "telephone": "(404) 399-6900",
+          "address": "966 Forest Trce Stone Mountain, GA 30088-2613",
+          "mainTitle": "McKay Construction",
+          "subTitle": "Inc."
+        },
+        "Design": {
+          "Text-main": {
+            "Color": "#b09b9b",
+            "Font": "Impact",
+            "Mobile": {
+              "Size": 24,
+              "Height": 1.2,
+              "Weight": 700,
+              "Spacing": 2
+            },
+            "Desktop": {
+              "Size": 34,
+              "Height": 1.1,
+              "Weight": 700,
+              "Spacing": 1
+            }
+          },
+          "Text-sub": {
+            "Color": "#b09b9b",
+            "Font": "Impact",
+            "Mobile": {
+              "Size": 16,
+              "Height": 1.3,
+              "Weight": 500,
+              "Spacing": 0.2
+            },
+            "Desktop": {
+              "Size": 20,
+              "Height": 1.2,
+              "Weight": 500,
+              "Spacing": 0.5
+            }
+          },
+          "Bg": {
+            "background": [
+              "#8acbdb",
+              "#4f4a4a"
+            ],
+            "direction": "to bottom",
+            "opacity": 24
+          },
+          "Top-gradient": {
+            "start": "#1e293b"
+          },
+          "Bottom-gradient": {
+            "start": "#1e293b"
+          },
+          "IconColor": {
+            "residential": "#ffffff",
+            "commercial": "#ffffff"
+          }
+        },
+        "Formatting": {
+          "Height": {
+            "Mobile": 50,
+            "Desktop": 63
+          },
+          "Offset": {
+            "Mobile": 0,
+            "Desktop": 6.6
+          },
+          "IconScale": {
+            "Mobile": 8,
+            "Desktop": 10
+          }
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "Cinematic wide shot of a professional roofing crew silhouetted against a glowing golden-hour sky, perched along the ridgeline of a charming suburban home; ladders lean against the eaves, harness tethers arc gracefully, and warm sunlight reveals the crisp texture of fresh shingles; hyper-detailed, color-graded, 16:9 panoramic composition",
+            "v2": "Sunrise bathes a quiet neighborhood street as roofers ascend sturdy aluminum ladders, tool belts and nail guns catching the first orange light; the home’s gables create elegant geometry while wisps of mist lift from the lawns; rich contrast, storybook suburban setting, ultra-sharp, 16:9",
+            "v3": "High vantage editorial image of a coordinated roofing team working across a steep-pitched roof, safety lines taut, chalk guidelines precise; the sky is crystal blue, the shingle pattern meticulously aligned, and a subtle breeze ruffles a branded cap; immersive clarity, professional tone, 16:9",
+            "v4": "Low-angle dynamic frame of two roofers laying ridge caps in perfect sequence, each shingle edge catching the sun like facets; the camera glides along the crest, highlighting sure hands, clean lines, and immaculate craftsmanship; razor-sharp textures, cinematic depth, 16:9",
+            "v5": "Warm evening tableau of a driveway with a branded pickup, stacked shingle bundles, and a tidy jobsite; up on the roof, the crew works in rhythm as golden light paints long shadows over the gables; photojournalistic realism, inviting and trustworthy, 16:9"
+          },
+          "imag_gen2": {
+            "v1": "Elegant abstract gradient background that murmurs with faint, layered roofline silhouettes—barely-there shapes that suggest structure without distraction; soft vignette edges and a calm color drift designed to cradle bold headline text, 16:9",
+            "v2": "Minimal graphite-to-slate gradient with feathery roof iconography ghosted beneath the surface; generous negative space invites typography, while the backdrop remains dignified and modern, 16:9",
+            "v3": "Slate-blue wash with a whisper of shingle lattice woven into the gradient; the texture reads as atmosphere rather than pattern, maintaining a tranquil field for UI elements, 16:9",
+            "v4": "Golden-amber to sand gradient that carries a gentle diagonal roofline motif; the contrast is intentionally restrained, letting buttons and titles float effortlessly, 16:9",
+            "v5": "Cool dove-grey gradient with a powdery noise patina and the softest hint of roof geometry; editorial polish, timeless neutrality, and wide usability, 16:9"
+          }
+        },
+        "Variants": {
+          "default": {
+            "design_1": {
+              "Text-main": {
+                "Color": "#b09b9b",
+                "Font": "Impact",
+                "Mobile": {
+                  "Size": 24,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 2
+                },
+                "Desktop": {
+                  "Size": 34,
+                  "Height": 1.1,
+                  "Weight": 700,
+                  "Spacing": 1
+                }
+              },
+              "Text-sub": {
+                "Color": "#b09b9b",
+                "Font": "Impact",
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.3,
+                  "Weight": 500,
+                  "Spacing": 0.2
+                },
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.2,
+                  "Weight": 500,
+                  "Spacing": 0.5
+                }
+              },
+              "Bg": {
+                "background": [
+                  "#8acbdb",
+                  "#4f4a4a"
+                ],
+                "direction": "to bottom",
+                "opacity": 24
+              },
+              "Top-gradient": {
+                "start": "#1e293b"
+              },
+              "Bottom-gradient": {
+                "start": "#1e293b"
+              },
+              "IconColor": {
+                "residential": "#ffffff",
+                "commercial": "#ffffff"
+              }
+            },
+            "formatting_1": {
+              "Height": {
+                "Mobile": 50,
+                "Desktop": 63
+              },
+              "Offset": {
+                "Mobile": 0,
+                "Desktop": 6.6
+              },
+              "IconScale": {
+                "Mobile": 8,
+                "Desktop": 10
+              }
+            }
+          },
+          "hammer": {
+            "design_1": {
+              "Text-main": {
+                "Color": "#b09b9b",
+                "Font": "Impact",
+                "Mobile": {
+                  "Size": 24,
+                  "Height": 1.2,
+                  "Weight": 700,
+                  "Spacing": 2
+                },
+                "Desktop": {
+                  "Size": 34,
+                  "Height": 1.1,
+                  "Weight": 700,
+                  "Spacing": 1
+                }
+              },
+              "Text-sub": {
+                "Color": "#b09b9b",
+                "Font": "Impact",
+                "Mobile": {
+                  "Size": 16,
+                  "Height": 1.3,
+                  "Weight": 500,
+                  "Spacing": 0.2
+                },
+                "Desktop": {
+                  "Size": 20,
+                  "Height": 1.2,
+                  "Weight": 500,
+                  "Spacing": 0.5
+                }
+              }
+            },
+            "formatting_1": {}
+          }
+        }
+      }
+    },
+    {
+      "blockName": "RichTextBlock",
+      "config": {
+        "Content": {
+          "ctaHeadlineText": "Get your FREE consultation today",
+          "ctaButtonText": "Book",
+          "heroText": "Quality Roofing Solutions by McKay Construction, Inc.",
+          "bus_description": "McKay Construction, Inc. has been a trusted name in the roofing industry for 14 years, delivering exceptional craftsmanship and reliability. Specializing in residential and commercial roofing, we combine time-tested techniques with modern materials to ensure durability, aesthetic appeal, and long-lasting protection for your property.\n\nAt McKay Construction, Inc., we pride ourselves on personalized service and unwavering integrity. Our skilled team handles every project with meticulous attention to detail, from initial inspection to final installation. Customer satisfaction is our top priority, and we stand behind our work with industry-leading warranties and transparent communication.",
+          "cards": [
+            {
+              "id": "card-1",
+              "title": "Residential Roofing",
+              "desc": "Specializing in shingling, guttering, chimney, and skylight services for your home.",
+              "icon": "Home",
+              "iconPack": "lucide"
+            },
+            {
+              "id": "card-2",
+              "title": "Commercial Solutions",
+              "desc": "Offering advanced coatings, built-up roofs, metal roofing, and drainage systems for businesses.",
+              "icon": "Building",
+              "iconPack": "lucide"
+            },
+            {
+              "id": "card-3",
+              "title": "Trusted Experience",
+              "desc": "With 14 years in the industry, we prioritize quality and customer satisfaction.",
+              "icon": "Shield",
+              "iconPack": "lucide"
+            },
+            {
+              "id": "card-4",
+              "title": "Free Estimates",
+              "desc": "Contact us today for a no-obligation quote tailored to your needs.",
+              "icon": "Clipboard",
+              "iconPack": "lucide"
+            }
+          ],
+          "swatchMaterials": [
+            "Architectural Asphalt",
+            "3-Tab Asphalt",
+            "Luxury Asphalt",
+            "Impact-Resistant Asphalt",
+            "Cool Roof Asphalt",
+            "Cedar Shake",
+            "Cedar Shingle",
+            "Engineered Wood",
+            "Composite Shake",
+            "Recycled Rubber",
+            "Standing Seam Metal",
+            "Corrugated Metal",
+            "Stone-Coated Steel",
+            "Aluminum Shingle",
+            "Copper Panel",
+            "Natural Slate",
+            "Composite Slate",
+            "Clay Tile",
+            "Concrete Tile",
+            "Synthetic Tile"
+          ],
+          "images": [
+            "/personal/old/img/main_page_images/RichTextBlock/richtext_1.jpg",
+            "/personal/old/img/main_page_images/RichTextBlock/richtext_2.jpg",
+            "/personal/old/img/main_page_images/RichTextBlock/richtext_3.webp"
+          ]
+        },
+        "Formatting": {
+          "variant": "classic",
+          "variants": {
+            "classic": {
+              "Design": {
+                "Text-ctaHeadline": {
+                  "Color": "#FFFFFF",
+                  "Font": "Playfair Display",
+                  "Mobile": {
+                    "Size": 20,
+                    "Height": 1.3,
+                    "Weight": 700,
+                    "Spacing": 0.2
+                  },
+                  "Desktop": {
+                    "Size": 24,
+                    "Height": 1.3,
+                    "Weight": 700,
+                    "Spacing": 0.2
+                  }
+                },
+                "Text-ctaButton": {
+                  "Color": "#FFFFFF",
+                  "Font": "Inter",
+                  "Mobile": {
+                    "Size": 14,
+                    "Height": 1.2,
+                    "Weight": 700,
+                    "Spacing": 0.2
+                  },
+                  "Desktop": {
+                    "Size": 16,
+                    "Height": 1.2,
+                    "Weight": 700,
+                    "Spacing": 0.2
+                  }
+                },
+                "Button-cta": {
+                  "backgroundColor": "#3b82f6"
+                },
+                "BusDescriptionContainer": {
+                  "backgroundColor": "#1e293b",
+                  "opacity": 80
+                },
+                "Text-hero": {
+                  "Color": "#FFFFFF",
+                  "Font": "Playfair Display",
+                  "Mobile": {
+                    "Size": 36,
+                    "Height": 1.3,
+                    "Weight": 700,
+                    "Spacing": 0.5
+                  },
+                  "Desktop": {
+                    "Size": 26,
+                    "Height": 1.3,
+                    "Weight": 700,
+                    "Spacing": 0.5
+                  }
+                },
+                "Text-card-title": {
+                  "Color": "#1F2937",
+                  "Font": "Montserrat",
+                  "Mobile": {
+                    "Size": 12,
+                    "Height": 1.4,
+                    "Weight": 700,
+                    "Spacing": 0.1
+                  },
+                  "Desktop": {
+                    "Size": 18,
+                    "Height": 1.4,
+                    "Weight": 600,
+                    "Spacing": 0.1
+                  }
+                },
+                "Text-card-desc": {
+                  "Color": "#4B5563",
+                  "Font": "Lora",
+                  "Mobile": {
+                    "Size": 14,
+                    "Height": 1.5,
+                    "Weight": 400,
+                    "Spacing": 0
+                  },
+                  "Desktop": {
+                    "Size": 16,
+                    "Height": 1.5,
+                    "Weight": 400,
+                    "Spacing": 0
+                  }
+                },
+                "Icon-card": {
+                  "Color": "#3b82f6"
+                },
+                "Card": {
+                  "backgroundColor": "#FFFFFF"
+                },
+                "IconScale": {
+                  "Mobile": 10,
+                  "Desktop": 6
+                },
+                "Bg": {
+                  "background": [
+                    "#1e293b",
+                    "#334155"
+                  ],
+                  "direction": "to right",
+                  "opacity": 100
+                }
+              },
+              "Formatting": {
+                "useCtaInsteadOfCards": false,
+                "SectionOrder": {
+                  "Mobile": [
+                    "cards",
+                    "showcase"
+                  ],
+                  "Desktop": [
+                    "cards",
+                    "showcase"
+                  ]
+                },
+                "IndicatorRoundness": {
+                  "Mobile": 50,
+                  "Desktop": 50
+                },
+                "GridLayout": {
+                  "Mobile": "two-column",
+                  "Desktop": "four-column"
+                },
+                "CardSpacing": {
+                  "Mobile": "normal",
+                  "Desktop": "normal"
+                },
+                "CardRoundness": {
+                  "Mobile": 16,
+                  "Desktop": 16
+                },
+                "ShowcaseDimensions": {
+                  "Mobile": {
+                    "width": 100,
+                    "height": 50
+                  },
+                  "Desktop": {
+                    "width": 100,
+                    "height": 40
+                  }
+                },
+                "BusDescriptionDimensions": {
+                  "Mobile": {
+                    "width": 40,
+                    "height": 25
+                  },
+                  "Desktop": {
+                    "width": 80,
+                    "height": 55
+                  }
+                }
+              }
+            },
+            "modern": {
+              "Design": {
+                "Text-ctaHeadline": {
+                  "Color": "#FFFFFF",
+                  "Font": "Inter",
+                  "Mobile": {
+                    "Size": 18,
+                    "Height": 1.2,
+                    "Weight": 600,
+                    "Spacing": 0.1
+                  },
+                  "Desktop": {
+                    "Size": 20,
+                    "Height": 1.2,
+                    "Weight": 600,
+                    "Spacing": 0.1
+                  }
+                },
+                "Text-ctaButton": {
+                  "Color": "#FFFFFF",
+                  "Font": "Inter",
+                  "Mobile": {
+                    "Size": 12,
+                    "Height": 1.1,
+                    "Weight": 600,
+                    "Spacing": 0.1
+                  },
+                  "Desktop": {
+                    "Size": 14,
+                    "Height": 1.1,
+                    "Weight": 600,
+                    "Spacing": 0.1
+                  }
+                },
+                "Button-cta": {
+                  "backgroundColor": "#1e293b"
+                },
+                "Text-hero": {
+                  "Color": "#FFFFFF",
+                  "Font": "Inter",
+                  "Mobile": {
+                    "Size": 28,
+                    "Height": 1.2,
+                    "Weight": 600,
+                    "Spacing": 0.3
+                  },
+                  "Desktop": {
+                    "Size": 32,
+                    "Height": 1.2,
+                    "Weight": 600,
+                    "Spacing": 0.3
+                  }
+                },
+                "Text-card-title": {
+                  "Color": "#1F2937",
+                  "Font": "Inter",
+                  "Mobile": {
+                    "Size": 14,
+                    "Height": 1.3,
+                    "Weight": 600,
+                    "Spacing": 0.1
+                  },
+                  "Desktop": {
+                    "Size": 16,
+                    "Height": 1.3,
+                    "Weight": 600,
+                    "Spacing": 0.1
+                  }
+                },
+                "Text-card-desc": {
+                  "Color": "#4B5563",
+                  "Font": "Inter",
+                  "Mobile": {
+                    "Size": 12,
+                    "Height": 1.4,
+                    "Weight": 400,
+                    "Spacing": 0
+                  },
+                  "Desktop": {
+                    "Size": 14,
+                    "Height": 1.4,
+                    "Weight": 400,
+                    "Spacing": 0
+                  }
+                },
+                "Icon-card": {
+                  "Color": "#1e293b"
+                },
+                "IconScale": {
+                  "Mobile": 20,
+                  "Desktop": 28
+                },
+                "Bg": {
+                  "background": [
+                    "#1e293b",
+                    "#1e293b"
+                  ],
+                  "direction": "to right",
+                  "opacity": 100
+                }
+              },
+              "Formatting": {
+                "useCtaInsteadOfCards": false,
+                "SectionOrder": {
+                  "Mobile": [
+                    "showcase",
+                    "cards"
+                  ],
+                  "Desktop": [
+                    "showcase",
+                    "cards"
+                  ]
+                },
+                "IndicatorRoundness": {
+                  "Mobile": 25,
+                  "Desktop": 25
+                },
+                "ItemOrder": [
+                  "card-1",
+                  "card-2",
+                  "card-3",
+                  "card-4"
+                ],
+                "GridLayout": {
+                  "Mobile": "one-column",
+                  "Desktop": "two-column"
+                },
+                "CardSpacing": {
+                  "Mobile": "loose",
+                  "Desktop": "loose"
+                },
+                "CardRoundness": {
+                  "Mobile": 8,
+                  "Desktop": 8
+                },
+                "ShowcaseDimensions": {
+                  "Mobile": {
+                    "width": 80,
+                    "height": 40
+                  },
+                  "Desktop": {
+                    "width": 80,
+                    "height": 40
+                  }
+                },
+                "BusDescriptionDimensions": {
+                  "Mobile": {
+                    "width": 60,
+                    "height": 35
+                  },
+                  "Desktop": {
+                    "width": 60,
+                    "height": 35
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "Ultra-detailed close-up of cedar shake roofing where each fiber of the grain is visible; soft, even daylight caresses the staggered edges, revealing the natural rhythm of the overlapping shakes; rich, tactile realism invites the viewer to feel the wood",
+            "v2": "Macro frame that skims along the serrated edge of a cedar shake—minute splinters, delicate knots, and the warm tawny palette rendered in buttery raking light that sculpts micro-shadows across the surface",
+            "v3": "Diagonal composition emphasizing the cascading overlap of cedar shakes; razor-sharp texture transitions into a creamy falloff, while subtle variances of amber and chestnut tones suggest craftsmanship and durability",
+            "v4": "Weathered shakes with a story: gentle greys and muted siennas braided into the grain; shallow depth of field isolates a single edge while soft bokeh echoes the repeating pattern beyond",
+            "v5": "Newly installed cedar shakes with immaculate cuts, crisp edges, and delicate saw marks; shadows step across the surface in neat intervals, conveying precision and artisanal pride"
+          },
+          "imag_gen2": {
+            "v1": "Action-forward view of a roofing crew installing asphalt shingles on a bright, wind-brushed day; the chalk line glows electric blue against the matte shingles as nail guns snap with crisp precision",
+            "v2": "Close perspective on a roofer’s gloved hands steadying a shingle while a pneumatic nail gun bites down; sunlight glints off the metal nose, and tiny nail coils shimmer in the periphery",
+            "v3": "Two-person choreography along a pitched roof—one aligning shingles along the chalk guideline, the other fastening in a practiced rhythm; safety harnesses taut, focus unwavering",
+            "v4": "Methodical placement of a starter strip at the eave: tool belt bristling with essentials, measuring tape extended, the first course perfectly square to the fascia",
+            "v5": "Process portrait of underlayment rolled smooth and drip edge seated cleanly; a soft breeze lifts a corner before it’s secured, hinting at motion in an otherwise meticulous scene"
+          },
+          "imag_gen3": {
+            "v1": "A dreamy aerial sweep over a suburban tapestry at sunset; rooftops glow like embers while long shadows stitch the streets into a quilt of geometry and light, 16:9",
+            "v2": "Drone view drifting over varied roof materials—slate greys, earthy browns, and metallic sheens—bathed in syrupy golden light that kisses every ridge and valley",
+            "v3": "Bird’s-eye on a cul-de-sac where the patterned shingles form hypnotic loops; dusk air turns lavender as trees cradle the roofs in velvety silhouettes",
+            "v4": "High-angle panorama with the canopy rippling like a green sea around immaculate rooftops; evening glow settles calmly, revealing the order and craft of each installation",
+            "v5": "Overhead mosaic of neighborhoods with dancing roof pitches and chimneys; twilight warms the scene into a serene, rhythmic grid"
+          },
+          "imag_gen4": {
+            "v1": "Meticulous flat lay on honey-toned decking: a well-worn hammer, spiral nails catching the light, and a beloved utility knife; shallow depth of field turns the composition into an artisan’s still life",
+            "v2": "Plywood canvas with tools aligned like instruments in an orchestra—measuring tape curled in a perfect arc, chalk line poised to draw truth across the grain",
+            "v3": "Neatly arrayed ridge vent, shingle stack, and a nail gun with coiled ammunition; workshop lighting paints soft highlights across metal and matte surfaces",
+            "v4": "Symmetric top-down arrangement of a roofing square, pry bar, and fasteners—an ode to precision with visual balance and satisfying order",
+            "v5": "Close detail where coil nails glimmer beside a razor-edged roofing knife; selective focus sculpts a quiet drama around everyday tools"
+          },
+          "imag_gen5": {
+            "v1": "Modern eave study in soft light: fascia board runs like a crisp underline while a seamless gutter echoes its path; the junctions feel engineered and elegant",
+            "v2": "Close-up portrait of an aluminum gutter with a seamless downspout—clean miters, tight joints, and straight, architectural lines that whisper durability",
+            "v3": "The meeting of soffit and fascia rendered as minimalist sculpture; vents perforate the soffit in measured cadence, the finish impeccable and quietly luxurious",
+            "v4": "Macro angle on a gutter guard seated with confidence atop the eave; tight framing celebrates the functionality hidden in the details",
+            "v5": "Editorial-style shot of a black fascia tracing bold contrast against pale siding; the gutter profile cuts a decisive silhouette in the frame"
+          },
+          "imag_gen6": {
+            "v1": "At dusk, a commercial flat roof stretches toward a city skyline twinkling awake; HVAC units stand like sentinels on a reflective membrane, the sky a cobalt-to-rose gradient",
+            "v2": "Blue-hour serenity over an expansive TPO roof whose surface mirrors the last light; rooftop equipment forms a quiet procession against the soft horizon",
+            "v3": "A warehouse crown defined by parapets, vents, and rubber walkway pads; the urban backdrop hints at industry and continuity beyond the edge",
+            "v4": "Dramatic evening sky pours color over skylights and mechanical stacks, carving crisp silhouettes into the roofline; the scene breathes capability and scale",
+            "v5": "Low, cinematic sweep across a commercial roof membrane toward distant city lights; the leading lines invite the eye into a story of modern infrastructure"
+          }
+        }
+      }
+    },
+    {
+      "blockName": "BeforeAfterBlock",
+      "config": {
+        "Content": {
+          "sectionTitle": "Gallery",
+          "beforeButtonText": "Before",
+          "afterButtonText": "After",
+          "items": [
+            {
+              "id": "before-after-1",
+              "before": "/personal/old/img/main_page_images/BeforeAfterBlock/a1.jpeg",
+              "after": "/personal/old/img/main_page_images/BeforeAfterBlock/b1.JPG",
+              "shingle": "Asphalt Shingle",
+              "sqft": "2000 sqft"
+            },
+            {
+              "id": "before-after-2",
+              "before": "/personal/old/img/main_page_images/BeforeAfterBlock/a2.jpeg",
+              "after": "/personal/old/img/main_page_images/BeforeAfterBlock/b2.jpeg",
+              "shingle": "Metal Roofing",
+              "sqft": "1800 sqft"
+            },
+            {
+              "id": "before-after-3",
+              "before": "/personal/old/img/main_page_images/BeforeAfterBlock/a3.jpeg",
+              "after": "/personal/old/img/main_page_images/BeforeAfterBlock/b3.jpeg",
+              "shingle": "Composite Shingle",
+              "sqft": "2200 sqft"
+            },
+            {
+              "id": "before-after-4",
+              "before": "/personal/old/img/main_page_images/BeforeAfterBlock/a4.png",
+              "after": "/personal/old/img/main_page_images/BeforeAfterBlock/b4.png",
+              "shingle": "Clay Tile",
+              "sqft": "1900 sqft"
+            },
+            {
+              "id": "before-after-5",
+              "before": "/personal/old/img/main_page_images/BeforeAfterBlock/a5.jpg",
+              "after": "/personal/old/img/main_page_images/BeforeAfterBlock/b5.jpg",
+              "shingle": "Slate Roofing",
+              "sqft": "2100 sqft"
+            },
+            {
+              "id": "before-after-6",
+              "before": "/personal/old/img/main_page_images/BeforeAfterBlock/a6.png",
+              "after": "/personal/old/img/main_page_images/BeforeAfterBlock/b6.png",
+              "shingle": "Standing Seam Metal",
+              "sqft": "2400 sqft"
+            }
+          ]
+        },
+        "Design": {
+          "Text-main": {
+            "Color": "#111827",
+            "Font": "Rye",
+            "Mobile": {
+              "Size": 36,
+              "Height": 1.2,
+              "Weight": 900,
+              "Spacing": 1.2
+            },
+            "Desktop": {
+              "Size": 48,
+              "Height": 1.2,
+              "Weight": 900,
+              "Spacing": 1.5
+            }
+          },
+          "Text-sub": {
+            "Color": "#FFFFFF",
+            "Font": "Roboto Condensed",
+            "Mobile": {
+              "Size": 16,
+              "Height": 1.1,
+              "Weight": 700,
+              "Spacing": 0.1
+            },
+            "Desktop": {
+              "Size": 20,
+              "Height": 1.1,
+              "Weight": 700,
+              "Spacing": 0.2
+            }
+          },
+          "Text-info": {
+            "Color": "#FFFFFF",
+            "Font": "Roboto Condensed",
+            "Mobile": {
+              "Size": 14,
+              "Height": 1.1,
+              "Weight": 400,
+              "Spacing": 0
+            },
+            "Desktop": {
+              "Size": 18,
+              "Height": 1.1,
+              "Weight": 400,
+              "Spacing": 0
+            }
+          },
+          "Bg": {
+            "background": [
+              "#f8fafc",
+              "#f8fafc"
+            ],
+            "direction": "to right",
+            "opacity": 100
+          },
+          "Button-primary": {
+            "bgColor": "#37b2e6",
+            "textColor": "#ffffff",
+            "hoverBgColor": "#6b7280",
+            "hoverTextColor": "#ffffff"
+          }
+        },
+        "Formatting": {
+          "Height": {
+            "Mobile": 50,
+            "Desktop": 50
+          },
+          "CardDimensions": {
+            "Mobile": {
+              "height": 30,
+              "width": 80
+            },
+            "Desktop": {
+              "height": 40,
+              "width": 30
+            }
+          },
+          "GridLayout": {
+            "Mobile": "two-column",
+            "Desktop": "three-column"
+          },
+          "CardSpacing": {
+            "Mobile": "normal",
+            "Desktop": "normal"
+          },
+          "CardRoundness": {
+            "Mobile": 16,
+            "Desktop": 16
+          },
+          "ItemOrder": [
+            "before-after-1",
+            "before-after-2",
+            "before-after-3",
+            "before-after-4",
+            "before-after-5",
+            "before-after-6"
+          ]
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "A polished before/after presentation template that frames the same home from the same camera position—left shows the weary, weather-stained roof; right unveils the immaculate replacement; neutral borders and quiet typography keep the focus on transformation",
+            "v2": "Side-by-side roof comparison with perfectly aligned perspective and horizon; the before image retains its tired patina while the after gleams with crisp edges; a subtle divider line suggests a narrative of renewal",
+            "v3": "Interactive split-slider concept imagined as still art: the dividing line glides between the old and new roof, both shot identically; the composition reads as a single scene revealing two timeframes",
+            "v4": "Twin photographs anchored by matching verticals and roof pitches; the left whispers of age—curling shingles, uneven tones—while the right sings with fresh uniformity and restored geometry",
+            "v5": "Meticulously matched pre- and post-renovation images where only the roof changes; the constant camera angle and light tell a clear, compelling story of craft"
+          },
+          "imag_gen2": {
+            "v1": "A pristine asphalt shingle roof shimmering under bright daylight; the ridge cap seams lock together like a finely tailored suit, and every course tracks arrow-straight across the slope",
+            "v2": "Fresh architectural shingles rendered in a deep, even tone; the courses sit in military alignment, and the sun teases out subtle dimensional shadows",
+            "v3": "Close detail where ridge meets plane—flashing nestles under shingle edges, the line work immaculate; a sky so clear it feels polished",
+            "v4": "An expanse of new shingles with sculpted shadow lines that accentuate pattern and pitch; the roof breathes confidence and careful workmanship",
+            "v5": "A roofscape of disciplined geometry—straight lines, crisp valleys, and corners that land with precision—glowing in honest daylight"
+          },
+          "imag_gen3": {
+            "v1": "A standing seam metal roof gleams with linear perfection—long, uninterrupted seams march toward the horizon; the reflective finish captures sky and light like a modern sculpture",
+            "v2": "Vertical seams rise proudly from each panel, giving the roof a tailored cadence; a glossy modern finish adds a quiet, architectural drama",
+            "v3": "Low-angle perspective that rides along the crest of a metal roof; sunlight streaks softly, and the seam lines lead the eye in a confident glide",
+            "v4": "Sleek, contemporary metal roofing with concealed fasteners—nothing interrupts the language of clean lines and engineered calm",
+            "v5": "A clarity-driven portrait of long seam lines, crisp transitions, and a finish that reads both durable and design-forward"
+          },
+          "imag_gen4": {
+            "v1": "A newly finished composite shingle roof spreads in a calm, uniform tone; daylight reveals the subtle texturing that makes each course distinct yet harmonious",
+            "v2": "Premium composite shingles glow with a consistent hue and refined texture, sunlight coaxing gentle highlights from their sculpted surfaces",
+            "v3": "Close-up at the edge where tabs align like well-cut stones; micro shadows and crisp cuts speak to careful placement",
+            "v4": "A plane of composite shingles running in flawless rows under an open sky; the pattern anchors the home with quiet strength",
+            "v5": "Editorial angle that celebrates alignment, tone, and surface character across a pristine composite roof"
+          },
+          "imag_gen5": {
+            "v1": "Terracotta clay tiles burn with sun-warmed color, each barrel catching a soft highlight; neat rows curve like a terraced hillside, precise and timeless",
+            "v2": "Fresh Mediterranean clay tiles glow in a warm, earthy hue; strong light kisses the rounded profiles, carving graceful bands of light and shade",
+            "v3": "Close detail celebrates the rhythmic arches of barrel tiles—vivid pigment, clean mortar lines, and an artisan’s sense of order",
+            "v4": "A terracotta expanse crowned by clean ridges and carefully set caps; the blue sky drapes a classic palette over a classic material",
+            "v5": "Elegant clay tile installation with unwavering spacing and sculpted curves; bright daylight lifts the texture into high relief"
+          },
+          "imag_gen6": {
+            "v1": "An elegant field of grey slate tiles under a painterly overcast sky; crisp edges catch muted highlights, and the surface exudes refined permanence",
+            "v2": "Natural slate shingles with gentle color drift—charcoal, pewter, a whisper of blue; the finish is sophisticated, the light soft and forgiving",
+            "v3": "Close view where slate courses meet a run of copper flashing; the moody sky makes the metals glow like old coins",
+            "v4": "A new slate roof rendered in neat, unwavering alignment; texture rises and falls as clouds pass, a portrait of timeproof craft",
+            "v5": "Classic slate geometry: clean valleys, true ridges, and quiet tonal depth; diffused light wraps the scene in heritage calm"
+          }
+        }
+      }
+    },
+    {
+      "blockName": "ButtonBlock",
+      "config": {
+        "Content": {
+          "text": "Services",
+          "buttonLink": "/about",
+          "images": [
+            "/personal/old/img/main_page_images/ButtonBlock/i4.jpeg",
+            "/personal/old/img/main_page_images/ButtonBlock/i8.webp",
+            "/personal/old/img/main_page_images/ButtonBlock/i5.jpeg",
+            "/personal/old/img/main_page_images/ButtonBlock/i6.jpeg",
+            "/personal/old/img/main_page_images/ButtonBlock/i2.jpeg",
+            "/personal/old/img/main_page_images/ButtonBlock/i3.jpeg",
+            "/personal/old/img/main_page_images/ButtonBlock/i9.jpeg",
+            "/personal/old/img/main_page_images/ButtonBlock/i10.webp",
+            "/personal/old/img/main_page_images/ButtonBlock/i7.webp",
+            "/personal/old/img/main_page_images/ButtonBlock/i11.jpeg",
+            "/personal/old/img/main_page_images/ButtonBlock/i12.webp",
+            "/personal/old/img/main_page_images/ButtonBlock/i1.jpeg"
+          ]
+        },
+        "Design": {
+          "Text-button": {
+            "Color": "#FFFFFF",
+            "Font": "Inter",
+            "Mobile": {
+              "Size": 20,
+              "Height": 1.2,
+              "Weight": 700,
+              "Spacing": 0.5
+            },
+            "Desktop": {
+              "Size": 24,
+              "Height": 1.2,
+              "Weight": 700,
+              "Spacing": 0.5
+            }
+          },
+          "Button-primary": {
+            "buttonBackground": "#3b82f6",
+            "buttonHover": "#2563eb"
+          },
+          "Animation": {
+            "type": "step-by-step",
+            "speed": "normal",
+            "stepDistance": 400
+          },
+          "Height": {
+            "Mobile": 20,
+            "Desktop": 15
+          },
+          "Bg": {
+            "background": [
+              "#000000",
+              "#ffffff"
+            ],
+            "direction": "to bottom",
+            "opacity": 0,
+            "gradientFlipped": false,
+            "backgroundOverlay": "transparent",
+            "enableGradient": false,
+            "gradientStart": "#000000",
+            "gradientEnd": "#ffffff",
+            "gradientDirection": "to-b"
+          }
+        },
+        "Formatting": {
+          "buttonSize": "large",
+          "availableButtonSizes": [
+            "small",
+            "medium",
+            "large",
+            "extra-large"
+          ],
+          "editableConfig": {
+            "colorFields": [
+              {
+                "fieldName": "Design.Button-primary.buttonBackground",
+                "label": "Button Background Color",
+                "defaultValue": "#3b82f6"
+              },
+              {
+                "fieldName": "Design.Button-primary.buttonHover",
+                "label": "Button Hover Color",
+                "defaultValue": "#2563eb"
+              },
+              {
+                "fieldName": "Design.Bg.enableGradient",
+                "label": "Enable Gradient Overlay",
+                "defaultValue": false,
+                "type": "checkbox",
+                "showOnlyForFirstElement": true
+              },
+              {
+                "fieldName": "Design.Bg.gradientStart",
+                "label": "Gradient Start Color",
+                "defaultValue": "#000000",
+                "showOnlyForFirstElement": true,
+                "showWhen": "Design.Bg.enableGradient"
+              },
+              {
+                "fieldName": "Design.Bg.gradientEnd",
+                "label": "Gradient End Color",
+                "defaultValue": "#ffffff",
+                "showOnlyForFirstElement": true,
+                "showWhen": "Design.Bg.enableGradient"
+              },
+              {
+                "fieldName": "Design.Bg.gradientDirection",
+                "label": "Gradient Direction",
+                "defaultValue": "to-b",
+                "type": "select",
+                "showOnlyForFirstElement": true,
+                "showWhen": "Design.Bg.enableGradient",
+                "options": [
+                  {
+                    "value": "to-b",
+                    "label": "Top to Bottom"
+                  },
+                  {
+                    "value": "to-t",
+                    "label": "Bottom to Top"
+                  },
+                  {
+                    "value": "to-r",
+                    "label": "Left to Right"
+                  },
+                  {
+                    "value": "to-l",
+                    "label": "Right to Left"
+                  },
+                  {
+                    "value": "to-br",
+                    "label": "Top-Left to Bottom-Right"
+                  },
+                  {
+                    "value": "to-bl",
+                    "label": "Top-Right to Bottom-Left"
+                  },
+                  {
+                    "value": "radial",
+                    "label": "Radial (Center Out)"
+                  }
+                ]
+              }
+            ],
+            "heightLimits": {
+              "min": 8,
+              "max": 50,
+              "step": 1,
+              "sensitivity": 0.1
+            }
+          }
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "High-energy call-to-action backdrop layering vignettes of roofers mid-task—nail guns firing, ladders arcing skyward, shingles stacked like armor—arranged with a deliberate copy-safe right third, 16:9",
+            "v2": "A bold collage where motion lines and soft motion blur suggest speed and efficiency; scenes of measuring, cutting, and fastening converge in a design-conscious composition that leaves breathable space for buttons",
+            "v3": "Dynamic hero background intercutting roof edges, chalk snaps, and gloved hands; the montage wraps around a central negative space intended for a crisp CTA",
+            "v4": "Fast-paced mosaic of tools and teamwork—impact driver sparks, tape pulling true, shingle bundles shifting—woven into a cinematic band across the frame, 16:9",
+            "v5": "An energetic service collage dusted with brand tones; elements drift in subtle parallax while a calm gradient panel anchors call-to-action text, wide 16:9"
+          },
+          "imag_gen2": {
+            "v1": "Close, tactile portrait of a nail gun seating a shingle; the metal nose rings against mineral granules as the coil advances—a ballet of steel and stone under creamy bokeh",
+            "v2": "Macro detail at the nail gun tip poised over a textured shingle; tiny flecks catch highlights while the tool’s finish reflects a world of work",
+            "v3": "A steady hand guides the shingle to the line as the trigger pulls; in selective focus, sweat-darkened glove leather and precise placement tell a craftsman’s story",
+            "v4": "Tight composition where a compact stack of shingles leans beside a coil of nails; the tool rests like a trusted instrument at intermission",
+            "v5": "Ridge cap installation at arm’s length—clean overlaps, a quick burst of the gun, background dissolving into a gentle blur that centers the craft"
+          },
+          "imag_gen3": {
+            "v1": "A sunlit aerial of suburbia where rooftops tessellate into a satisfying pattern; intersections and cul-de-sacs become the punctuation in a clean, modern layout, 16:9",
+            "v2": "Top-down grid where roofs and streets form a lucid schematic; midday clarity erases haze, revealing texture and order at neighborhood scale",
+            "v3": "Drone panorama that celebrates roof geometry—rakes, ridges, and valleys tracing calligraphic lines beneath a flawless sky",
+            "v4": "High-altitude perspective with uniform roof patterns breathing under crisp midday light; the scene reads like an architectural blueprint in motion",
+            "v5": "Overhead emphasis on repeating shingle textures and rhythmic pitches, the wide frame balancing density with calm, 16:9"
+          },
+          "imag_gen4": {
+            "v1": "A commercial rooftop vista leads the eye to a moody city skyline; dusk hues settle over a field of equipment and membrane seams, professional and cinematic",
+            "v2": "Blue hour settles like velvet as an expansive flat roof reflects a subtle urban glow; parapets and vents sketch an industrial horizon",
+            "v3": "Evening tones drape an urban skyline perched above ordered rows of rooftop units; the composition balances function and grandeur",
+            "v4": "Wide twilight frame where parapet edges and utility boxes create a rhythm; beyond, the city lights bead into a necklace of promise",
+            "v5": "Industrial leading lines etched into the roof skin carry the gaze toward towers; dramatic dusk color grades the scene with quiet resolve"
+          },
+          "imag_gen5": {
+            "v1": "A warmly lit workbench vignette where a roofing square and chalk line rest with intention; nails glint softly beside a faithful knife—orderly, inviting, and human",
+            "v2": "Organized tools arrayed with geometric satisfaction: square at true 90, chalk line spooled just so, fasteners nested like punctuation",
+            "v3": "Pegboard tableau with branded tools hung in tidy cadence; the warmth of the room suggests long, focused hours of craft",
+            "v4": "Close detail of a measured cut—knife kissing the guideline over a shingle, the square holding steady; an intimate moment of precision",
+            "v5": "Workbench still life with gloves, eye protection, and tuned tools at rest; cozy light wraps the scene in readiness"
+          },
+          "imag_gen6": {
+            "v1": "Lifestyle portrait of a smiling homeowner framed by a freshly roofed house; soft evening light warms the siding and lends a welcoming glow",
+            "v2": "A happy couple stands in their front yard, eyes tipping up to admire the new roof; the garden hums with life in gentle, flattering light",
+            "v3": "From the porch, a family waves with bright, open smiles beneath a crisp roofline; the image feels like a postcard from a job well done",
+            "v4": "Close portrait of a homeowner’s thumbs-up, the home softly blurred behind; bokeh lights sparkle like a quiet celebration",
+            "v5": "A satisfied client stands beside a contractor mid-handshake, warm tones wrapping a scene of trust and completion"
+          }
+        }
+      }
+    },
+    {
+      "blockName": "BasicMapBlock",
+      "config": {
+        "Content": {
+          "title": "Contact Us",
+          "address": "966 Forest Trce Stone Mountain, GA 30088-2613",
+          "telephone": "(404) 399-6900",
+          "showHoursButtonText": "View Hours",
+          "hideHoursButtonText": "Hide Hours",
+          "serviceHours": [
+            {
+              "id": "sh_mon",
+              "day": "Mon",
+              "time": "7:00 AM - 6:00 PM"
+            },
+            {
+              "id": "sh_tue",
+              "day": "Tue",
+              "time": "7:00 AM - 6:00 PM"
+            },
+            {
+              "id": "sh_wed",
+              "day": "Wed",
+              "time": "7:00 AM - 6:00 PM"
+            },
+            {
+              "id": "sh_thu",
+              "day": "Thu",
+              "time": "7:00 AM - 6:00 PM"
+            },
+            {
+              "id": "sh_fri",
+              "day": "Fri",
+              "time": "7:00 AM - 6:00 PM"
+            },
+            {
+              "id": "sh_sat",
+              "day": "Sat",
+              "time": "7:00 AM - 1:00 PM"
+            },
+            {
+              "id": "sh_sun",
+              "day": "Sun",
+              "time": "Closed"
+            }
+          ],
+          "stats": [
+            {
+              "id": "stat_0_exp",
+              "title": "Years of Service",
+              "value": "11",
+              "icon": "FaCalendarAlt"
+            },
+            {
+              "id": "stat_1_cust",
+              "title": "Customers Served",
+              "value": "550+",
+              "icon": "FaHandshake"
+            },
+            {
+              "id": "stat_2_roofs",
+              "title": "Roofs Repaired",
+              "value": "330+",
+              "icon": "FaHome"
+            },
+            {
+              "id": "stat_3_expyrs",
+              "title": "Years of Experience",
+              "value": "11",
+              "icon": "FaCalendarAlt"
+            }
+          ]
+        },
+        "Design": {
+          "Text-title": {
+            "Color": "#000000",
+            "Font": "Georgia",
+            "Mobile": {
+              "Size": 24,
+              "Height": 1.2,
+              "Weight": 400,
+              "Spacing": 0.5
+            },
+            "Desktop": {
+              "Size": 28,
+              "Height": 1.2,
+              "Weight": 400,
+              "Spacing": 0.5
+            }
+          },
+          "Text-banner": {
+            "Color": "#FFFFFF",
+            "Font": "Arial",
+            "Mobile": {
+              "Size": 12,
+              "Height": 1.3,
+              "Weight": 600,
+              "Spacing": 0.2
+            },
+            "Desktop": {
+              "Size": 14,
+              "Height": 1.3,
+              "Weight": 600,
+              "Spacing": 0.2
+            }
+          },
+          "Text-stats": {
+            "Color": "#FFFFFF",
+            "Font": "Impact",
+            "Mobile": {
+              "Size": 16,
+              "Height": 1.1,
+              "Weight": 700,
+              "Spacing": 0.1
+            },
+            "Desktop": {
+              "Size": 18,
+              "Height": 1.1,
+              "Weight": 700,
+              "Spacing": 0.1
+            }
+          },
+          "Text-serviceHours": {
+            "Color": "#1f2937",
+            "Font": "Verdana",
+            "Mobile": {
+              "Size": 10,
+              "Height": 1.4,
+              "Weight": 400,
+              "Spacing": 0
+            },
+            "Desktop": {
+              "Size": 12,
+              "Height": 1.4,
+              "Weight": 400,
+              "Spacing": 0
+            }
+          },
+          "Text-button": {
+            "Color": "#FFFFFF",
+            "Font": "Tahoma",
+            "Mobile": {
+              "Size": 12,
+              "Height": 1,
+              "Weight": 600,
+              "Spacing": 0.3
+            },
+            "Desktop": {
+              "Size": 14,
+              "Height": 1,
+              "Weight": 600,
+              "Spacing": 0.3
+            }
+          },
+          "Bg": {
+            "background": [
+              "#ffffff",
+              "#ffffff"
+            ],
+            "direction": "to right",
+            "opacity": 100
+          },
+          "Colors": {
+            "bannerTextColor": "#FFFFFF",
+            "bannerBackgroundColor": "#1F2937",
+            "statsTextColor": "#FFFFFF",
+            "statsIconColor": "#FFFFFF",
+            "statCardBackgroundColor": "#FFFFFF",
+            "statCardBackgroundOpacity": 20,
+            "serviceHoursTextColor": "#1f2937",
+            "serviceHoursEvenRowBg": "#F9FAFB",
+            "serviceHoursOddRowBg": "#FFFFFF",
+            "windowStringColor1": "#374151",
+            "windowStringColor2": "#1f2937"
+          },
+          "Map": {
+            "center": {
+              "lat": 33.5407,
+              "lng": -84.6519
+            },
+            "zoomLevel": 11,
+            "circleRadius": 5047,
+            "markerIcon": "/personal/old/img/nav/logo.svg",
+            "markerIconPrompt": "Minimal vector roofing company logo pin icon, flat design, white on dark, SVG, high contrast",
+            "statsBackgroundImage": "/personal/old/img/main_page_images/BasicMapBlock/stats_background.jpg",
+            "statsBackgroundImagePrompt": "Subtle blurred roofing texture background suitable behind statistics, neutral tones, low contrast, wide 16:9"
+          },
+          "IconScale": {
+            "Mobile": 6,
+            "Desktop": 24
+          }
+        },
+        "Formatting": {
+          "Height": {
+            "Mobile": 50,
+            "Desktop": 38
+          },
+          "MapHeight": {
+            "Mobile": 50
+          },
+          "StatsServiceHeight": {
+            "Mobile": 30
+          },
+          "Layout": {
+            "layoutSplitRatio": 50,
+            "_splitEditMode": false
+          }
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "A subdued, blurred background that breathes cool, neutral tones—just a hint of roofing texture drifting beneath the surface—crafted to let statistics float in crisp relief, 16:9",
+            "v2": "Featherweight abstract with the faintest whisper of shingle pattern; the contrast is dialed low so charts and labels read effortlessly",
+            "v3": "Soft slate gradient blooming into generous negative space; any texture is a suggestion, ensuring numbers and icons remain the headliners, wide 16:9",
+            "v4": "Neutral grey-blue haze with a velvety blur, tuned for unobtrusiveness; a perfect canvas for maps, badges, and service hours",
+            "v5": "Feathered gradient where an echo of rooflines barely grazes the eye; UI-friendly by design, sophisticated by restraint"
+          },
+          "imag_gen2": {
+            "v1": "Minimal vector geopin rendered as a crisp white mark atop a dark circle—its negative space carves a clean roof outline; balanced strokes, pure SVG aesthetic",
+            "v2": "Monochrome map pin that cleverly merges a classic location marker with a house roof silhouette; friendly proportions, immediate legibility",
+            "v3": "Simple badge variant with a roofline graphic nested inside a pin; thick, confident strokes designed to scale without fuss",
+            "v4": "Outlined geopin whose inner contour hints at shingle motif; high-contrast and perfectly suited for small UI placements",
+            "v5": "A refined pin icon integrating a roof peak at its heart; symmetrical, modern, and brandable in a heartbeat"
+          }
+        }
+      }
+    },
+    {
+      "blockName": "ServiceSliderBlock",
+      "config": {
+        "Content": {
+          "title": "Services",
+          "variant": "classic-cards",
+          "isCommercial": false,
+          "largeResidentialImg": "/personal/old/img/main_page_images/ServiceSliderBlock/residential.jpg",
+          "largeCommercialImg": "/personal/old/img/main_page_images/ServiceSliderBlock/commercial.jpg",
+          "serviceImages": {
+            "residential": [
+              {
+                "serviceId": "1",
+                "url": "",
+                "prompt": "Residential service 1 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "2",
+                "url": "",
+                "prompt": "Residential service 2 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "3",
+                "url": "",
+                "prompt": "Residential service 3 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "4",
+                "url": "",
+                "prompt": "Residential service 4 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "5",
+                "url": "",
+                "prompt": "Residential service 5 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "6",
+                "url": "",
+                "prompt": "Residential service 6 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "7",
+                "url": "",
+                "prompt": "Residential service 7 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "8",
+                "url": "",
+                "prompt": "Residential service 8 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              }
+            ],
+            "commercial": [
+              {
+                "serviceId": "1",
+                "url": "",
+                "prompt": "Commercial service 1 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "2",
+                "url": "",
+                "prompt": "Commercial service 2 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "3",
+                "url": "",
+                "prompt": "Commercial service 3 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "4",
+                "url": "",
+                "prompt": "Commercial service 4 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "5",
+                "url": "",
+                "prompt": "Commercial service 5 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "6",
+                "url": "",
+                "prompt": "Commercial service 6 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "7",
+                "url": "",
+                "prompt": "Commercial service 7 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              },
+              {
+                "serviceId": "8",
+                "url": "",
+                "prompt": "Commercial service 8 background, clean modern, low-contrast, copy-safe right third, 16:9"
+              }
+            ]
+          }
+        },
+        "Variants": {
+          "classic-cards": {
+            "design_1": {
+              "Text-title": {
+                "Font": "Oswald",
+                "Color": "#FFFFFF",
+                "Mobile": {
+                  "Size": 42,
+                  "Weight": 700,
+                  "Height": 1.1,
+                  "Spacing": 1.5
+                },
+                "Desktop": {
+                  "Size": 56,
+                  "Weight": 700,
+                  "Height": 1.1,
+                  "Spacing": 2
+                }
+              },
+              "Text-label": {
+                "Font": "Montserrat",
+                "Color": "#FFFFFF",
+                "Mobile": {
+                  "Size": 14,
+                  "Weight": 600,
+                  "Height": 1.5,
+                  "Spacing": 0.3
+                },
+                "Desktop": {
+                  "Size": 16,
+                  "Weight": 600,
+                  "Height": 1.5,
+                  "Spacing": 0.5
+                }
+              },
+              "Text-serviceTitle": {
+                "Font": "Lato",
+                "Color": "#FFFFFF",
+                "Mobile": {
+                  "Size": 14,
+                  "Weight": 700,
+                  "Height": 1.3,
+                  "Spacing": 0.1
+                },
+                "Desktop": {
+                  "Size": 16,
+                  "Weight": 700,
+                  "Height": 1.3,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-serviceSubtitle": {
+                "Font": "Lato",
+                "Color": "#E5E7EB",
+                "Mobile": {
+                  "Size": 10,
+                  "Weight": 400,
+                  "Height": 1.4,
+                  "Spacing": 0.1
+                },
+                "Desktop": {
+                  "Size": 12,
+                  "Weight": 400,
+                  "Height": 1.4,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#000000",
+                "gradientConfig": {
+                  "direction": "to right",
+                  "startColor": "#000000",
+                  "endColor": "#000000"
+                }
+              },
+              "Colors": {
+                "titleColor": "#FFFFFF",
+                "imageOverlayColor": "rgba(0, 0, 0, 0.1)",
+                "shadowColor": "#374151",
+                "activeButtonConfig": {
+                  "bgColor": "#3b82f6",
+                  "textColor": "#FFFFFF",
+                  "iconColor": "#FFFFFF"
+                },
+                "inactiveButtonConfig": {
+                  "bgColor": "#6b7280",
+                  "textColor": "#FFFFFF",
+                  "iconColor": "#FFFFFF"
+                },
+                "serviceItemConfig": {
+                  "bgColor": "#1f2937",
+                  "textColor": "#FFFFFF",
+                  "iconColor": "#FFFFFF"
+                }
+              },
+              "IconScale": {
+                "Mobile": {
+                  "desktop": 24,
+                  "mobile": 24,
+                  "categoryDesktop": 22,
+                  "categoryMobile": 22
+                },
+                "Desktop": {
+                  "desktop": 32,
+                  "mobile": 24,
+                  "categoryDesktop": 28,
+                  "categoryMobile": 22
+                }
+              }
+            },
+            "formatting_1": {
+              "Height": {
+                "Mobile": 50,
+                "Desktop": 40
+              },
+              "Layout": {
+                "splitLayoutRatio": 40,
+                "_splitImageEditMode": false,
+                "hasVariants": true,
+                "variant": "classic-cards"
+              }
+            }
+          },
+          "split-image": {
+            "design_1": {
+              "Text-title": {
+                "Font": "Oswald",
+                "Color": "#FFFFFF",
+                "Mobile": {
+                  "Size": 42,
+                  "Weight": 700,
+                  "Height": 1.1,
+                  "Spacing": 1.5
+                },
+                "Desktop": {
+                  "Size": 56,
+                  "Weight": 700,
+                  "Height": 1.1,
+                  "Spacing": 2
+                }
+              },
+              "Text-label": {
+                "Font": "Montserrat",
+                "Color": "#FFFFFF",
+                "Mobile": {
+                  "Size": 14,
+                  "Weight": 600,
+                  "Height": 1.5,
+                  "Spacing": 0.3
+                },
+                "Desktop": {
+                  "Size": 16,
+                  "Weight": 600,
+                  "Height": 1.5,
+                  "Spacing": 0.5
+                }
+              },
+              "Text-serviceTitle": {
+                "Font": "Lato",
+                "Color": "#FFFFFF",
+                "Mobile": {
+                  "Size": 14,
+                  "Weight": 700,
+                  "Height": 1.3,
+                  "Spacing": 0.1
+                },
+                "Desktop": {
+                  "Size": 16,
+                  "Weight": 700,
+                  "Height": 1.3,
+                  "Spacing": 0.1
+                }
+              },
+              "Text-serviceSubtitle": {
+                "Font": "Lato",
+                "Color": "#E5E7EB",
+                "Mobile": {
+                  "Size": 10,
+                  "Weight": 400,
+                  "Height": 1.4,
+                  "Spacing": 0.1
+                },
+                "Desktop": {
+                  "Size": 12,
+                  "Weight": 400,
+                  "Height": 1.4,
+                  "Spacing": 0.2
+                }
+              },
+              "Bg": {
+                "backgroundColor": "#000000",
+                "gradientConfig": {
+                  "direction": "to right",
+                  "startColor": "#000000",
+                  "endColor": "#000000"
+                }
+              },
+              "Colors": {
+                "titleColor": "#FFFFFF",
+                "imageOverlayColor": "rgba(0, 0, 0, 0.20)",
+                "shadowColor": "#374151",
+                "activeButtonConfig": {
+                  "bgColor": "#3b82f6",
+                  "textColor": "#FFFFFF",
+                  "iconColor": "#FFFFFF"
+                },
+                "inactiveButtonConfig": {
+                  "bgColor": "#6b7280",
+                  "textColor": "#FFFFFF",
+                  "iconColor": "#FFFFFF"
+                },
+                "serviceItemConfig": {
+                  "bgColor": "#1f2937",
+                  "textColor": "#FFFFFF",
+                  "iconColor": "#FFFFFF"
+                }
+              },
+              "IconScale": {
+                "Mobile": {
+                  "desktop": 16,
+                  "mobile": 16,
+                  "categoryDesktop": 18,
+                  "categoryMobile": 18
+                },
+                "Desktop": {
+                  "desktop": 20,
+                  "mobile": 16,
+                  "categoryDesktop": 24,
+                  "categoryMobile": 20
+                }
+              }
+            },
+            "formatting_1": {
+              "Height": {
+                "Mobile": 60,
+                "Desktop": 35
+              },
+              "Layout": {
+                "splitLayoutRatio": 40,
+                "_splitImageEditMode": false,
+                "hasVariants": true,
+                "variant": "split-image"
+              },
+              "variants": {
+                "split-image": {
+                  "closed_desktop": 35,
+                  "closed_mobile": 60,
+                  "expanded_desktop": 35,
+                  "expanded_mobile": 60
+                }
+              },
+              "leftPanelBgColor": "#1f2937",
+              "shadowVariant": "medium",
+              "shadowColor": "#374151",
+              "hoveredDescriptionBgColor": "rgba(0,0,0,0.40)",
+              "hoveredTitleColor": "#FFFFFF",
+              "hasGradient": true,
+              "gradientConfig": {
+                "direction": "to right",
+                "startColor": "rgba(0,0,0,0.00)",
+                "endColor": "rgba(0,0,0,0.35)"
+              }
+            }
+          }
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "A sun-bright hero frame of a residential home flaunting a pristine asphalt shingle roof; blue sky blooms overhead while lush greenery frames the facade—curb appeal distilled, 16:9",
+            "v2": "A modern suburban residence showcases brand-new architectural shingles; crisp shadow lines sculpt the roof planes as the home sits confidently in the landscape",
+            "v3": "Two-story home under a rich, dark shingle roof; the lawn manicured to a velvety green, windows sparkling—an image of care and completion",
+            "v4": "Curb-appeal portrait where roof lines and dormers take the spotlight; the composition guides the eye up the gables into a radiant sky",
+            "v5": "Front elevation study revealing a new roof and trim-perfect gutters; editorial poise with a welcoming, lived-in warmth, 16:9"
+          },
+          "imag_gen2": {
+            "v1": "Commercial warehouse crowned with a flawless white TPO membrane; skylights punctuate the surface as the horizon stretches clean and confident, 16:9",
+            "v2": "A large industrial rooftop traces neat TPO seams around vents and curbs; beyond, a city backdrop nods to the scale and reliability of the installation",
+            "v3": "Distribution center roof articulated by skylight rhythm over a spotless white membrane; the wide frame celebrates order and function",
+            "v4": "Aerial perspective where a reflective roof plane catches sky tones; meticulous detailing reads from the air as an assurance of quality, 16:9",
+            "v5": "Warehouse complex with a freshly laid membrane, the clouds minimal and the lines tidy; the composition suggests longevity and peace of mind"
+          },
+          "imag_gen3": {
+            "v1": "A crisp overlay concept: flat, modern roofing symbols (repair wrench, installation hammer, inspection magnifier) arranged to complement photography without clutter",
+            "v2": "Compact icon set in a unified visual language—repair, install, inspect—balanced line weights and generous padding for flawless overlay use",
+            "v3": "Minimal iconography suite where each mark breathes; consistent stroke widths ensure legibility at small sizes",
+            "v4": "Modern glyphs representing residential and commercial roofing services; a restrained palette and rounded corners feel friendly yet professional",
+            "v5": "Clean vector service badges, monochrome by design for maximum adaptability; ideal for quick visual cues over imagery"
+          }
+        }
+      }
+    },
+    {
+      "blockName": "TestimonialBlock",
+      "config": {
+        "Content": {
+          "title": "Testimonials",
+          "variant": "default",
+          "googleReviews": [
+            {
+              "name": "Lisa ring",
+              "stars": 5,
+              "date": "8 years ago",
+              "text": "Good service",
+              "logo": "/assets/images/hero/googleimage.png",
+              "link": "https://www.google.com/maps"
+            },
+            {
+              "name": "Alvin Watts",
+              "stars": 5,
+              "date": "8 years ago",
+              "text": "Never used but let's h r lp local businesses  grow",
+              "logo": "/assets/images/hero/googleimage.png",
+              "link": "https://www.google.com/maps"
+            },
+            {
+              "name": "Jason Walker",
+              "stars": 5,
+              "date": "5 years ago",
+              "text": "Always constructing",
+              "logo": "/assets/images/hero/googleimage.png",
+              "link": "https://www.google.com/maps"
+            },
+            {
+              "name": "Andra Robb",
+              "stars": 5,
+              "date": "7 years ago",
+              "text": "N/A",
+              "logo": "/assets/images/hero/googleimage.png",
+              "link": "https://www.google.com/maps"
+            },
+            {
+              "name": "Colin Brady",
+              "stars": 4,
+              "date": "Edited 7 years ago",
+              "text": "Excellent place for quotes on construction old and new needs",
+              "logo": "/assets/images/hero/googleimage.png",
+              "link": "https://www.google.com/maps"
+            },
+            {
+              "name": "Michael Kane",
+              "stars": 2,
+              "date": "9 years ago",
+              "text": "They never showed up but friends of mine said they were hard workers but i wouldnt know that",
+              "logo": "/assets/images/hero/googleimage.png",
+              "link": "https://www.google.com/maps"
+            }
+          ],
+          "reviewButtonText": "Review us on Google",
+          "reviewButtonLink": "https://www.google.com/maps"
+        },
+        "Design": {
+          "Text-sectionTitle": {
+            "Font": "Merriweather",
+            "Color": "#000000",
+            "Mobile": {
+              "Size": 36,
+              "Weight": 700,
+              "Height": 1.2,
+              "Spacing": 0.8
+            },
+            "Desktop": {
+              "Size": 48,
+              "Weight": 700,
+              "Height": 1.2,
+              "Spacing": 1
+            }
+          },
+          "Text-testimonialName": {
+            "Font": "Lato",
+            "Color": "#000000",
+            "Mobile": {
+              "Size": 14,
+              "Weight": 700,
+              "Height": 1.3,
+              "Spacing": 0.1
+            },
+            "Desktop": {
+              "Size": 16,
+              "Weight": 700,
+              "Height": 1.3,
+              "Spacing": 0.1
+            }
+          },
+          "Text-testimonialDate": {
+            "Font": "Lato",
+            "Color": "#6B7280",
+            "Mobile": {
+              "Size": 10,
+              "Weight": 400,
+              "Height": 1.4,
+              "Spacing": 0.2
+            },
+            "Desktop": {
+              "Size": 12,
+              "Weight": 400,
+              "Height": 1.4,
+              "Spacing": 0.2
+            }
+          },
+          "Text-testimonialBody": {
+            "Font": "Lora",
+            "Color": "#374151",
+            "Mobile": {
+              "Size": 12,
+              "Weight": 400,
+              "Height": 1.6,
+              "Spacing": 0
+            },
+            "Desktop": {
+              "Size": 14,
+              "Weight": 400,
+              "Height": 1.6,
+              "Spacing": 0
+            }
+          },
+          "Text-button": {
+            "Font": "Inter",
+            "Color": "#374151",
+            "Mobile": {
+              "Size": 12,
+              "Weight": 500,
+              "Height": 1,
+              "Spacing": 0.3
+            },
+            "Desktop": {
+              "Size": 14,
+              "Weight": 500,
+              "Height": 1,
+              "Spacing": 0.3
+            }
+          },
+          "Bg": {
+            "backgroundColor": "#ffffff",
+            "gradientConfig": {
+              "direction": "to right",
+              "startColor": "#ffffff",
+              "endColor": "#ffffff"
+            }
+          },
+          "Colors": {
+            "textColor": "#000000",
+            "testimonialBgColor": "#ffffff",
+            "testimonialShadowColor": "#888888",
+            "reviewButtonShadowColor": "#888888",
+            "arrowColor": "#000000",
+            "arrowBgColor": "#ffffff"
+          },
+          "Animation": {
+            "arrowStyle": "default"
+          }
+        },
+        "Formatting": {
+          "paddingTop": 2,
+          "paddingBottom": 2,
+          "Layout": {
+            "hasVariants": true,
+            "variant": "default"
+          }
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "Google reviews badge reinterpreted with brand-correct colors and flat simplicity; a transparent background ensures it floats cleanly over any layout",
+            "v2": "A refined star-rating badge designed for testimonials—crisp vector stars and balanced typography—brand-safe and immediately legible",
+            "v3": "Minimal row of five stars proportioned for elegance; clean geometry and even spacing radiate trust at a glance",
+            "v4": "A sleek review ribbon punctuated with stars; the flat, fuss-free design nestles neatly into headers and CTAs",
+            "v5": "Compact review crest with clear star symbology and a high-contrast silhouette; tailor-made for small UI hotspots"
+          },
+          "imag_gen2": {
+            "v1": "A soft, abstract testimonial canvas—light gradients drift like mist across 16:9—designed to make quoted text glow with clarity",
+            "v2": "Gentle pastel gradient backdrop where barely-there shapes suggest warmth and approachability; contrast remains deliberately restrained",
+            "v3": "Cream-to-slate gradient kissed by faint organic blobs; typography sits forward while the background whispers support",
+            "v4": "Feathered, bokeh-adjacent field in muted hues; the wide 16:9 frame feels airy and elegant behind testimonials",
+            "v5": "An airy abstract with soft waveforms dilating across the frame; unobtrusive by nature, uplifting in effect"
+          }
+        }
+      }
+    },
+    {
+      "blockName": "BookingBlock",
+      "config": {
+        "Content": {
+          "headerText": "Book With Us",
+          "logo": "/personal/old/img/nav/logo.svg",
+          "phone": "(404) 227-5000",
+          "variant": "nail",
+          "socialLinks": [
+            {
+              "network": "website",
+              "url": "https://www.facebook.com/MckayConstructionInc/services"
+            },
+            {
+              "network": "google",
+              "url": "https://www.google.com/maps/place/Mckay+Construction/@39.84068,-88.9340733,17z/data=!4m8!3m7!1s0x8874afc532c7529d:0xf11f7135c33d72cb!8m2!3d39.84068!4d-88.9314984!9m1!1b1!16s%2Fg%2F126406mlp?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+            },
+            {
+              "network": "yelp",
+              "url": "https://www.yelp.com/biz/mckay-construction-stone-mountain"
+            },
+            {
+              "network": "facebook",
+              "url": "https://www.facebook.com/MckayConstructionInc/"
+            },
+            {
+              "network": "linkedin",
+              "url": "https://www.linkedin.com/in/brian-mckay-2079657"
+            }
+          ]
+        },
+        "Design": {
+          "Text-header": {
+            "Font": "Anton",
+            "Color": "#FFFFFF",
+            "Mobile": {
+              "Size": 28,
+              "Weight": 700,
+              "Height": 1.1,
+              "Spacing": 0.4
+            },
+            "Desktop": {
+              "Size": 36,
+              "Weight": 700,
+              "Height": 1.1,
+              "Spacing": 0.5
+            }
+          },
+          "Text-subHeader": {
+            "Font": "Inter",
+            "Color": "#E5E7EB",
+            "Mobile": {
+              "Size": 16,
+              "Weight": 500,
+              "Height": 1.3,
+              "Spacing": 0.2
+            },
+            "Desktop": {
+              "Size": 18,
+              "Weight": 500,
+              "Height": 1.4,
+              "Spacing": 0.2
+            }
+          },
+          "Text-formTitle": {
+            "Font": "Inter",
+            "Color": "#111827",
+            "Mobile": {
+              "Size": 20,
+              "Weight": 600,
+              "Height": 1.2,
+              "Spacing": 0.1
+            },
+            "Desktop": {
+              "Size": 24,
+              "Weight": 600,
+              "Height": 1.2,
+              "Spacing": 0.1
+            }
+          },
+          "Text-button": {
+            "Font": "Inter",
+            "Color": "#FFFFFF",
+            "Mobile": {
+              "Size": 14,
+              "Weight": 700,
+              "Height": 1,
+              "Spacing": 0.3
+            },
+            "Desktop": {
+              "Size": 16,
+              "Weight": 700,
+              "Height": 1,
+              "Spacing": 0.3
+            }
+          },
+          "Bg": {
+            "backgroundColor": "#1f2937",
+            "gradientConfig": {
+              "direction": "to right",
+              "startColor": "#1f2937",
+              "endColor": "#1f2937"
+            }
+          },
+          "Colors": {
+            "primaryBackground": "#1f2937",
+            "secondaryBackground": "#FFFFFF",
+            "primaryText": "#FFFFFF",
+            "secondaryText": "#374151",
+            "accentText": "#F97316",
+            "buttonBackground": "#F97316",
+            "buttonText": "#FFFFFF",
+            "inputBackground": "#FFFFFF",
+            "inputBorder": "#D1D5DB",
+            "inputText": "#374151",
+            "gradientStart": "#1f2937",
+            "gradientEnd": "#374151",
+            "overlayBackground": "#808080",
+            "cardBackground": "#FFFFFF",
+            "cardBorder": "#E5E7EB",
+            "successColor": "#10B981",
+            "errorColor": "#EF4444",
+            "warningColor": "#F59E0B",
+            "infoColor": "#3B82F6",
+            "modernGradientStart": "#1e293b",
+            "modernGradientEnd": "#334155",
+            "modernAccentStart": "#3b82f6",
+            "modernAccentEnd": "#8b5cf6",
+            "creativeGradientStart": "#4c1d95",
+            "creativeGradientEnd": "#be185d",
+            "creativeHeaderGradient": "#fbbf24",
+            "creativeSubHeaderColor": "#fed7aa",
+            "creativeBadgeGradientStart": "#fbbf24",
+            "creativeBadgeGradientEnd": "#f59e0b",
+            "logoColor": "#FFFFFF"
+          },
+          "Animation": {
+            "showNailAnimation": true
+          }
+        },
+        "Formatting": {
+          "Height": {
+            "Mobile": 75,
+            "Desktop": 63
+          },
+          "Layout": {
+            "hasVariants": true,
+            "variant": "nail"
+          },
+          "Variants": {
+            "nail": {
+              "id": "nail",
+              "showNailAnimation": true
+            },
+            "modern": {
+              "id": "modern",
+              "showNailAnimation": false,
+              "features": [
+                {
+                  "id": "call_feature",
+                  "emoji": "📞",
+                  "title": "Call Us",
+                  "subtitle": "Available 8AM - 6PM"
+                },
+                {
+                  "id": "response_feature",
+                  "emoji": "💬",
+                  "title": "Quick Response",
+                  "subtitle": "We reply within 24 hours"
+                },
+                {
+                  "id": "trusted_feature",
+                  "emoji": "⭐",
+                  "title": "Trusted Service",
+                  "subtitle": "11+ years of excellence"
+                }
+              ],
+              "formFields": {
+                "firstNamePlaceholder": "Enter your first name",
+                "lastNamePlaceholder": "Enter your last name",
+                "emailPlaceholder": "Enter your email address",
+                "phonePlaceholder": "Enter your phone number",
+                "servicePlaceholder": "Select a service",
+                "messagePlaceholder": "Tell us about your project...",
+                "submitButtonText": "Get Free Quote",
+                "submittingText": "Sending..."
+              },
+              "serviceOptions": [
+                "Roof Installation",
+                "Roof Repair",
+                "Roof Inspection",
+                "Gutter Installation",
+                "Commercial Roofing",
+                "Emergency Repairs"
+              ]
+            },
+            "creative": {
+              "id": "creative",
+              "showNailAnimation": false,
+              "badges": [
+                {
+                  "id": "experience_badge",
+                  "icon": "🏆",
+                  "text": "11+ Years",
+                  "subtitle": "Experience"
+                },
+                {
+                  "id": "response_badge",
+                  "icon": "⚡",
+                  "text": "24 Hours",
+                  "subtitle": "Response"
+                },
+                {
+                  "id": "insured_badge",
+                  "icon": "🛡️",
+                  "text": "Insured",
+                  "subtitle": "& Bonded"
+                },
+                {
+                  "id": "warranty_badge",
+                  "icon": "💯",
+                  "text": "Warranty",
+                  "subtitle": "Guaranteed"
+                }
+              ],
+              "formFields": {
+                "firstNamePlaceholder": "First Name",
+                "lastNamePlaceholder": "Last Name",
+                "emailPlaceholder": "Email Address",
+                "phonePlaceholder": "Phone Number",
+                "servicePlaceholder": "🏠 Select Service",
+                "messagePlaceholder": "Tell us about your project...",
+                "submitButtonText": "🎯 Get Free Quote",
+                "submittingText": "🚀 Sending..."
+              },
+              "serviceOptions": [
+                "🔨 Roof Installation",
+                "🔧 Roof Repair",
+                "🔍 Roof Inspection",
+                "🌧️ Gutter Services",
+                "🏢 Commercial Roofing",
+                "🎨 Custom Solutions"
+              ],
+              "galleryImages": [
+                {
+                  "id": "craftsmanship_img",
+                  "url": "/assets/images/roof_slideshow/i4.jpeg",
+                  "alt": "Expert Craftsmanship",
+                  "caption": "Quality roofing work"
+                },
+                {
+                  "id": "materials_img",
+                  "url": "/assets/images/roof_slideshow/i8.webp",
+                  "alt": "Premium Materials",
+                  "caption": "Top-grade materials"
+                },
+                {
+                  "id": "installation_img",
+                  "url": "/assets/images/roof_slideshow/i5.jpeg",
+                  "alt": "Professional Installation",
+                  "caption": "Expert installation"
+                },
+                {
+                  "id": "residential_img",
+                  "url": "/assets/images/roof_slideshow/i6.jpeg",
+                  "alt": "Residential Projects",
+                  "caption": "Beautiful homes"
+                }
+              ]
+            }
+          }
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "A modern booking backdrop where a refined gradient flows behind a barely-there roofline; the right third remains pristine and copy-safe for form fields, 16:9",
+            "v2": "Clean diagonal gradient that subtly echoes a roof pitch; generous whitespace ensures inputs and labels breathe with clarity",
+            "v3": "Soft dual-tone gradient whispering around a watermark roof outline; wide composition naturally frames a centered booking panel",
+            "v4": "Cool blue gradient flecked with the faintest shingle texture; UI-friendly contrast balances calm with legibility, 16:9",
+            "v5": "A warm-to-cool gradient transition that hints at a roof peak on the horizon; copy-safe zones are thoughtfully shaped for forms"
+          },
+          "imag_gen2": {
+            "v1": "A clean, monochrome roofline logo distilled to its essential geometry; vector-sharp, high-contrast, and ready to sit atop a booking card",
+            "v2": "Minimal logo mark—solid black or white—formed by a single decisive roofline; scales beautifully from favicon to hero",
+            "v3": "Geometric peak drawn in one continuous stroke; flat monochrome treatment keeps it timeless and adaptable",
+            "v4": "Stylized house emblem with bold strokes and perfect symmetry; SVG artistry that reads instantly at a glance",
+            "v5": "Modern silhouette of a roof, centered and balanced; the logo feels confident without shouting"
+          },
+          "imag_gen3": {
+            "v1": "Warm-toned lifestyle scene of a happy customer making a call for a roofing quote; golden light skims the room, lending the moment an easy optimism",
+            "v2": "A homeowner by a sunlit window, smiling mid-conversation; soft highlights trace the phone and fingertips as greenery blurs outside",
+            "v3": "Cozy interior moment: a person scheduling a roof inspection on a smartphone; the glow of the screen pools gently over relaxed hands",
+            "v4": "On the porch, a casual call unfolds with the home and crisp roofline composing the background; natural light flatters and reassures",
+            "v5": "A friendly client speaks with a contractor on speakerphone, warm bokeh and soft shadows wrapping the frame in calm"
+          }
+        }
+      }
+    },
+    {
+      "blockName": "EmployeesBlock",
+      "config": {
+        "Content": {
+          "sectionTitle": "CREW",
+          "employees": [
+            {
+              "name": "Mr. Reginald McKay",
+              "role": "Owner",
+              "image": "/personal/old/img/main_page_images/EmployeesBlock/roofer.png"
+            },
+            {
+              "name": "Mr. Reginald McKay",
+              "role": "Owner",
+              "image": "/personal/old/img/main_page_images/EmployeesBlock/foreman.png"
+            }
+          ]
+        },
+        "Design": {
+          "Text-sectionTitle": {
+            "Font": "Anton",
+            "Color": "#000000",
+            "Mobile": {
+              "Size": 28,
+              "Weight": 400,
+              "Height": 1.1,
+              "Spacing": 0.8
+            },
+            "Desktop": {
+              "Size": 36,
+              "Weight": 400,
+              "Height": 1.1,
+              "Spacing": 1
+            }
+          },
+          "Text-employeeName": {
+            "Font": "Montserrat",
+            "Color": "#000000",
+            "Mobile": {
+              "Size": 14,
+              "Weight": 600,
+              "Height": 1.3,
+              "Spacing": 0.1
+            },
+            "Desktop": {
+              "Size": 16,
+              "Weight": 600,
+              "Height": 1.3,
+              "Spacing": 0.1
+            }
+          },
+          "Text-employeeRole": {
+            "Font": "Montserrat",
+            "Color": "#000000",
+            "Mobile": {
+              "Size": 12,
+              "Weight": 400,
+              "Height": 1.4,
+              "Spacing": 0.2
+            },
+            "Desktop": {
+              "Size": 14,
+              "Weight": 400,
+              "Height": 1.4,
+              "Spacing": 0.2
+            }
+          },
+          "Bg": {
+            "backgroundColor": "#FFFFFF",
+            "gradientConfig": {
+              "direction": "to right",
+              "startColor": "#FFFFFF",
+              "endColor": "#FFFFFF"
+            }
+          },
+          "Colors": {
+            "cardBackgroundColor": "#FFFFFF",
+            "cardTextColor": "#000000"
+          },
+          "CircleSize": {
+            "Mobile": 12,
+            "Desktop": 18
+          },
+          "Animation": {
+            "showNailAnimation": true
+          }
+        },
+        "Formatting": {
+          "Height": {
+            "Mobile": 38,
+            "Desktop": 26
+          },
+          "Padding": {
+            "Mobile": {
+              "top": 2,
+              "bottom": 2
+            },
+            "Desktop": {
+              "top": 4,
+              "bottom": 4
+            }
+          },
+          "Layout": {
+            "roundness": "full",
+            "hasVariants": false
+          }
+        },
+        "ImageProps": {
+          "imag_gen1": {
+            "v1": "Studio portrait of the roofing company owner in a branded shirt and hard hat; catchlights sparkle in the eyes as controlled light sculpts a confident, approachable expression—ready for transparent PNG use",
+            "v2": "Professional headshot of a contractor in logoed attire and helmet; the background is clean and soft, emphasizing a trustworthy, service-forward presence",
+            "v3": "Waist-up portrait with arms folded in quiet confidence; a neutral backdrop and precise lighting define clear edges for flawless compositing",
+            "v4": "Owner holding a rolled blueprint—subtle studio gradient behind; the pose communicates leadership, planning, and pride",
+            "v5": "Friendly, on-brand portrait in hi-vis vest and hard hat; isolation-ready with crisp outlines and a warm, welcoming demeanor"
+          },
+          "imag_gen2": {
+            "v1": "Portrait of a roofing project manager with clipboard and hard hat; neutral background and tidy lighting produce a transparent-PNG-friendly edge",
+            "v2": "Smart-casual manager headshot, clipboard tucked under arm; clean studio light and even tones convey calm competence",
+            "v3": "Project lead with safety helmet and documents in hand; neutral background and careful key light underscore attention to detail",
+            "v4": "Site manager in a branded polo holding a tablet—studio setting that balances approachability with authority",
+            "v5": "Foreman’s professional portrait with a checklist; isolated background for easy placement in team sections"
+          },
+          "imag_gen3": {
+            "v1": "Bright outdoor team portrait—roofing crew in matching uniforms, tools at their sides, sunlight giving everything a crisp, honest clarity",
+            "v2": "Group shot staged on the driveway: branded pickup and ladders form the backdrop while the crew stands shoulder to shoulder, ready to work",
+            "v3": "Lineup of crew members in branded shirts and hard hats; a sunny day and easy smiles help customers feel they’re in good hands",
+            "v4": "Team posed with a curated selection of tools and materials; the framing reads friendly, organized, and thoroughly professional",
+            "v5": "Candid moment grabbed during a break—natural smiles, relaxed posture, and daylight that makes the scene feel real and relatable"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "Content": {
+    "title": "McKay Construction, Inc.",
+    "subtitle": "Construction,",
+    "variant": "simple",
+    "navLinks": [
+      {
+        "name": "About",
+        "href": "/about"
+      },
+      {
+        "name": "Booking",
+        "href": "/booking"
+      },
+      {
+        "name": "Services",
+        "href": "/#services"
+      },
+      {
+        "name": "Contact",
+        "href": "/#contact"
+      }
+    ],
+    "images": [
+      {
+        "url": "/personal/old/img/nav/logo.svg",
+        "name": "logo.svg",
+        "file": null
+      }
+    ],
+    "logoColor": "#ffffff"
+  },
+  "Design_default": {
+    "Text-title": {
+      "Font": "Inter",
+      "Color": "#FFFFFF",
+      "Mobile": {
+        "Size": 16,
+        "Height": 1.3,
+        "Weight": 700,
+        "Spacing": 0.4
+      },
+      "Desktop": {
+        "Size": 60,
+        "Height": 1.2,
+        "Weight": 700,
+        "Spacing": 0.5
+      }
+    },
+    "Text-subTitle": {
+      "Font": "Inter",
+      "Color": "#FFFFFF",
+      "Mobile": {
+        "Size": 12,
+        "Height": 1.4,
+        "Weight": 400,
+        "Spacing": 0.2,
+        "textAlign": "center"
+      },
+      "Desktop": {
+        "Size": 24,
+        "Height": 1.5,
+        "Weight": 400,
+        "Spacing": 0.3,
+        "textAlign": "center"
+      }
+    },
+    "Bg": {
+      "gradientConfig": {
+        "direction": "to right",
+        "startColor": "#ffffff",
+        "endColor": "#ffffff"
+      }
+    },
+    "Colors": {
+      "logoColor": "#ffffff",
+      "scrolledBackgroundColor": "#1e293b",
+      "unscrolledBackgroundColor": "transparent",
+      "dropdownBackgroundColor": "#FFFFFF",
+      "dropdownTextColor": "#000000",
+      "hamburgerColor": {
+        "unscrolled": "#FFFFFF",
+        "scrolled": "#FFFFFF"
+      }
+    }
+  },
+  "Formatting_default": {
+    "Animation": {
+      "slideUpDistanceVh": {
+        "base": 0,
+        "md": 10
+      },
+      "logoTextSeparationUnscrolled": {
+        "base": 2,
+        "md": 4
+      },
+      "logoTextSeparationScrolled": {
+        "base": 1,
+        "md": 2
+      },
+      "titleSubtitleSeparation": {
+        "base": 1,
+        "md": 2
+      }
+    },
+    "NavbarHeight": {
+      "unscrolled": {
+        "base": "h-[12vh]",
+        "md": "h-[10vh]"
+      },
+      "scrolled": {
+        "base": "h-[10vh]",
+        "md": "h-[10vh]"
+      }
+    },
+    "LogoSize": {
+      "Desktop": {
+        "unscrolled": 20,
+        "scrolled": 10
+      },
+      "Mobile": {
+        "unscrolled": 18,
+        "scrolled": 10
+      }
+    },
+    "Opacity": {
+      "scrolledBackgroundOpacity": 0.95,
+      "unscrolledBackgroundOpacity": 0.8
+    },
+    "Spacing": {
+      "titleSubtitleSpacing": {
+        "base": "0vh",
+        "md": "-1vh"
+      },
+      "logoTitleSpacing": {
+        "base": 0,
+        "md": 2
+      },
+      "logoTextDistance": {
+        "unscrolled": {
+          "base": "mr-0",
+          "md": "mr-1"
+        },
+        "scrolled": {
+          "base": "mr-0",
+          "md": "mr-1"
+        }
+      }
+    }
+  },
+  "Design_simple": {
+    "Colors": {
+      "scrolledBackgroundColor": "#111827"
+    }
+  },
+  "MenuVariants": {
+    "active": "hamburger",
+    "options": [
+      "hamburger",
+      "dots",
+      "circle"
+    ]
+  }
+}

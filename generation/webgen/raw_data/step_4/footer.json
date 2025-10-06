@@ -1,0 +1,48 @@
+{
+  "logoText": "McKay Construction, Inc.",
+  "logoImage": null,
+  "address": "966 Forest Trce Stone Mountain, GA 30088-2613",
+  "phone": "(404) 399-6900",
+  "email": "exampleemailgmail.com",
+  "socialLinks": [
+    {
+      "network": "website",
+      "url": "https://www.facebook.com/MckayConstructionInc/services"
+    },
+    {
+      "network": "google",
+      "url": "https://www.google.com/maps/place/Mckay+Construction/@39.84068,-88.9340733,17z/data=!4m8!3m7!1s0x8874afc532c7529d:0xf11f7135c33d72cb!8m2!3d39.84068!4d-88.9314984!9m1!1b1!16s%2Fg%2F126406mlp?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "network": "yelp",
+      "url": "https://www.yelp.com/biz/mckay-construction-stone-mountain"
+    },
+    {
+      "network": "facebook",
+      "url": "https://www.facebook.com/MckayConstructionInc/"
+    },
+    {
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/in/brian-mckay-2079657"
+    }
+  ],
+  "links": [
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/#services"
+    },
+    {
+      "label": "Booking",
+      "href": "/booking"
+    },
+    {
+      "label": "Contact",
+      "href": "/#contact"
+    }
+  ],
+  "copyright": "© 2025 McKay Construction, Inc."
+}

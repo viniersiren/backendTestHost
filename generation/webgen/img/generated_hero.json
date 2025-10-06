@@ -1,0 +1,105 @@
+{
+  "generated_hero": [
+    {
+      "type": "residential_dusk",
+      "prompt": "Ultra-realistic residential neighborhood at dusk in Forest Trce Stone Mountain, GA. Warm golden-hour light, quiet suburban street, pitched roofs with asphalt shingles, trees and tidy lawns, high dynamic range but subtle, copy-safe negative space on left third, 16:9, professional photography.",
+      "output": "public/data/generation/webgen/img/output/hero_residential_dusk.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:23:19.791740"
+    },
+    {
+      "type": "urban_dusk",
+      "prompt": "Cinematic urban skyline at dusk near Forest Trce Stone Mountain, GA. Modern downtown silhouette, gentle twilight gradients, clean architectural lines, copy-safe negative space on right third, 16:9, professional photography.",
+      "output": "public/data/generation/webgen/img/output/hero_urban_dusk.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:23:19.795772"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A seamless composite at dusk transitioning from residential suburb (left) to urban skyline (right) in Forest Trce Stone Mountain, GA. Smooth mid-frame crossfade with natural color continuity; left shows quiet suburban roofs and trees, right shows modern city skyline; balanced composition for hero background, 16:9, copy-safe center band, professional and minimal distractions.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:23:19.800978"
+    },
+    {
+      "type": "residential_dusk",
+      "prompt": "Ultra-realistic residential neighborhood at dusk in Forest Trce Stone Mountain, GA. Warm golden-hour light, quiet suburban street, pitched roofs with asphalt shingles, trees and tidy lawns, high dynamic range but subtle, copy-safe negative space on left third, 16:9, professional photography.",
+      "output": "public/data/generation/webgen/img/output/hero_residential_dusk.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:26:13.060573"
+    },
+    {
+      "type": "urban_dusk",
+      "prompt": "Cinematic urban skyline at dusk near Forest Trce Stone Mountain, GA. Modern downtown silhouette, gentle twilight gradients, clean architectural lines, copy-safe negative space on right third, 16:9, professional photography.",
+      "output": "public/data/generation/webgen/img/output/hero_urban_dusk.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:26:13.062689"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic view split in half: on the left, a peaceful suburban neighborhood in Forest Trce Stone Mountain, GA 30088 with rows of houses, trees, and warm glowing streetlights under a colorful sunset sky; on the right, a bustling modern city skyline near Forest Trce Stone Mountain, GA 30088 with tall skyscrapers, glowing windows, and a dark blue night sky. The transition between suburb and city happens exactly at the middle of the image, creating a sharp contrast between the quiet residential area and the vibrant urban downtown. Highly detailed, cinematic lighting, realistic textures, twilight ambiance.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:26:13.065838"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic view split in half: on the left, a peaceful suburban neighborhood near 966 Forest Trce Stone Mountain, GA 30088-2613 with rows of houses, trees, and warm glowing streetlights; on the right, a bustling modern city skyline near 966 Forest Trce Stone Mountain, GA 30088-2613 with tall skyscrapers and glowing windows. Both sides are at dusk under a colorful twilight sky. The transition between suburb (left) and city (right) happens exactly at the middle of the image, creating a sharp contrast between the quiet residential area and the vibrant urban downtown. Photorealistic, highly detailed, realistic textures, cinematic lighting, 16:9, photographic style, natural color grading, no stylization.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:28:35.127426"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic view with a STRICT vertical split exactly at the center of the frame (x=50%). Left side ONLY: a peaceful suburban neighborhood near 966 Forest Trce Stone Mountain, GA 30088-2613 with rows of houses, trees, driveways, and warm glowing streetlights. Right side ONLY: a bustling modern city downtown near 966 Forest Trce Stone Mountain, GA 30088-2613 with tall skyscrapers, office towers, and glowing windows. No city skyline features on the left; no single-family homes on the right. Both sides share the SAME weather, SAME lighting, and SAME twilight ambiance, with identical cloud patterns and color temperature across the entire sky for realism. The horizon line aligns perfectly across both halves. The transition between suburb (left) and city (right) is vertical and in the exact middle—no diagonal or horizontal blending—while maintaining subtle sky continuity. Photorealistic, highly detailed, realistic textures, cinematic lighting, 16:9, photographic style, natural color grading, no stylization.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:30:32.829244"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic view with a STRICT vertical split exactly at the center of the frame (x=50%). Left side ONLY: a peaceful suburban neighborhood near 966 Forest Trce Stone Mountain, GA 30088-2613 with rows of houses, trees, driveways, and warm glowing streetlights. Right side ONLY: a bustling modern city downtown near 966 Forest Trce Stone Mountain, GA 30088-2613 with tall skyscrapers, office towers, and glowing windows. The COMMERCIAL city MUST remain entirely on the RIGHT; the RESIDENTIAL suburb MUST remain entirely on the LEFT. Absolutely no city skyline features on the left and no single-family homes on the right. Both sides share the SAME weather, SAME lighting, and SAME twilight ambiance, with identical cloud patterns and color temperature across the entire sky for realism. The horizon line aligns perfectly across both halves. The transition is SEAMLESS and VERTICAL at the exact middle: structures end precisely at the center line while the sky, color, and light continue continuously across the split for a natural look. Hyper‑realistic, photographic quality, 8k detail, realistic textures, physically plausible, cinematic lighting, 16:9, natural color grading, no stylization, no text, no logos.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1024x1024",
+      "generated_at": "2025-09-04T18:32:32.458434"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic PHOTOGRAPH with a STRICT vertical split exactly at the center of the frame (x=50%). Left side ONLY: a peaceful Southeastern US suburban neighborhood near 966 Forest Trce Stone Mountain, GA 30088-2613 (asphalt-shingle single-family homes, driveways, mailboxes, trees, warm porch lights). Right side ONLY: a modern downtown skyline near 966 Forest Trce Stone Mountain, GA 30088-2613 (office towers, high-rises, glowing windows). The COMMERCIAL city MUST remain entirely on the RIGHT; the RESIDENTIAL suburb MUST remain entirely on the LEFT. No city skyline features on the left; no single-family homes on the right. Both sides share the SAME weather and SAME dusk lighting (twilight sky, identical cloud patterns, matching color temperature). The horizon line aligns perfectly across both halves. SEAMLESS VERTICAL transition at the exact middle: structures end precisely at the center line; the sky and light continue continuously across the split for realism. Ultra‑photorealistic, shot on a full‑frame DSLR, 24mm lens, f/8, ISO 200, tripod, natural color grading, no bloom, no over‑saturation, no CGI, no illustration, no 3D render, no text, no logos. 16:9.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1536x1024",
+      "generated_at": "2025-09-04T19:31:34.969315"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic PHOTOGRAPH with a STRICT vertical split exactly at the center of the frame (x=50%). Left side ONLY: a peaceful Southeastern US suburban neighborhood near 966 Forest Trce Stone Mountain, GA 30088-2613 (asphalt-shingle single-family homes, driveways, mailboxes, trees, warm porch lights). Right side ONLY: a modern downtown skyline near 966 Forest Trce Stone Mountain, GA 30088-2613 (office towers, high-rises, glowing windows). The COMMERCIAL city MUST remain entirely on the RIGHT; the RESIDENTIAL suburb MUST remain entirely on the LEFT. No city skyline features on the left; no single-family homes on the right. Both sides share the SAME weather and SAME dusk lighting (twilight sky, identical cloud patterns, matching color temperature). The horizon line aligns perfectly across both halves. SEAMLESS VERTICAL transition at the exact middle: structures end precisely at the center line; the sky and light continue continuously across the split for realism. Foreground should feature building edges, yards, landscaping, and sidewalks—NO wide roads or empty asphalt in the immediate foreground. Ultra‑photorealistic, shot on a full‑frame DSLR, 24mm lens, f/8, ISO 200, tripod, natural color grading, no bloom, no over‑saturation, no CGI, no illustration, no 3D render, no text, no logos. 16:9.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1536x1024",
+      "generated_at": "2025-09-04T19:35:33.138210"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic PHOTOGRAPH with a STRICT vertical split exactly at the center of the frame (x=50%). Left side ONLY: a peaceful Southeastern US suburban neighborhood near 966 Forest Trce Stone Mountain, GA 30088-2613 (asphalt-shingle single-family homes, driveways, mailboxes, trees, warm porch lights). Right side ONLY: a modern downtown skyline near 966 Forest Trce Stone Mountain, GA 30088-2613 (office towers, high-rises, glowing windows). The COMMERCIAL city MUST remain entirely on the RIGHT; the RESIDENTIAL suburb MUST remain entirely on the LEFT. No city skyline features on the left; no single-family homes on the right. Both sides share the SAME weather and SAME dusk lighting (twilight sky, identical cloud patterns, matching color temperature). The horizon line and vanishing point align perfectly across both halves, with the SAME camera height and orientation to avoid parallax mismatch. SEAMLESS VERTICAL transition at the exact middle: structures end precisely at the center line; the seam must be NON‑OBVIOUS with NO visible hard line. The sky is perfectly continuous across the split with the same cloud bank and gradient crossing the center. Allow only a subtle atmospheric feather in the SKY at midline—NO structural blending. Foreground should feature building edges, yards, landscaping, and sidewalks—NO wide roads or empty asphalt in the immediate foreground. Ultra‑photorealistic, shot on a full‑frame DSLR, 24mm lens, f/8, ISO 200, tripod, identical exposure and white balance across the frame, natural color grading, no bloom, no over‑saturation, no vignetting, no CGI, no illustration, no 3D render, no text, no logos. 16:9.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1536x1024",
+      "generated_at": "2025-09-04T19:39:16.649428"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic PHOTOGRAPH at dusk with a smooth, non‑obvious vertical transition at center. Left side ONLY: a peaceful Southeastern US suburban neighborhood near 966 Forest Trce Stone Mountain, GA 30088-2613 (asphalt‑shingle single‑family homes, driveways, mailboxes, trees, warm porch lights). Right side ONLY: a modern downtown skyline near 966 Forest Trce Stone Mountain, GA 30088-2613 (office towers, high‑rises, glowing windows). Keep the city entirely on the RIGHT and the suburb entirely on the LEFT (no cross‑contamination). The sky, clouds, exposure and white balance are perfectly continuous across the center, sharing the same horizon and vanishing point (same camera height/orientation). The midline transition is seamless and unobtrusive (no visible hard boundary). Foreground should feature building edges, yards, landscaping, and sidewalks—NO wide roads or empty asphalt in the immediate foreground. Ultra‑photorealistic, full‑frame DSLR look, 24mm, f/8, ISO 200, tripod, natural color grading, no bloom, no over‑saturation, no vignetting, no CGI/illustration/3D, no text, no logos. 16:9.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1536x1024",
+      "generated_at": "2025-09-04T19:47:41.195703"
+    },
+    {
+      "type": "composite_transition",
+      "prompt": "A wide panoramic PHOTOGRAPH at dusk with a smooth, non‑obvious vertical transition at center. Left side ONLY: a peaceful Southeastern US suburban neighborhood near 966 Forest Trce Stone Mountain, GA 30088-2613 (asphalt‑shingle single‑family homes, driveways, mailboxes, trees, warm porch lights). Right side ONLY: a modern downtown skyline near 966 Forest Trce Stone Mountain, GA 30088-2613 (office towers, high‑rises, glowing windows). Keep the city entirely on the RIGHT and the suburb entirely on the LEFT (no cross‑contamination). The sky, clouds, exposure and white balance are perfectly continuous across the center, sharing the same horizon and vanishing point (same camera height/orientation). The midline transition is seamless and unobtrusive (no visible hard boundary). Foreground should feature building edges, yards, landscaping, and sidewalks—NO wide roads or empty asphalt in the immediate foreground. CRITICAL: Do not crop or truncate buildings. All houses and towers must be fully intact—complete rooflines, complete building tops, no chopped façades at the seam or frame edges; tallest towers must fit beneath the top edge. Ultra‑photorealistic, full‑frame DSLR look, 24mm, f/8, ISO 200, tripod, natural color grading, no bloom, no over‑saturation, no vignetting, no CGI/illustration/3D, no text, no logos. 16:9.",
+      "output": "public/data/generation/webgen/img/output/hero_composite_transition.png",
+      "size": "1536x1024",
+      "generated_at": "2025-09-04T19:49:44.017105"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-09-04T19:49:44.018324"
+  }
+}
