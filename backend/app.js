@@ -70,30 +70,86 @@ const setupPythonEnvironment = () => {
 // Run Python setup (non-blocking)
 setupPythonEnvironment();
 
+// Track failed authentication attempts for rate limiting warnings
+const authFailures = new Map();
+const AUTH_FAILURE_LIMIT = 5;
+const AUTH_FAILURE_WINDOW = 5 * 60 * 1000; // 5 minutes
+
 // API Key Authentication Middleware
 const authenticateApiKey = (req, res, next) => {
   const apiKey = req.headers['x-api-key'] || req.headers['authorization']?.replace('Bearer ', '');
   const validApiKey = process.env.API_SECRET_KEY;
+  const clientIP = req.ip || req.connection.remoteAddress || req.headers['x-forwarded-for'] || 'unknown';
+  const userAgent = req.headers['user-agent'] || 'unknown';
+  const endpoint = `${req.method} ${req.path}`;
+  
+  console.log(`[AUTH] ${endpoint} - IP: ${clientIP} - User-Agent: ${userAgent.substring(0, 100)}`);
   
   if (!validApiKey) {
-    console.warn('API_SECRET_KEY not set - authentication disabled');
+    console.warn('[AUTH] API_SECRET_KEY not set - authentication disabled');
     return next();
   }
   
   if (!apiKey) {
+    // Track failed attempts
+    const now = Date.now();
+    const failures = authFailures.get(clientIP) || [];
+    const recentFailures = failures.filter(time => now - time < AUTH_FAILURE_WINDOW);
+    recentFailures.push(now);
+    authFailures.set(clientIP, recentFailures);
+    
+    console.warn(`[AUTH] 401 - Missing API key for ${endpoint} from IP: ${clientIP}`);
+    console.warn(`[AUTH] Headers received:`, {
+      'x-api-key': req.headers['x-api-key'] ? '[PRESENT]' : '[MISSING]',
+      'authorization': req.headers['authorization'] ? '[PRESENT]' : '[MISSING]',
+      'content-type': req.headers['content-type'],
+      'origin': req.headers['origin']
+    });
+    
+    if (recentFailures.length >= AUTH_FAILURE_LIMIT) {
+      console.error(`[AUTH] 🚨 RATE LIMIT WARNING - IP ${clientIP} has ${recentFailures.length} failed auth attempts in the last 5 minutes`);
+    }
+    
     return res.status(401).json({
       success: false,
-      error: 'API key required. Include x-api-key header or Authorization: Bearer <key>'
+      error: 'API key required. Include x-api-key header or Authorization: Bearer <key>',
+      debug: {
+        endpoint,
+        ip: clientIP,
+        timestamp: new Date().toISOString()
+      }
     });
   }
   
   if (apiKey !== validApiKey) {
+    // Track failed attempts
+    const now = Date.now();
+    const failures = authFailures.get(clientIP) || [];
+    const recentFailures = failures.filter(time => now - time < AUTH_FAILURE_WINDOW);
+    recentFailures.push(now);
+    authFailures.set(clientIP, recentFailures);
+    
+    console.warn(`[AUTH] 403 - Invalid API key for ${endpoint} from IP: ${clientIP}`);
+    console.warn(`[AUTH] Provided key length: ${apiKey.length}, Expected length: ${validApiKey.length}`);
+    console.warn(`[AUTH] Key starts with: ${apiKey.substring(0, 8)}...`);
+    console.warn(`[AUTH] Expected key starts with: ${validApiKey.substring(0, 8)}...`);
+    
+    if (recentFailures.length >= AUTH_FAILURE_LIMIT) {
+      console.error(`[AUTH] 🚨 RATE LIMIT WARNING - IP ${clientIP} has ${recentFailures.length} failed auth attempts in the last 5 minutes`);
+    }
+    
     return res.status(403).json({
       success: false,
-      error: 'Invalid API key'
+      error: 'Invalid API key',
+      debug: {
+        endpoint,
+        ip: clientIP,
+        timestamp: new Date().toISOString()
+      }
     });
   }
   
+  console.log(`[AUTH] ✅ Success - ${endpoint} from IP: ${clientIP}`);
   next();
 };
 
