@@ -82,6 +82,12 @@ Thumbs.db
 # Text files (as requested)
 *.txt
 
+# API keys and secrets
+*.env
+*api*.env
+*secret*
+*key*
+
 # IDE files
 .vscode/
 .idea/
